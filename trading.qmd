@@ -1,14 +1,9 @@
 ---
-title: "Trading and Poker"
+title: "Poker and Trading"
 format:
   html:
     math: true
-    include-in-header: 
-      text: |
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ---
-
-# Poker and Trading
 
 ## Test layer 2
 
