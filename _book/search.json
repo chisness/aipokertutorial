@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Poker Tutorial",
+    "section": "",
+    "text": "Home\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Intro and Poker Foundations",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Intro",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro and Poker Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "trading.html",
+    "href": "trading.html",
+    "title": "2  TEST POKER TRADING",
+    "section": "",
+    "text": "3 Poker and Trading",
+    "crumbs": [
+      "Intro",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>TEST POKER TRADING</span>"
+    ]
+  },
+  {
+    "objectID": "trading.html#test-layer-2",
+    "href": "trading.html#test-layer-2",
+    "title": "2  TEST POKER TRADING",
+    "section": "3.1 Test layer 2",
+    "text": "3.1 Test layer 2\n\n3.1.1 Test layer 3",
+    "crumbs": [
+      "Intro",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>TEST POKER TRADING</span>"
+    ]
+  },
+  {
+    "objectID": "trading.html#test-layer-2-again",
+    "href": "trading.html#test-layer-2-again",
+    "title": "2  TEST POKER TRADING",
+    "section": "3.2 Test layer 2 again",
+    "text": "3.2 Test layer 2 again\nabc\nabc abc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabcabc\nabc\n\\(E = mc^{2}\\)",
+    "crumbs": [
+      "Intro",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>TEST POKER TRADING</span>"
+    ]
+  },
+  {
+    "objectID": "python.html",
+    "href": "python.html",
+    "title": "3  Python Foundations and Hello Poker Poker Math",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Intro",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Python Foundations and Hello Poker Poker Math</span>"
+    ]
+  },
+  {
+    "objectID": "gametheory.html",
+    "href": "gametheory.html",
+    "title": "4  Game Theory Foundations",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Game Theory and Decision Making",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Game Theory Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "decisionmaking.html",
+    "href": "decisionmaking.html",
+    "title": "5  Decision Making Under Uncertainty",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Game Theory and Decision Making",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Decision Making Under Uncertainty</span>"
+    ]
+  },
+  {
+    "objectID": "toypoker.html",
+    "href": "toypoker.html",
+    "title": "6  Toy Poker Games and Optimization",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Game Theory and Decision Making",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Toy Poker Games and Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "gametrees.html",
+    "href": "gametrees.html",
+    "title": "7  Game Trees",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Game Theory and Decision Making",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Game Trees</span>"
+    ]
+  },
+  {
+    "objectID": "cfr.html",
+    "href": "cfr.html",
+    "title": "8  Counterfactual Regret Minimization (CFR)",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "CFR and Solvers",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Counterfactual Regret Minimization (CFR)</span>"
+    ]
+  },
+  {
+    "objectID": "montecarlo.html",
+    "href": "montecarlo.html",
+    "title": "9  Monte Carlo Methods",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "CFR and Solvers",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Monte Carlo Methods</span>"
+    ]
+  },
+  {
+    "objectID": "solvers.html",
+    "href": "solvers.html",
+    "title": "10  Solvers and Poker Strategy",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "CFR and Solvers",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Solvers and Poker Strategy</span>"
+    ]
+  },
+  {
+    "objectID": "mlmath.html",
+    "href": "mlmath.html",
+    "title": "11  Machine Learning Math",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Machine Learning and Deep Learning",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Machine Learning Math</span>"
+    ]
+  },
+  {
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "12  Machine Learning",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Machine Learning and Deep Learning",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "dl.html",
+    "href": "dl.html",
+    "title": "13  Deep Learning",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Machine Learning and Deep Learning",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Deep Learning</span>"
+    ]
+  },
+  {
+    "objectID": "rl.html",
+    "href": "rl.html",
+    "title": "14  Reinforcement Learning",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Machine Learning and Deep Learning",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reinforcement Learning</span>"
+    ]
+  },
+  {
+    "objectID": "aiagents.html",
+    "href": "aiagents.html",
+    "title": "15  AI Poker Agents",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "AI Poker Today",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>AI Poker Agents</span>"
+    ]
+  },
+  {
+    "objectID": "recentai.html",
+    "href": "recentai.html",
+    "title": "16  Recent AI Advances",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "AI Poker Today",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Recent AI Advances</span>"
+    ]
+  },
+  {
+    "objectID": "opponentmodeling.html",
+    "href": "opponentmodeling.html",
+    "title": "17  Opponent Modeling",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Advanced Topics",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Opponent Modeling</span>"
+    ]
+  },
+  {
+    "objectID": "llms.html",
+    "href": "llms.html",
+    "title": "18  Transformers and LLMs with PokerGPT",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Advanced Topics",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Transformers and LLMs with PokerGPT</span>"
+    ]
+  },
+  {
+    "objectID": "aisafety.html",
+    "href": "aisafety.html",
+    "title": "19  AI Risks and Safety",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Advanced Topics",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>AI Risks and Safety</span>"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "20  Projects",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Projects",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Projects</span>"
+    ]
+  }
+]
