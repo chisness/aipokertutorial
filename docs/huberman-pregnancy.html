@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Expected Value Org</title>
+<title>Expected Value Org - Pregnancy Probability Starring Andrew Huberman</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,7 +137,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./gamestop.html">CURRENT EVENTS</a></li><li class="breadcrumb-item"><a href="./huberman-pregnancy.html">Andrew Huberman Pregnancy Probability</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -236,7 +236,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./huberman-pregnancy.html" class="sidebar-item-text sidebar-link">
+  <a href="./huberman-pregnancy.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Andrew Huberman Pregnancy Probability</span></a>
   </div>
 </li>
@@ -252,23 +252,168 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#home" id="toc-home" class="nav-link active" data-scroll-target="#home">Home</a></li>
+  <li><a href="#fertility-crisis" id="toc-fertility-crisis" class="nav-link active" data-scroll-target="#fertility-crisis">Fertility Crisis</a></li>
+  <li><a href="#andrew-huberman-calculates-pregnancy-probability" id="toc-andrew-huberman-calculates-pregnancy-probability" class="nav-link" data-scroll-target="#andrew-huberman-calculates-pregnancy-probability">Andrew Huberman Calculates Pregnancy Probability</a>
+  <ul class="collapse">
+  <li><a href="#huberman-calculation-issues" id="toc-huberman-calculation-issues" class="nav-link" data-scroll-target="#huberman-calculation-issues">Huberman Calculation Issues</a></li>
+  <li><a href="#huberman-correction" id="toc-huberman-correction" class="nav-link" data-scroll-target="#huberman-correction">Huberman Correction</a></li>
+  </ul></li>
+  <li><a href="#correctly-calculating-pregnancy-probabilities" id="toc-correctly-calculating-pregnancy-probabilities" class="nav-link" data-scroll-target="#correctly-calculating-pregnancy-probabilities">Correctly Calculating Pregnancy Probabilities</a>
+  <ul class="collapse">
+  <li><a href="#pregnancy-attempts" id="toc-pregnancy-attempts" class="nav-link" data-scroll-target="#pregnancy-attempts">6 Pregnancy Attempts</a>
+  <ul class="collapse">
+  <li><a href="#independent-probabilities" id="toc-independent-probabilities" class="nav-link" data-scroll-target="#independent-probabilities">Independent Probabilities</a></li>
+  </ul></li>
+  <li><a href="#x-pregnancy-attempts" id="toc-x-pregnancy-attempts" class="nav-link" data-scroll-target="#x-pregnancy-attempts">x Pregnancy Attempts</a></li>
+  <li><a href="#likelihood-of-pregnancy" id="toc-likelihood-of-pregnancy" class="nav-link" data-scroll-target="#likelihood-of-pregnancy">99% Likelihood of Pregnancy</a></li>
+  <li><a href="#generalized-pregnancy-equation" id="toc-generalized-pregnancy-equation" class="nav-link" data-scroll-target="#generalized-pregnancy-equation">Generalized Pregnancy Equation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./gamestop.html">CURRENT EVENTS</a></li><li class="breadcrumb-item"><a href="./huberman-pregnancy.html">Andrew Huberman Pregnancy Probability</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Pregnancy Probability Starring Andrew Huberman</h1>
+</div>
 
 
 
-<section id="home" class="level1 unnumbered">
-<h1 class="unnumbered">Home</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="fertility-crisis" class="level1">
+<h1>Fertility Crisis</h1>
+<p>Is there a fertility crisis? Bryan Caplan suggests to <a href="https://www.amazon.com/Selfish-Reasons-Have-More-Kids/dp/0465028616">have more kids</a> and recently posted <a href="https://www.betonit.ai/p/how-much-would-this-raise-fertility">The Fertile Formula</a>, an idea to reduce federal taxes based on how many kids you have, getting to income tax-free for life after six kids. Great deal!</p>
+<p align="center">
+<a href="https://www.amazon.com/Selfish-Reasons-Have-More-Kids/dp/0465028616"><img src="./assets/misc/bryancaplan.jpg" alt="Bryan Caplan Selfish Reasons to Have More Kids" width="300"></a>
+</p>
+</section>
+<section id="andrew-huberman-calculates-pregnancy-probability" class="level1">
+<h1>Andrew Huberman Calculates Pregnancy Probability</h1>
+<p>If you were guaranteed a pregnancy after five attempts, it would be an even better deal! Which is what Andrew Huberman was implying while discussing pregnancy probabilities in a recent video:</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="en" dir="ltr">
+Andrew Huberman says that having sex 6 times gives you a 120% chance of getting pregnant<br><br>Multiply that by his 6 girlfriends and we have a 120% chance of having 36 Hubermans after 6 years<br><br>Population crisis solved <a href="https://t.co/m1u5qgmwUJ">https://t.co/m1u5qgmwUJ</a>
+</p>
+— BuccoCapital Bloke (<span class="citation" data-cites="buccocapital">@buccocapital</span>) <a href="https://twitter.com/buccocapital/status/1788575303889035600?ref_src=twsrc%5Etfw">May 9, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>He was specifically talking about cumulative probabilities and he said that if the <span class="math inline">\(\Pr(\text{Pregnancy}) = 0.2\)</span> per attempt, then the <span class="math inline">\(\Pr(\text{Pregnancy})\)</span> after <span class="math inline">\(6\)</span> attempts is <span class="math inline">\(1.2\)</span>, i.e.&nbsp;<span class="math inline">\(120\%\)</span>.</p>
+<p>In other words, he did this:</p>
+<p><span class="math display">\[
+\begin{equation}
+\begin{split}
+\Pr(\text{Preg after 6 attempts}) &amp;= 6 * \Pr(\text{Preg after 1 attempt}) \\
+  &amp;= 6 * 0.2 \\
+  &amp;= 1.2 \\
+  &amp;= 120\%
+\end{split}
+\end{equation}
+\]</span></p>
+<section id="huberman-calculation-issues" class="level2">
+<h2 class="anchored" data-anchor-id="huberman-calculation-issues">Huberman Calculation Issues</h2>
+<p>There are many issues here. To start, since probabilities are by definition between <span class="math inline">\(0\)</span> and <span class="math inline">\(1\)</span>, he clearly made an error. <span class="math inline">\(10\)</span> pregnancy attempts by his logic would make you <span class="math inline">\(200\%\)</span> likely to be pregnant, which doesn’t really make too much sense.</p>
+<p>Huberman was <em>adding</em> <span class="math inline">\(20\%\)</span> for each attempt, which is not the correct approach. In this post, we’ll explain how the actual theory works.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+I made a visualization for you all. <a href="https://t.co/LMTECq70HZ">https://t.co/LMTECq70HZ</a> <a href="https://t.co/IGIL1HyGQl">pic.twitter.com/IGIL1HyGQl</a>
+</p>
+— Matthew B Jané (<span class="citation" data-cites="MatthewBJane">@MatthewBJane</span>) <a href="https://twitter.com/MatthewBJane/status/1789015382230991289?ref_src=twsrc%5Etfw">May 10, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section>
+<section id="huberman-correction" class="level2">
+<h2 class="anchored" data-anchor-id="huberman-correction">Huberman Correction</h2>
+<p>He since posted a <a href="https://twitter.com/hubermanlab/status/1788964558758965281">Twitter correction</a> and has updated the original videos.</p>
+</section>
+</section>
+<section id="correctly-calculating-pregnancy-probabilities" class="level1">
+<h1>Correctly Calculating Pregnancy Probabilities</h1>
+<p>We’re not here to critique an error, but rather to LEARN PROBABILITY! So how DO you calculate this probability?</p>
+<p>For a single attempt, we use the Huberman assumption that <span class="math inline">\(\Pr(\text{Pregnancy}) = 0.2\)</span>. We’ll define this as <span class="math inline">\(p = 0.2\)</span>.</p>
+<p>We also then know that <span class="math inline">\(\Pr(\text{No Pregnancy}) = 1 - p = 1 - 0.2 = 0.8\)</span>.</p>
+<section id="pregnancy-attempts" class="level2">
+<h2 class="anchored" data-anchor-id="pregnancy-attempts">6 Pregnancy Attempts</h2>
+<p>So after <span class="math inline">\(6\)</span> attempts, we can say that the <span class="math inline">\(\Pr(\text{Preg after 6 attempts})\)</span> is equal to the inverse of the probability of <em>not</em> getting pregnant <span class="math inline">\(6\)</span> times in a row. Why? The probability of an event and its complement always sum to <span class="math inline">\(1\)</span>. For example, if it’s <span class="math inline">\(70\%\)</span> to be sunny tomorrow, then it’s <span class="math inline">\(30\%\)</span> to be not-sunny.</p>
+<p>Mathematically, we can write:</p>
+<p><span class="math display">\[
+\begin{equation}
+\begin{split}
+\Pr(\text{Preg after 6 attempts}) &amp;= 1 - \Pr(\text{Not Preg after 6 attempts}) \\
+  &amp;= 1 - (0.8)^6 \\
+  &amp;= 0.738 \\
+  &amp;= 73.8\%
+\end{split}
+\end{equation}
+\]</span></p>
+<section id="independent-probabilities" class="level3">
+<h3 class="anchored" data-anchor-id="independent-probabilities">Independent Probabilities</h3>
+<p>Why is it <span class="math inline">\(1 - (0.8)^6\)</span>? This is because when we are calculating probabilities involving independent events, they are multiplied. Each case of not becoming pregnant has an independent probability of <span class="math inline">\(0.8\)</span> (note that this is a simplification because probabilities would generally vary for each attempt). Multiplying this <span class="math inline">\(6\)</span> times gets us the probability of <em>not</em> being pregnant after <span class="math inline">\(6\)</span> attempts. So to get the probability <em>of</em> being pregnant after <span class="math inline">\(6\)</span> attempts, we take <span class="math inline">\(1\)</span> minus this, therefore getting <span class="math inline">\(1 - (0.8)^6\)</span>.</p>
+</section>
+</section>
+<section id="x-pregnancy-attempts" class="level2">
+<h2 class="anchored" data-anchor-id="x-pregnancy-attempts">x Pregnancy Attempts</h2>
+<p>More generally, after <span class="math inline">\(x\)</span> attempts, we can say:</p>
+<p><span class="math display">\[
+\begin{equation}
+\begin{split}
+\Pr(\text{Preg after x attempts}) &amp;= 1 - \Pr(\text{Not Preg after x attempts}) \\
+  &amp;= 1 - (1-0.2)^x \\
+  &amp;= 1 - (0.8)^x
+\end{split}
+\end{equation}
+\]</span></p>
+</section>
+<section id="likelihood-of-pregnancy" class="level2">
+<h2 class="anchored" data-anchor-id="likelihood-of-pregnancy">99% Likelihood of Pregnancy</h2>
+<p>So assuming that <span class="math inline">\(\Pr(\text{Pregnancy}) = 0.2\)</span>, when are you <span class="math inline">\(99\%\)</span> to be pregnant?</p>
+<p><span class="math display">\[
+\begin{equation}
+\begin{split}
+0.99 &amp;= 1 - \Pr(\text{Not Preg after x attempts}) &amp;&amp; \Rightarrow \text{ Set pregnancy likelihood to } 0.99 \\
+      &amp;= 1 - (0.8)^x &amp;&amp; \Rightarrow \text{ Use equation from above } \\
+  0.99 + (0.8)^x &amp;= 1 &amp;&amp; \Rightarrow \text{ Add } 0.8^x \text{ to both sides} \\
+  (0.8)^x &amp;= 0.01 &amp;&amp; \Rightarrow \text{ Subtract } 0.99 \text{ from both sides} \\
+  x &amp;= 20.64 &amp;&amp; \Rightarrow \text{ Use calculator to solve}
+\end{split}
+\end{equation}
+\]</span></p>
+<p>Therefore after <strong><span class="math inline">\(21\)</span></strong> pregnancy attempts where each attempt has a <span class="math inline">\(20\%\)</span> likelihood, your cumulative likelihood of being pregant exceeds <span class="math inline">\(99\%\)</span>. (We round up from <span class="math inline">\(20.64\)</span> because each one is discrete and at <span class="math inline">\(20\)</span> the probability would be under <span class="math inline">\(99\%\)</span>, so only <em>after</em> <span class="math inline">\(20.64\)</span> does it exceed <span class="math inline">\(99\%\)</span>, which means it exceeds at attempt <span class="math inline">\(21\)</span>.)</p>
+<p>We can see this on the graph below where <span class="math inline">\(\Pr(\text{Pregnancy}) = 0.2\)</span>. The x-axis is the number of attempts and the y-axis is the cumulative (overall) probability of pregnancy after that many attempts. Note that the graph approaches, but will never exceed the probability of <span class="math inline">\(1\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/misc/preggraph.png" class="img-fluid figure-img"></p>
+<figcaption>Pregnancy graph with p = 0.2</figcaption>
+</figure>
+</div>
+</section>
+<section id="generalized-pregnancy-equation" class="level2">
+<h2 class="anchored" data-anchor-id="generalized-pregnancy-equation">Generalized Pregnancy Equation</h2>
+<p>Finally, even more generally, we can say that after $ x $ attempts and the more general <span class="math inline">\(\Pr(\text{Pregnancy}) = p\)</span> (i.e.&nbsp;using probability <span class="math inline">\(p\)</span> instead of <span class="math inline">\(0.2\)</span>):</p>
+<p><span class="math display">\[
+\begin{equation}
+\begin{split}
+\Pr(\text{Preg after x attempts}) &amp;= 1 - \Pr(\text{Not Preg after x attempts}) \\
+  &amp;= 1 - (1-p)^x \\
+\end{split}
+\end{equation}
+\]</span></p>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

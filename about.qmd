@@ -1,0 +1,13 @@
+---
+title: "About"
+format:
+  html:
+    math: true
+---
+The Expected Value Org is a project by [Max Chiswick](https://maxchiswick.com) because expected value is important! 
+
+**Links:** 
+
+- [Poker Camp](https://pokercamp.org)
+
+- [LinkedIn](https://www.linkedin.com/in/maxchiswick/)

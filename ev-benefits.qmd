@@ -1,0 +1,393 @@
+---
+title: "Expected Value Benefits"
+format:
+  html:
+    math: true
+---
+
+## Section 1
+
+basic algebra, equations, variables
+A few easy explanations
+A few exercises
+A short video
+A really short video 
+Dice EV, what if you get option for 2nd
+Expected Value Foundation?
+Expected value most upvoted answer on “what EAs should know if they know 1 concept”
+
+opportunity cost
+comparative advantage
+As its name suggests, opportunity cost refers to the cost of choosing one opportunity over others. This “cost” reflects the value you could have gained in all the options you didn’t pursue.
+
+Accounting for opportunity cost can help us understand the comparative value of our available options and spend our time, money, and effort more effectively. This is particularly important for avoiding spending limited resources on an option that seems attractive at first (because it has positive expected value) but will actually give you much worse value than another available option.
+
+https://www.cold-takes.com/expected-value/#fnref1
+
+https://brilliant.org/wiki/expected-value/
+
+https://80000hours.org/articles/expected-value/
+
+https://jc.gatspress.com/pdf/on_expected_utility.pdf
+
+https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#ways-the-data-might-overstate-the-true-degree-of-spread
+
+https://80000hours.org/2023/03/moderation-in-doing-good/
+
+https://80000hours.org/articles/moral-uncertainty/
+
+## Technical Definition
+[Wikipedia](https://en.wikipedia.org/wiki/Expected_value): "The expected value of a random variable with a finite number of outcomes is a weighted average of all possible outcomes". 
+
+Mathematically, with a random variable $X$ and a list of possible outcomes $x_1, ..., x_k$ each of which has probability $p_1, ..., p_k$ of occurring, respectively. Then $\mathbb{E}[X] = x_1 p_1 + x_2 p_2 + ... + x_k p_k$. 
+
+What is a random variable? It represents possible outcomes. A random variable is defined by its possible outcomes and the probability of each outcome. 
+
+an agent making an optimal choice in the context of incomplete information is often assumed to maximize the expected value of their utility function.
+
+https://www.cold-takes.com/the-bayesian-mindset/#1-connecting-opinions-to-anticipated-observations
+
+https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#ways-the-data-might-overstate-the-true-degree-of-spread
+
+https://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/
+
+https://80000hours.org/articles/be-more-ambitious/ 
+
+https://forum.effectivealtruism.org/posts/FKnhB28EvG4og87JP/1-e-x-is-not-e-1-x 
+
+https://blog.givewell.org/2016/07/26/deworming-might-huge-impact-might-close-zero-impact/ 
+
+https://reducing-suffering.org/does-vegetarianism-make-a-difference/ 
+
+https://forum.effectivealtruism.org/posts/GjifPPAAGont94Z7F/in-cost-effectiveness-analyses-when-should-we-take-the
+
+https://80000hours.org/podcast/episodes/alan-hajek-probability-expected-value/ 
+
+## Not Considered
+Time
+getting to airport early vs. late 
+
+selling clothes vs. donating 
+
+When we make a decision, we want the benefits to outweigh the costs. Some people will use a pro/con chart to help them make their decisions.
+Pros 
+Cons
+Won’t lose all my money
+Cost a bit more in most cases
+
+-> add values -> effectively becomes similar to a mean or average
+
+But what if our pros and cons don’t have the same value? We don’t want to just count the amount of pros and count the amount of cons
+Pros 
+Cons
+Won’t lose all my money (10x)
+Cost a bit more in most cases (-x)
+
+-> But the each outcome does not have the same likelihood. Add probabilities
+
+Pros 
+Cons
+Won’t lose all my money (10x) (probability of losing package is y)
+Cost a bit more in most cases (x) (probability of paying for insurance is 100%)
+
+And now you have expected value!
+
+If 10x(y) > (x) You should buy the insurance!
+
+
+Get a graduate degree vs keep working
+
+Pros (of getting degree)
+Cons
+Higher earnings potential in the future
+Lose year(s) of earnings
+Chance at being a professor
+Hard work
+Might get more educated friends, relationships
+Will make you depressed
+Will become more educated
+
+
+
+
+
+Can you quantify these things on a single metric (money)? If not, why?
+
+
+Pros (of getting degree)
+Value
+Cons
+Value
+Higher earnings potential in the future
+
+
+Lose year(s) of earnings
+
+
+Chance at being a professor
+
+
+Hard work
+
+
+Might get more educated friends, relationships
+
+
+Will make you depressed
+
+
+Will become more educated
+
+
+
+
+
+
+
+
+Add probabilities. If you can’t add probabilities, why?
+
+
+Pros (of getting degree)
+Value
+probability
+Cons
+Value
+probability
+Higher earnings potential in the future
+
+
+
+
+Lose year(s) of earnings
+
+
+
+
+Chance at being a professor
+
+
+
+
+Hard work
+
+
+
+
+Might get more educated friends, relationships
+
+
+
+
+Will make you depressed
+
+
+
+
+Will become more educated
+
+
+
+
+
+
+
+
+
+
+
+
+Go out to a restaurant vs eating in
+
+Pros (of going to restaurant)
+Cons
+Higher earnings potential in the future
+Lose year(s) of earnings
+Chance at being a professor
+Hard work
+Might get more educated friends, relationships
+Will make you depressed
+Will become more educated
+
+
+
+
+
+Can you quantify these things on a single metric (money)? If not, why?
+
+
+Pros (of getting degree)
+Value
+Cons
+Value
+Higher earnings potential in the future
+
+
+Lose year(s) of earnings
+
+
+Chance at being a professor
+
+
+Hard work
+
+
+Might get more educated friends, relationships
+
+
+Will make you depressed
+
+
+Will become more educated
+
+
+
+
+
+
+
+
+Add probabilities. If you can’t add probabilities, why?
+
+
+Pros (of getting degree)
+Value
+probability
+Cons
+Value
+probability
+Higher earnings potential in the future
+
+
+
+
+Lose year(s) of earnings
+
+
+
+
+Chance at being a professor
+
+
+
+
+Hard work
+
+
+
+
+Might get more educated friends, relationships
+
+
+
+
+Will make you depressed
+
+
+
+
+Will become more educated
+
+
+
+Decision pro-con example
+
+In practice, it may not be clear which action will end up being the most valuable. Yet even if you’re unsure, putting some extra thought into its opportunity cost can help you gain an intuition for what actions to prioritize. To do so, figure out which options are available to you, try to determine the overall value of each option, then see how they compare.
+
+## When is expected value useful?
+
+## When is expected value not useful? 
+EA: Not just charity or not, but how much it helps
+Poker: Not just winning or not, but EV and pot odds considerations 
+
+EV of making rice quantity
+
+https://asteriskmag.com/issues/05/michael-lewis-s-blind-side
+https://bayesshammai.substack.com/p/what-to-expect-when-youre-expecting 
+
+Train $5.50 one way or $6 roundtrip, how to decide
+Basic economy vs. regular economy with probability
+Insurance like flights or package
+Chinese auctions https://auction.ytcte.org/auction/about 
+Raffles https://www.chabaduvm.org/raffle
+
+## Startup vs. Normal Job
+Although the concept of expected value is useful when thinking about decision making under uncertainty, we have to make a lot of assumptions. Suppose that you could take a normal job with a salary of $200,000 per year. Alternatively, you could build a startup that has the following outcomes: 
+
+| Equity Upon Sale in 5 Years    | Probability |
+| -------- | ------- |
+| $\$0$  | $0.70$    | 
+| $\$1m$ | $0.20$    | 
+| $\$10m$   | $0.08$   |  
+| $\$100m$  | $0.02$    | 
+
+Building the startup has the following EV in millions: 
+
+$$
+\begin{equation}
+\begin{split}
+\mathbb{E}[\text{Startup}] &= 0*0.70 + 1*0.20 + 10*0.08 + 100*0.02 \\
+  &= 0 + 0.2 + 0.8 + 2 \\
+  &= 3
+\end{split}
+\end{equation}
+$$
+
+Working the job with the salary has this EV in millions: 
+
+$$
+\begin{equation}
+\begin{split}
+\mathbb{E}[\text{Salary}] &= 1*0.2 + 1*0.2 + 1*0.2 + 1*0.2 + 1*0.2 \\
+  &= 0 + 0.2 + 0.8 + 2 \\
+  &= 3
+\end{split}
+\end{equation}
+$$
+
+## Dreidel EV
+Dreidel is a game played during Hanukkah where each player starts by putting 1 piece into the pot and then players rotate around spinning the 4-sided dreidel. If the pot goes to 0 or 1 then all players again put 1 unit into the pot. 
+
+The outcomes are: 
+| Dreidel Spin    | Probability | Game Outcome | 
+| -------- | ------- | ------- |
+| נ (nun)  | $\frac{1}{4}$    | Do nothing | 
+| ג (gimel) | $\frac{1}{4}$     | Take whole pot | 
+| ש (shin)   | $\frac{1}{4}$   | Take half pot | 
+| ה (hei)  | $\frac{1}{4}$    | Put 1 unit into pot | 
+
+Suppose it's your turn to spin and the pot has 6 pieces in it. 
+
+The outcomes are: 
+| Dreidel Spin    | Probability | Game Outcome | 
+| -------- | ------- | ------- |
+| נ (nun)  | $\frac{1}{4}$    | 0 | 
+| ג (gimel) | $\frac{1}{4}$     | +6 | 
+| ש (shin)   | $\frac{1}{4}$   | +3 | 
+| ה (hei)  | $\frac{1}{4}$    | -1 | 
+
+We can now compute the expected value of the spin: 
+
+$$
+\begin{equation}
+\begin{split}
+\mathbb{E}[\text{Dreidel Spin}] &= 0*\frac{1}{4} + 6*\frac{1}{4} + 3*\frac{1}{4} + (-1)*\frac{1}{4} \\
+  &= 0 + 1.5 + 0.75 + (-0.25) \\
+  &= 2
+\end{split}
+\end{equation}
+$$
+
+(It turns out that the game is "painfully slow" such that a 4 person game where each player starts with 10 units and each spin takes 10 seconds would take an average of 2 hours and 23 minutes (860 spins). [Ben Blatt has suggested improvements](https://www.slate.com/articles/life/holidays/2014/12/rules_of_dreidel_the_hannukah_game_is_way_too_slow_let_s_speed_it_up.html).)
+
+## Section 2
+### Section 2.1
+### Section 2.2
+
+
+## Section 3
+### Section 3.1
+### Section 3.2
+### Section 3.3
+
+## Section 4

@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "ev-benefits.qmd.html",
+    "href": "ev-benefits.qmd.html",
+    "title": "Expected Value Benefits",
+    "section": "",
+    "text": "basic algebra, equations, variables A few easy explanations A few exercises A short video A really short video Dice EV, what if you get option for 2nd Expected Value Foundation? Expected value most upvoted answer on “what EAs should know if they know 1 concept”\nopportunity cost comparative advantage As its name suggests, opportunity cost refers to the cost of choosing one opportunity over others. This “cost” reflects the value you could have gained in all the options you didn’t pursue.\nAccounting for opportunity cost can help us understand the comparative value of our available options and spend our time, money, and effort more effectively. This is particularly important for avoiding spending limited resources on an option that seems attractive at first (because it has positive expected value) but will actually give you much worse value than another available option.\nhttps://www.cold-takes.com/expected-value/#fnref1\nhttps://brilliant.org/wiki/expected-value/\nhttps://80000hours.org/articles/expected-value/\nhttps://jc.gatspress.com/pdf/on_expected_utility.pdf\nhttps://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#ways-the-data-might-overstate-the-true-degree-of-spread\nhttps://80000hours.org/2023/03/moderation-in-doing-good/\nhttps://80000hours.org/articles/moral-uncertainty/"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#section-1",
+    "href": "ev-benefits.qmd.html#section-1",
+    "title": "Expected Value Benefits",
+    "section": "",
+    "text": "basic algebra, equations, variables A few easy explanations A few exercises A short video A really short video Dice EV, what if you get option for 2nd Expected Value Foundation? Expected value most upvoted answer on “what EAs should know if they know 1 concept”\nopportunity cost comparative advantage As its name suggests, opportunity cost refers to the cost of choosing one opportunity over others. This “cost” reflects the value you could have gained in all the options you didn’t pursue.\nAccounting for opportunity cost can help us understand the comparative value of our available options and spend our time, money, and effort more effectively. This is particularly important for avoiding spending limited resources on an option that seems attractive at first (because it has positive expected value) but will actually give you much worse value than another available option.\nhttps://www.cold-takes.com/expected-value/#fnref1\nhttps://brilliant.org/wiki/expected-value/\nhttps://80000hours.org/articles/expected-value/\nhttps://jc.gatspress.com/pdf/on_expected_utility.pdf\nhttps://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#ways-the-data-might-overstate-the-true-degree-of-spread\nhttps://80000hours.org/2023/03/moderation-in-doing-good/\nhttps://80000hours.org/articles/moral-uncertainty/"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#technical-definition",
+    "href": "ev-benefits.qmd.html#technical-definition",
+    "title": "Expected Value Benefits",
+    "section": "Technical Definition",
+    "text": "Technical Definition\nWikipedia: “The expected value of a random variable with a finite number of outcomes is a weighted average of all possible outcomes”.\nMathematically, with a random variable \\(X\\) and a list of possible outcomes \\(x_1, ..., x_k\\) each of which has probability \\(p_1, ..., p_k\\) of occurring, respectively. Then \\(\\mathbb{E}[X] = x_1 p_1 + x_2 p_2 + ... + x_k p_k\\).\nWhat is a random variable? It represents possible outcomes. A random variable is defined by its possible outcomes and the probability of each outcome.\nan agent making an optimal choice in the context of incomplete information is often assumed to maximize the expected value of their utility function.\nhttps://www.cold-takes.com/the-bayesian-mindset/#1-connecting-opinions-to-anticipated-observations\nhttps://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/#ways-the-data-might-overstate-the-true-degree-of-spread\nhttps://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/\nhttps://80000hours.org/articles/be-more-ambitious/\nhttps://forum.effectivealtruism.org/posts/FKnhB28EvG4og87JP/1-e-x-is-not-e-1-x\nhttps://blog.givewell.org/2016/07/26/deworming-might-huge-impact-might-close-zero-impact/\nhttps://reducing-suffering.org/does-vegetarianism-make-a-difference/\nhttps://forum.effectivealtruism.org/posts/GjifPPAAGont94Z7F/in-cost-effectiveness-analyses-when-should-we-take-the\nhttps://80000hours.org/podcast/episodes/alan-hajek-probability-expected-value/"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#not-considered",
+    "href": "ev-benefits.qmd.html#not-considered",
+    "title": "Expected Value Benefits",
+    "section": "Not Considered",
+    "text": "Not Considered\nTime getting to airport early vs. late\nselling clothes vs. donating\nWhen we make a decision, we want the benefits to outweigh the costs. Some people will use a pro/con chart to help them make their decisions. Pros Cons Won’t lose all my money Cost a bit more in most cases\n-&gt; add values -&gt; effectively becomes similar to a mean or average\nBut what if our pros and cons don’t have the same value? We don’t want to just count the amount of pros and count the amount of cons Pros Cons Won’t lose all my money (10x) Cost a bit more in most cases (-x)\n-&gt; But the each outcome does not have the same likelihood. Add probabilities\nPros Cons Won’t lose all my money (10x) (probability of losing package is y) Cost a bit more in most cases (x) (probability of paying for insurance is 100%)\nAnd now you have expected value!\nIf 10x(y) &gt; (x) You should buy the insurance!\nGet a graduate degree vs keep working\nPros (of getting degree) Cons Higher earnings potential in the future Lose year(s) of earnings Chance at being a professor Hard work Might get more educated friends, relationships Will make you depressed Will become more educated\nCan you quantify these things on a single metric (money)? If not, why?\nPros (of getting degree) Value Cons Value Higher earnings potential in the future\nLose year(s) of earnings\nChance at being a professor\nHard work\nMight get more educated friends, relationships\nWill make you depressed\nWill become more educated\nAdd probabilities. If you can’t add probabilities, why?\nPros (of getting degree) Value probability Cons Value probability Higher earnings potential in the future\nLose year(s) of earnings\nChance at being a professor\nHard work\nMight get more educated friends, relationships\nWill make you depressed\nWill become more educated\nGo out to a restaurant vs eating in\nPros (of going to restaurant) Cons Higher earnings potential in the future Lose year(s) of earnings Chance at being a professor Hard work Might get more educated friends, relationships Will make you depressed Will become more educated\nCan you quantify these things on a single metric (money)? If not, why?\nPros (of getting degree) Value Cons Value Higher earnings potential in the future\nLose year(s) of earnings\nChance at being a professor\nHard work\nMight get more educated friends, relationships\nWill make you depressed\nWill become more educated\nAdd probabilities. If you can’t add probabilities, why?\nPros (of getting degree) Value probability Cons Value probability Higher earnings potential in the future\nLose year(s) of earnings\nChance at being a professor\nHard work\nMight get more educated friends, relationships\nWill make you depressed\nWill become more educated\nDecision pro-con example\nIn practice, it may not be clear which action will end up being the most valuable. Yet even if you’re unsure, putting some extra thought into its opportunity cost can help you gain an intuition for what actions to prioritize. To do so, figure out which options are available to you, try to determine the overall value of each option, then see how they compare."
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#when-is-expected-value-useful",
+    "href": "ev-benefits.qmd.html#when-is-expected-value-useful",
+    "title": "Expected Value Benefits",
+    "section": "When is expected value useful?",
+    "text": "When is expected value useful?"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#when-is-expected-value-not-useful",
+    "href": "ev-benefits.qmd.html#when-is-expected-value-not-useful",
+    "title": "Expected Value Benefits",
+    "section": "When is expected value not useful?",
+    "text": "When is expected value not useful?\nEA: Not just charity or not, but how much it helps Poker: Not just winning or not, but EV and pot odds considerations\nEV of making rice quantity\nhttps://asteriskmag.com/issues/05/michael-lewis-s-blind-side https://bayesshammai.substack.com/p/what-to-expect-when-youre-expecting\nTrain $5.50 one way or $6 roundtrip, how to decide Basic economy vs. regular economy with probability Insurance like flights or package Chinese auctions https://auction.ytcte.org/auction/about Raffles https://www.chabaduvm.org/raffle"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#startup-vs.-normal-job",
+    "href": "ev-benefits.qmd.html#startup-vs.-normal-job",
+    "title": "Expected Value Benefits",
+    "section": "Startup vs. Normal Job",
+    "text": "Startup vs. Normal Job\nAlthough the concept of expected value is useful when thinking about decision making under uncertainty, we have to make a lot of assumptions. Suppose that you could take a normal job with a salary of $200,000 per year. Alternatively, you could build a startup that has the following outcomes:\n\n\n\nEquity Upon Sale in 5 Years\nProbability\n\n\n\n\n\\(\\$0\\)\n\\(0.70\\)\n\n\n\\(\\$1m\\)\n\\(0.20\\)\n\n\n\\(\\$10m\\)\n\\(0.08\\)\n\n\n\\(\\$100m\\)\n\\(0.02\\)\n\n\n\nBuilding the startup has the following EV in millions:\n\\[\n\\begin{equation}\n\\begin{split}\n\\mathbb{E}[\\text{Startup}] &= 0*0.70 + 1*0.20 + 10*0.08 + 100*0.02 \\\\\n  &= 0 + 0.2 + 0.8 + 2 \\\\\n  &= 3\n\\end{split}\n\\end{equation}\n\\]\nWorking the job with the salary has this EV in millions:\n\\[\n\\begin{equation}\n\\begin{split}\n\\mathbb{E}[\\text{Salary}] &= 1*0.2 + 1*0.2 + 1*0.2 + 1*0.2 + 1*0.2 \\\\\n  &= 0 + 0.2 + 0.8 + 2 \\\\\n  &= 3\n\\end{split}\n\\end{equation}\n\\]"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#dreidel-ev",
+    "href": "ev-benefits.qmd.html#dreidel-ev",
+    "title": "Expected Value Benefits",
+    "section": "Dreidel EV",
+    "text": "Dreidel EV\nDreidel is a game played during Hanukkah where each player starts by putting 1 piece into the pot and then players rotate around spinning the 4-sided dreidel. If the pot goes to 0 or 1 then all players again put 1 unit into the pot.\nThe outcomes are: | Dreidel Spin | Probability | Game Outcome | | ——– | ——- | ——- | | נ (nun) | \\(\\frac{1}{4}\\) | Do nothing | | ג (gimel) | \\(\\frac{1}{4}\\) | Take whole pot | | ש (shin) | \\(\\frac{1}{4}\\) | Take half pot | | ה (hei) | \\(\\frac{1}{4}\\) | Put 1 unit into pot |\nSuppose it’s your turn to spin and the pot has 6 pieces in it.\nThe outcomes are: | Dreidel Spin | Probability | Game Outcome | | ——– | ——- | ——- | | נ (nun) | \\(\\frac{1}{4}\\) | 0 | | ג (gimel) | \\(\\frac{1}{4}\\) | +6 | | ש (shin) | \\(\\frac{1}{4}\\) | +3 | | ה (hei) | \\(\\frac{1}{4}\\) | -1 |\nWe can now compute the expected value of the spin:\n\\[\n\\begin{equation}\n\\begin{split}\n\\mathbb{E}[\\text{Dreidel Spin}] &= 0*\\frac{1}{4} + 6*\\frac{1}{4} + 3*\\frac{1}{4} + (-1)*\\frac{1}{4} \\\\\n  &= 0 + 1.5 + 0.75 + (-0.25) \\\\\n  &= 2\n\\end{split}\n\\end{equation}\n\\]\n(It turns out that the game is “painfully slow” such that a 4 person game where each player starts with 10 units and each spin takes 10 seconds would take an average of 2 hours and 23 minutes (860 spins). Ben Blatt has suggested improvements.)"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#section-2",
+    "href": "ev-benefits.qmd.html#section-2",
+    "title": "Expected Value Benefits",
+    "section": "Section 2",
+    "text": "Section 2\n\nSection 2.1\n\n\nSection 2.2"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#section-3",
+    "href": "ev-benefits.qmd.html#section-3",
+    "title": "Expected Value Benefits",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "ev-benefits.qmd.html#section-4",
+    "href": "ev-benefits.qmd.html#section-4",
+    "title": "Expected Value Benefits",
+    "section": "Section 4",
+    "text": "Section 4"
+  },
+  {
+    "objectID": "ev-basics.qmd.html",
+    "href": "ev-basics.qmd.html",
+    "title": "Expected Value: Basics",
+    "section": "",
+    "text": "ev only part of picture, because if bet is big part of bankroll then not good! ## Section 2 ### Section 2.1 ### Section 2.2"
+  },
+  {
+    "objectID": "ev-basics.qmd.html#section-1",
+    "href": "ev-basics.qmd.html#section-1",
+    "title": "Expected Value: Basics",
+    "section": "",
+    "text": "ev only part of picture, because if bet is big part of bankroll then not good! ## Section 2 ### Section 2.1 ### Section 2.2"
+  },
+  {
+    "objectID": "ev-basics.qmd.html#section-3",
+    "href": "ev-basics.qmd.html#section-3",
+    "title": "Expected Value: Basics",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "ev-basics.qmd.html#section-4",
+    "href": "ev-basics.qmd.html#section-4",
+    "title": "Expected Value: Basics",
+    "section": "Section 4",
+    "text": "Section 4"
+  },
+  {
+    "objectID": "medicine.qmd.html#section-2",
+    "href": "medicine.qmd.html#section-2",
+    "title": "Expected Value Example: Medicine",
+    "section": "Section 2",
+    "text": "Section 2\n\nSection 2.1\n\n\nSection 2.2"
+  },
+  {
+    "objectID": "medicine.qmd.html#section-3",
+    "href": "medicine.qmd.html#section-3",
+    "title": "Expected Value Example: Medicine",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "medicine.qmd.html#section-4",
+    "href": "medicine.qmd.html#section-4",
+    "title": "Expected Value Example: Medicine",
+    "section": "Section 4",
+    "text": "Section 4"
+  },
+  {
+    "objectID": "gamestop.qmd.html",
+    "href": "gamestop.qmd.html",
+    "title": "Expected Value Example: Roaring Kitty Gamestop",
+    "section": "",
+    "text": "https://www.bloomberg.com/opinion/articles/2024-05-13/gamestop-is-back?srnd=undefined"
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html",
+    "href": "huberman-pregnancy.qmd.html",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "",
+    "text": "Is there a fertility crisis? Bryan Caplan suggests to have more kids and recently posted The Fertile Formula, an idea to reduce federal taxes based on how many kids you have, getting to income tax-free for life after six kids. Great deal!"
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html#huberman-calculation-issues",
+    "href": "huberman-pregnancy.qmd.html#huberman-calculation-issues",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "Huberman Calculation Issues",
+    "text": "Huberman Calculation Issues\nThere are many issues here. To start, since probabilities are by definition between \\(0\\) and \\(1\\), he clearly made an error. \\(10\\) pregnancy attempts by his logic would make you \\(200\\%\\) likely to be pregnant, which doesn’t really make too much sense.\nHuberman was adding \\(20\\%\\) for each attempt, which is not the correct approach. In this post, we’ll explain how the actual theory works.\n\n\nI made a visualization for you all. https://t.co/LMTECq70HZ pic.twitter.com/IGIL1HyGQl\n\n— Matthew B Jané (@MatthewBJane) May 10, 2024"
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html#huberman-correction",
+    "href": "huberman-pregnancy.qmd.html#huberman-correction",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "Huberman Correction",
+    "text": "Huberman Correction\nHe since posted a Twitter correction and has updated the original videos."
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html#pregnancy-attempts",
+    "href": "huberman-pregnancy.qmd.html#pregnancy-attempts",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "6 Pregnancy Attempts",
+    "text": "6 Pregnancy Attempts\nSo after \\(6\\) attempts, we can say that the $ () $ is equal to the inverse of the probability of not getting pregnant \\(6\\) times in a row. Why? The probability of an event and its complement always sum to \\(1\\). For example, if it’s \\(70\\%\\) to be sunny tomorrow, then it’s \\(30\\%\\) to be not-sunny.\nMathematically, we can write:\n\\[\n\\begin{equation}\n\\begin{split}\n\\Pr(\\text{Preg after 6 attempts}) &= 1 - \\Pr(\\text{Not Preg after 6 attempts}) \\\\\n  &= 1 - (0.8)^6 \\\\\n  &= 0.738 \\\\\n  &= 73.8\\%\n\\end{split}\n\\end{equation}\n\\]\n\nIndependent Probabilities\nWhy is it $ 1 - (0.8)^6 $? This is because when we are calculating probabilities involving independent events, they are multiplied. Each case of not becoming pregnant has an independent probability of $ 0.8 $ (note that this is a simplification because probabilities would generally vary for each attempt). Multiplying this \\(6\\) times gets us the probability of not being pregnant after \\(6\\) attempts. So to get the probability of being pregnant after \\(6\\) attempts, we take \\(1\\) minus this, therefore getting $ 1 - (0.8)^6 $."
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html#x-pregnancy-attempts",
+    "href": "huberman-pregnancy.qmd.html#x-pregnancy-attempts",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "x Pregnancy Attempts",
+    "text": "x Pregnancy Attempts\nMore generally, after $ x $ attempts, we can say:\n\\[\n\\begin{equation}\n\\begin{split}\n\\Pr(\\text{Preg after x attempts}) &= 1 - \\Pr(\\text{Not Preg after x attempts}) \\\\\n  &= 1 - (1-0.2)^x \\\\\n  &= 1 - (0.8)^x\n\\end{split}\n\\end{equation}\n\\]"
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html#likelihood-of-pregnancy",
+    "href": "huberman-pregnancy.qmd.html#likelihood-of-pregnancy",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "99% Likelihood of Pregnancy",
+    "text": "99% Likelihood of Pregnancy\nSo assuming that $ () = 0.2 $, when are you $ 99% $ to be pregnant?\n\\[\n\\begin{equation}\n\\begin{split}\n0.99 &= 1 - \\Pr(\\text{Not Preg after x attempts}) && \\Rightarrow \\text{ Set pregnancy likelihood to } 0.99 \\\\\n      &= 1 - (0.8)^x && \\Rightarrow \\text{ Use equation from above } \\\\\n  0.99 + (0.8)^x &= 1 && \\Rightarrow \\text{ Add } 0.8^x \\text{ to both sides} \\\\\n  (0.8)^x &= 0.01 && \\Rightarrow \\text{ Subtract } 0.99 \\text{ from both sides} \\\\\n  x &= 20.64 && \\Rightarrow \\text{ Use calculator to solve}\n\\end{split}\n\\end{equation}\n\\]\nTherefore after \\(21\\) pregnancy attempts where each attempt has a \\(20\\%\\) likelihood, your cumulative likelihood of being pregant exceeds \\(99\\%\\). (We round up from \\(20.64\\) because each one is discrete and at \\(20\\) the probability would be under \\(99\\%\\), so only after \\(20.64\\) does it exceed \\(99\\%\\), which means it exceeds at attempt \\(21\\).)\nWe can see this on the graph below where $ () = 0.2 $. The x-axis is the number of attempts and the y-axis is the cumulative (overall) probability of pregnancy after that many attempts. Note that the graph approaches, but will never exceed the probability of \\(1\\).\n\n\n\nPregnancy graph with p = 0.2"
+  },
+  {
+    "objectID": "huberman-pregnancy.qmd.html#generalized-pregnancy-equation",
+    "href": "huberman-pregnancy.qmd.html#generalized-pregnancy-equation",
+    "title": "Pregnancy Probability Starring Andrew Huberma",
+    "section": "Generalized Pregnancy Equation",
+    "text": "Generalized Pregnancy Equation\nFinally, even more generally, we can say that after $ x $ attempts and the more general $ () = p $ (i.e. using probability \\(p\\) instead of \\(0.2\\)):\n\\[\n\\begin{equation}\n\\begin{split}\n\\Pr(\\text{Preg after x attempts}) &= 1 - \\Pr(\\text{Not Preg after x attempts}) \\\\\n  &= 1 - (1-p)^x \\\\\n\\end{split}\n\\end{equation}\n\\]"
+  },
+  {
+    "objectID": "basketball.qmd.html#section-1",
+    "href": "basketball.qmd.html#section-1",
+    "title": "Expected Value Example: Basketball",
+    "section": "Section 1",
+    "text": "Section 1"
+  },
+  {
+    "objectID": "basketball.qmd.html#section-2",
+    "href": "basketball.qmd.html#section-2",
+    "title": "Expected Value Example: Basketball",
+    "section": "Section 2",
+    "text": "Section 2\n\nSection 2.1\n\n\nSection 2.2"
+  },
+  {
+    "objectID": "basketball.qmd.html#section-3",
+    "href": "basketball.qmd.html#section-3",
+    "title": "Expected Value Example: Basketball",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "basketball.qmd.html#section-4",
+    "href": "basketball.qmd.html#section-4",
+    "title": "Expected Value Example: Basketball",
+    "section": "Section 4",
+    "text": "Section 4"
+  },
+  {
+    "objectID": "poker.qmd.html#section-2",
+    "href": "poker.qmd.html#section-2",
+    "title": "Expected Value Example: Poker",
+    "section": "Section 2",
+    "text": "Section 2\n\nSection 2.1\n\n\nSection 2.2"
+  },
+  {
+    "objectID": "poker.qmd.html#section-3",
+    "href": "poker.qmd.html#section-3",
+    "title": "Expected Value Example: Poker",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "poker.qmd.html#section-4",
+    "href": "poker.qmd.html#section-4",
+    "title": "Expected Value Example: Poker",
+    "section": "Section 4",
+    "text": "Section 4"
+  },
+  {
+    "objectID": "dice.qmd.html#section-2",
+    "href": "dice.qmd.html#section-2",
+    "title": "Expected Value Example: Dice",
+    "section": "Section 2",
+    "text": "Section 2\n\nSection 2.1\n\n\nSection 2.2"
+  },
+  {
+    "objectID": "dice.qmd.html#section-3",
+    "href": "dice.qmd.html#section-3",
+    "title": "Expected Value Example: Dice",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "dice.qmd.html#section-4",
+    "href": "dice.qmd.html#section-4",
+    "title": "Expected Value Example: Dice",
+    "section": "Section 4",
+    "text": "Section 4"
+  },
+  {
+    "objectID": "ev-faults.qmd.html#section-1",
+    "href": "ev-faults.qmd.html#section-1",
+    "title": "Expected Value Faults",
+    "section": "Section 1",
+    "text": "Section 1"
+  },
+  {
+    "objectID": "ev-faults.qmd.html#section-2",
+    "href": "ev-faults.qmd.html#section-2",
+    "title": "Expected Value Faults",
+    "section": "Section 2",
+    "text": "Section 2\n\nSection 2.1\n\n\nSection 2.2"
+  },
+  {
+    "objectID": "ev-faults.qmd.html#section-3",
+    "href": "ev-faults.qmd.html#section-3",
+    "title": "Expected Value Faults",
+    "section": "Section 3",
+    "text": "Section 3\n\nSection 3.1\n\n\nSection 3.2\n\n\nSection 3.3"
+  },
+  {
+    "objectID": "ev-faults.qmd.html#section-4",
+    "href": "ev-faults.qmd.html#section-4",
+    "title": "Expected Value Faults",
+    "section": "Section 4",
+    "text": "Section 4"
+  }
+]

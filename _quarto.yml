@@ -1,56 +1,59 @@
 project:
-  type: book
+  type: website
   output-dir: docs
 
-book:
-  title: "AI Poker Tutorial"
-  author: "Max Chiswick"
-  date: "5/28/2024"
+website:
+  title: "Expected Value Org"
+  navbar: 
+    background: primary
+    right: 
+      - text: "About"
+        href: about.qmd
+      - text: "Poker Camp"
+        href: https://pokercamp.org
+    tools: 
+      - icon: twitter
+        href: https://x.com/chisness
+      - icon: github
+        href: https://github.com/chisness/expectedvalue
   sidebar:
     style: docked
     background: light
-  chapters:
-    - index.qmd
-    - part: "Intro"
-      chapters:
-        - intro.qmd
-        - trading.qmd
-        - python.qmd
-    - part: "Game Theory and Decision Making"
-      chapters:
-        - gametheory.qmd
-        - decisionmaking.qmd
-        - toypoker.qmd 
-        - gametrees.qmd
-    - part: "CFR and Solvers"
-      chapters: 
-        - cfr.qmd 
-        - montecarlo.qmd
-        - solvers.qmd 
-    - part: "Machine Learning and Deep Learning"
-      chapters: 
-        - mlmath.qmd 
-        - ml.qmd
-        - dl.qmd
-        - rl.qmd
-    - part: "AI Poker Today"
-      chapters: 
-        - aiagents.qmd
-        - recentai.qmd 
-    - part: "Advanced Topics"
-      chapters: 
-        - opponentmodeling.qmd
-        - llms.qmd
-        - aisafety.qmd
-    - part: "Projects"
-      chapters: 
-        - projects.qmd
-
-bibliography: references.bib
+    contents: 
+      - section: "WHAT IS EXPECTED VALUE?"
+        contents: 
+          - href: ev-basics.qmd
+            text: EV Basics
+          - href: ev-benefits.qmd
+            text: EV Benefits
+          - href: ev-faults.qmd
+            text: EV Faults
+      - section: "EXPECTED VALUE EXAMPLES"
+        contents: 
+          - href: basketball.qmd
+            text: Basketball
+          - href: dice.qmd
+            text: Dice
+          - href: poker.qmd
+            text: Poker
+          - href: medicine.qmd
+            text: Medicine
+          - href: rice.qmd
+            text: Rice
+      - section: "CURRENT EVENTS"
+        contents: 
+          - href: gamestop.qmd
+            text: Roaring Kitty Gamestop
+          - href: huberman-pregnancy.qmd 
+            text: Andrew Huberman Pregnancy Probability
 
 format:
   html:
     theme: cerulean
     math: true 
-  pdf:
-    documentclass: scrreprt
+    toc: true
+    toc-expand: true
+    mathjax: 
+      config: 
+        text: 
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
