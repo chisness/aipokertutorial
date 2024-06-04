@@ -1,9 +1,0 @@
----
-title: "Expected Value Example: Roaring Kitty Gamestop"
-format:
-  html:
-    math: true
----
-
-https://www.bloomberg.com/opinion/articles/2024-05-13/gamestop-is-back?srnd=undefined
-
