@@ -1,6 +1,0 @@
----
-title: "Expected Value Example: Rice"
-format:
-  html:
-    math: true
----
