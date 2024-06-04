@@ -1,0 +1,65 @@
+{
+  "index.qmd": {
+    "index.html": "ac011276"
+  },
+  "intro.qmd": {
+    "intro.html": "d52fc91e"
+  },
+  "trading.qmd": {
+    "trading.html": "02f492da"
+  },
+  "python.qmd": {
+    "python.html": "6e637ad1"
+  },
+  "gametheory.qmd": {
+    "gametheory.html": "ffdbfde0"
+  },
+  "decisionmaking.qmd": {
+    "decisionmaking.html": "eec8b094"
+  },
+  "toypoker.qmd": {
+    "toypoker.html": "a43eaacf"
+  },
+  "gametrees.qmd": {
+    "gametrees.html": "56acf9c4"
+  },
+  "cfr.qmd": {
+    "cfr.html": "8091423d"
+  },
+  "montecarlo.qmd": {
+    "montecarlo.html": "3211e6fd"
+  },
+  "solvers.qmd": {
+    "solvers.html": "9f36b94f"
+  },
+  "mlmath.qmd": {
+    "mlmath.html": "70b37bf2"
+  },
+  "ml.qmd": {
+    "ml.html": "5bc1c46f"
+  },
+  "dl.qmd": {
+    "dl.html": "3ab95134"
+  },
+  "rl.qmd": {
+    "rl.html": "d21ae2f8"
+  },
+  "aiagents.qmd": {
+    "aiagents.html": "ce101b63"
+  },
+  "recentai.qmd": {
+    "recentai.html": "af51be4b"
+  },
+  "opponentmodeling.qmd": {
+    "opponentmodeling.html": "761ebc12"
+  },
+  "llms.qmd": {
+    "llms.html": "e83fe3bb"
+  },
+  "aisafety.qmd": {
+    "aisafety.html": "3f4b0c6e"
+  },
+  "projects.qmd": {
+    "projects.html": "172d01ea"
+  }
+}
