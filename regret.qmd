@@ -1,4 +1,4 @@
-# Best Response
+# Regret
 
 This is a book created from markdown and executable code.
 

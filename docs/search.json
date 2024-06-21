@@ -144,34 +144,34 @@
   {
     "objectID": "expectedvalue.html",
     "href": "expectedvalue.html",
-    "title": "10  Best Response",
+    "title": "10  Expected Value",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Game Theory",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Best Response</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Expected Value</span>"
     ]
   },
   {
     "objectID": "gametheory.html",
     "href": "gametheory.html",
-    "title": "11  Game Theory Foundations",
+    "title": "11  Game Theory",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Game Theory",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Game Theory Foundations</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Game Theory</span>"
     ]
   },
   {
     "objectID": "regret.html",
     "href": "regret.html",
-    "title": "12  Best Response",
+    "title": "12  Regret",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Game Theory",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Best Response</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Regret</span>"
     ]
   },
   {
@@ -320,12 +320,12 @@
   {
     "objectID": "agents.html",
     "href": "agents.html",
-    "title": "26  Agents",
+    "title": "26  Building Agents",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Setup",
-      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Agents</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Building Agents</span>"
     ]
   }
 ]
