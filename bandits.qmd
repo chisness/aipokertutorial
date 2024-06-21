@@ -1,4 +1,4 @@
-# Counterfactual Regret Minimization (CFR)
+# Bandits
 
 This is the CFR page 
 
