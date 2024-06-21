@@ -64,5 +64,62 @@
   },
   "kuhn.qmd": {
     "kuhn.html": "6d0d9295"
+  },
+  "poker.qmd": {
+    "poker.html": "67192c84"
+  },
+  "blackjack.qmd": {
+    "blackjack.html": "305507c8"
+  },
+  "tictactoe.qmd": {
+    "tictactoe.html": "e9baa106"
+  },
+  "leduc.qmd": {
+    "leduc.html": "5fdbe8b1"
+  },
+  "rps.qmd": {
+    "rps.html": "3d10305f"
+  },
+  "holdem.qmd": {
+    "holdem.html": "c293a0af"
+  },
+  "texastt.qmd": {
+    "texastt.html": "cb7a21c4"
+  },
+  "rpokers.qmd": {
+    "rpokers.html": "eee3cea4"
+  },
+  "trees.qmd": {
+    "trees.html": "a5940d3d"
+  },
+  "bandits.qmd": {
+    "bandits.html": "20c4ca1e"
+  },
+  "kuhncfr.qmd": {
+    "kuhncfr.html": "b782586a"
+  },
+  "mccfr.qmd": {
+    "mccfr.html": "5fca2ac5"
+  },
+  "bestresponse.qmd": {
+    "bestresponse.html": "b48ea5af"
+  },
+  "cardabs.qmd": {
+    "cardabs.html": "38702243"
+  },
+  "betabs.qmd": {
+    "betabs.html": "227e05d5"
+  },
+  "server.qmd": {
+    "server.html": "b8da2866"
+  },
+  "agents.qmd": {
+    "agents.html": "238729b6"
+  },
+  "expectedvalue.qmd": {
+    "expectedvalue.html": "447850ea"
+  },
+  "regret.qmd": {
+    "regret.html": "98c7e36e"
   }
 }
