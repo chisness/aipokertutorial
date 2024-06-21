@@ -1,5 +1,5 @@
 ---
-title: "Expected Value Example: Poker"
+title: "Poker Basics"
 format:
   html:
     math: true
