@@ -188,12 +188,12 @@
   {
     "objectID": "bandits.html",
     "href": "bandits.html",
-    "title": "14  Counterfactual Regret Minimization (CFR)",
+    "title": "14  Bandits",
     "section": "",
     "text": "This is the CFR page\n\\(E = mc^2\\)",
     "crumbs": [
       "Reinforcement Learning",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Counterfactual Regret Minimization (CFR)</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Bandits</span>"
     ]
   },
   {
@@ -232,12 +232,12 @@
   {
     "objectID": "cfr.html",
     "href": "cfr.html",
-    "title": "18  Kuhn Poker",
+    "title": "18  CFR (Counterfactual Regret Minimization)",
     "section": "",
     "text": "This is the Kuhn Poker page",
     "crumbs": [
       "Optimal Strategies",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Kuhn Poker</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>CFR (Counterfactual Regret Minimization)</span>"
     ]
   },
   {
@@ -298,12 +298,12 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "24  Intro and Poker Foundations",
+    "title": "24  Intro to Poker Camp",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Setup",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Intro and Poker Foundations</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Intro to Poker Camp</span>"
     ]
   },
   {
