@@ -1,0 +1,5 @@
+# Rock Paper Scissors
+
+This is the CFR page 
+
+$E = mc^2$ 

@@ -1,0 +1,102 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "AI Poker Tutorial"
+  # author: "Max Chiswick"
+  # date: "5/28/2024"
+  sidebar:
+    style: docked
+    background: light
+  chapters:
+    - index.qmd
+    - part: "Games"
+      chapters: 
+        - poker.qmd
+        - kuhn.qmd
+        - blackjack.qmd
+        - tictactoe.qmd 
+        - leduc.qmd
+        - rps.qmd
+        - holdem.qmd 
+        - texastt.qmd
+        - rpokers.qmd 
+    - part: "Game Theory"
+      chapters:
+        - expectedvalue.qmd 
+        - gametheory.qmd 
+        - regret.qmd 
+        - trees.qmd 
+    - part: "Reinforcement Learning"
+      chapters: 
+        - bandits.qmd 
+        - montecarlo.qmd  
+        - rl.qmd
+    - part: "Optimal Strategies"
+      chapters:
+        - kuhncfr.qmd
+        - cfr.qmd
+        - mccfr.qmd  
+    - part: "Exploitative Strategies"
+      chapters:
+        - bestresponse.qmd 
+        - opponentmodeling.qmd 
+    - part: "Abstracting Large Games"
+      chapters:
+        - cardabs.qmd
+        - betabs.qmd
+    - part: "Setup"
+      chapters:
+        - intro.qmd 
+        - server.qmd 
+        - agents.qmd 
+    # - part: "Intro"
+    #   chapters:
+    #     - intro.qmd
+    #     - trading.qmd
+    #     - python.qmd
+    # - part: "Game Theory and Decision Making"
+    #   chapters:
+    #     - gametheory.qmd
+    #     - decisionmaking.qmd
+    #     - toypoker.qmd 
+    #     - gametrees.qmd
+    # - part: "CFR and Solvers"
+    #   chapters: 
+    #     - cfr.qmd 
+    #     - montecarlo.qmd
+    #     - solvers.qmd 
+    # - part: "Machine Learning and Deep Learning"
+    #   chapters: 
+    #     - mlmath.qmd 
+    #     - ml.qmd
+    #     - dl.qmd
+    #     - rl.qmd
+    # - part: "AI Poker Today"
+    #   chapters: 
+    #     - aiagents.qmd
+    #     - recentai.qmd 
+    # - part: "Advanced Topics"
+    #   chapters: 
+    #     - opponentmodeling.qmd
+    #     - llms.qmd
+    #     - aisafety.qmd
+    # - part: "Projects"
+    #   chapters: 
+    #     - projects.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cerulean
+    math: true 
+    toc: true
+    toc-expand: true
+    mathjax: 
+      config: 
+        text: 
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+  pdf:
+    documentclass: scrreprt

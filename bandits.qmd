@@ -1,0 +1,5 @@
+# Counterfactual Regret Minimization (CFR)
+
+This is the CFR page 
+
+$E = mc^2$ 
