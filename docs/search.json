@@ -4,20 +4,31 @@
     "href": "index.html",
     "title": "AI Poker Tutorial",
     "section": "",
-    "text": "Home\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Home\nAI Poker Camp Beta Course Materials\nVisit https://poker.camp for info on the course",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "cfr.html",
-    "href": "cfr.html",
+    "objectID": "kuhn.html",
+    "href": "kuhn.html",
     "title": "1  Counterfactual Regret Minimization (CFR)",
     "section": "",
-    "text": "This is the CFR page",
+    "text": "This is the CFR page\n\\(E = mc^2\\)",
     "crumbs": [
       "CFR",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Counterfactual Regret Minimization (CFR)</span>"
+    ]
+  },
+  {
+    "objectID": "cfr.html",
+    "href": "cfr.html",
+    "title": "2  Kuhn Poker",
+    "section": "",
+    "text": "This is the Kuhn Poker page",
+    "crumbs": [
+      "CFR",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kuhn Poker</span>"
     ]
   }
 ]

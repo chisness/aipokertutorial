@@ -1,5 +1,5 @@
 # Home {.unnumbered}
 
-This is a Quarto book.
+AI Poker Camp Beta Course Materials
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Visit [https://poker.camp](https://poker.camp) for info on the course
