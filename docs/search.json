@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "AI Poker Tutorial",
     "section": "",
-    "text": "1 AI Poker Tutorial\nHello",
+    "text": "1 AI Poker Tutorial\nNew AIPT by Poker Camp coming soon.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>AI Poker Tutorial</span>"
     ]
@@ -324,7 +324,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME TREES",
+      "Game Trees",
       "<span class='chapter-number'>30</span>  <span class='chapter-title'>Perfect Information</span>"
     ]
   },
@@ -335,7 +335,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME TREES",
+      "Game Trees",
       "<span class='chapter-number'>31</span>  <span class='chapter-title'>Minimax</span>"
     ]
   },
@@ -346,7 +346,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME TREES",
+      "Game Trees",
       "<span class='chapter-number'>32</span>  <span class='chapter-title'>Imperfect Information Games</span>"
     ]
   },
@@ -854,6 +854,206 @@
     "crumbs": [
       "PROJECT IDEAS",
       "<span class='chapter-number'>78</span>  <span class='chapter-title'>Projects</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "INTRO",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "INTRO"
+    ]
+  },
+  {
+    "objectID": "codingfoundations.html",
+    "href": "codingfoundations.html",
+    "title": "CODING FOUNDATIONS",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "CODING FOUNDATIONS"
+    ]
+  },
+  {
+    "objectID": "mathfoundations.html",
+    "href": "mathfoundations.html",
+    "title": "MATH FOUNDATIONS",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "MATH FOUNDATIONS"
+    ]
+  },
+  {
+    "objectID": "knowledge.html",
+    "href": "knowledge.html",
+    "title": "KNOWLEDGE",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "KNOWLEDGE"
+    ]
+  },
+  {
+    "objectID": "decisiomakingunderuncertainty.html",
+    "href": "decisiomakingunderuncertainty.html",
+    "title": "DECISION MAKING UNDER UNCERTAINTY",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "DECISION MAKING UNDER UNCERTAINTY"
+    ]
+  },
+  {
+    "objectID": "gametheory.html",
+    "href": "gametheory.html",
+    "title": "GAME THEORY",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME THEORY"
+    ]
+  },
+  {
+    "objectID": "gametrees.html",
+    "href": "gametrees.html",
+    "title": "Game Trees",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "Game Trees"
+    ]
+  },
+  {
+    "objectID": "solvingtoygames.html",
+    "href": "solvingtoygames.html",
+    "title": "SOLVING TOY GAMES",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "SOLVING TOY GAMES"
+    ]
+  },
+  {
+    "objectID": "cfr.html",
+    "href": "cfr.html",
+    "title": "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
+    ]
+  },
+  {
+    "objectID": "abstractinglargegames.html",
+    "href": "abstractinglargegames.html",
+    "title": "ABSTRACTING LARGE GAMES",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "ABSTRACTING LARGE GAMES"
+    ]
+  },
+  {
+    "objectID": "pokersolvers.html",
+    "href": "pokersolvers.html",
+    "title": "POKER SOLVERS",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS"
+    ]
+  },
+  {
+    "objectID": "aimath.html",
+    "href": "aimath.html",
+    "title": "AI MATH",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI MATH"
+    ]
+  },
+  {
+    "objectID": "aifoundations.html",
+    "href": "aifoundations.html",
+    "title": "AI FOUNDATIONS",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI FOUNDATIONS"
+    ]
+  },
+  {
+    "objectID": "recentaiadvances.html",
+    "href": "recentaiadvances.html",
+    "title": "RECENT AI ADVANCES",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "RECENT AI ADVANCES"
+    ]
+  },
+  {
+    "objectID": "stateoftheartpokerai.html",
+    "href": "stateoftheartpokerai.html",
+    "title": "STATE OF THE ART POKER AI",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "STATE OF THE ART POKER AI"
+    ]
+  },
+  {
+    "objectID": "llms.html",
+    "href": "llms.html",
+    "title": "LLMS",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "LLMS"
+    ]
+  },
+  {
+    "objectID": "opponentmodeling.html",
+    "href": "opponentmodeling.html",
+    "title": "OPPONENT MODELING",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "OPPONENT MODELING"
+    ]
+  },
+  {
+    "objectID": "aisafety.html",
+    "href": "aisafety.html",
+    "title": "AI RISKS AND SAFETY",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI RISKS AND SAFETY"
+    ]
+  },
+  {
+    "objectID": "theriver.html",
+    "href": "theriver.html",
+    "title": "THE RIVER",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "THE RIVER"
+    ]
+  },
+  {
+    "objectID": "projectideas.html",
+    "href": "projectideas.html",
+    "title": "PROJECT IDEAS",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "PROJECT IDEAS"
     ]
   }
 ]

@@ -15,7 +15,7 @@ book:
   chapters:
     - index.qmd
 
-    - part: "INTRO"
+    - part: intro.qmd
       chapters: 
         - whypoker.qmd
         - pokercamp.qmd
@@ -24,13 +24,13 @@ book:
         - basicstrategy.qmd
         - ethics.qmd
 
-    - part: "CODING FOUNDATIONS"
+    - part: codingfoundations.qmd
       chapters: 
         - python.qmd
         - aiagents.qmd
         - buildingaiagents.qmd
 
-    - part: "MATH FOUNDATIONS"
+    - part: mathfoundations.qmd
       chapters:
         - algebra.qmd
         - probability.qmd
@@ -40,14 +40,14 @@ book:
         - statistics.qmd
         - montecarlo.qmd
 
-    - part: "KNOWLEDGE"
+    - part: knowledge.qmd
       chapters:
         - logic.qmd
         - knowledgerepresentation.qmd
         - rationality.qmd
         - psychology.qmd
 
-    - part: "DECISION MAKING UNDER UNCERTAINTY"
+    - part: decisiomakingunderuncertainty.qmd
       chapters:
         - probabilisticthinking.qmd
         - decisiontheory.qmd
@@ -55,26 +55,26 @@ book:
         - regret.qmd
         - bandits.qmd
 
-    - part: "GAME THEORY"
+    - part: gametheory.qmd
       chapters:
         - nash.qmd
         - gto.qmd
         - mixedstrategies.qmd
 
-    - part: "GAME TREES"
+    - part: gametrees.qmd
       chapters:
         - perfectinfo.qmd
         - minimax.qmd
         - imperfectinfo.qmd
 
-    - part: "SOLVING TOY GAMES"
+    - part: solvingtoygames.qmd
       chapters:
         - analytical.qmd
         - normalform.qmd
         - optimization.qmd
         - sequenceform.qmd
 
-    - part: "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
+    - part: cfr.qmd
       chapters:
         - algorithm.qmd
         - interactive.qmd
@@ -83,14 +83,14 @@ book:
         - montecarlocfr.qmd
         - vectorcfr.qmd
 
-    - part: "ABSTRACTING LARGE GAMES"
+    - part: abstractinglargegames.qmd
       chapters:
         - gamesize.qmd
         - cardabstraction.qmd
         - betabstraction.qmd
         - agentevaluation.qmd
 
-    - part: "POKER SOLVERS"
+    - part: pokersolvers.qmd
       chapters:
         - howsolverswork.qmd
         - usingsolvers.qmd
@@ -100,24 +100,24 @@ book:
         - advancedstrategy.qmd
         - tournaments.qmd
 
-    - part: "AI MATH"
+    - part: aimath.qmd
       chapters:
         - calculus.qmd
         - linearalgebra.qmd
         - infotheory.qmd
 
-    - part: "AI FOUNDATIONS"
+    - part: aifoundations.qmd
       chapters:
         - ml.qmd
         - dl.qmd
         - rl.qmd
 
-    - part: "RECENT AI ADVANCES"
+    - part: recentaiadvances.qmd
       chapters:
         - nonpoker.qmd
         - multiplayergames.qmd
 
-    - part: "STATE OF THE ART POKER AI"
+    - part: stateoftheartpokerai.qmd 
       chapters:
         - deepcfr.qmd
         - toppokeragents.qmd
@@ -125,30 +125,30 @@ book:
         - humanvsai.qmd
         - newresearch.qmd
 
-    - part: "LLMS"
+    - part: llms.qmd
       chapters:
         - transformers.qmd
         - othellogpt.qmd
         - pokergpt.qmd
         - interpretability.qmd
 
-    - part: "OPPONENT MODELING"
+    - part: opponentmodeling.qmd
       chapters:
         - bestresponse.qmd
         - exploitativestrategies.qmd
 
-    - part: "AI RISKS AND SAFETY"
+    - part: aisafety.qmd
       chapters:
         - shortterm.qmd
         - longterm.qmd
 
-    - part: "THE RIVER"
+    - part: theriver.qmd
       chapters:
         - trading.qmd
         - predictionmarkets.qmd
         - otherbetting.qmd
 
-    - part: "PROJECT IDEAS"
+    - part: projectideas.qmd
       chapters:
         - projects.qmd
 

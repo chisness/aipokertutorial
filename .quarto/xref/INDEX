@@ -316,5 +316,44 @@
   },
   "otherbetting.qmd": {
     "otherbetting.html": "a8755d69"
+  },
+  "codingfoundations.qmd": {
+    "codingfoundations.html": "7d87d86f"
+  },
+  "mathfoundations.qmd": {
+    "mathfoundations.html": "d75d4b64"
+  },
+  "knowledge.qmd": {
+    "knowledge.html": "800aaf21"
+  },
+  "decisiomakingunderuncertainty.qmd": {
+    "decisiomakingunderuncertainty.html": "4c2f2a72"
+  },
+  "solvingtoygames.qmd": {
+    "solvingtoygames.html": "9757e29f"
+  },
+  "abstractinglargegames.qmd": {
+    "abstractinglargegames.html": "01f13592"
+  },
+  "pokersolvers.qmd": {
+    "pokersolvers.html": "902e2a56"
+  },
+  "aimath.qmd": {
+    "aimath.html": "f9118154"
+  },
+  "aifoundations.qmd": {
+    "aifoundations.html": "3cbe2def"
+  },
+  "recentaiadvances.qmd": {
+    "recentaiadvances.html": "cea38ecc"
+  },
+  "stateoftheartpokerai.qmd": {
+    "stateoftheartpokerai.html": "45b8845b"
+  },
+  "theriver.qmd": {
+    "theriver.html": "732973ba"
+  },
+  "projectideas.qmd": {
+    "projectideas.html": "2de75dd2"
   }
 }

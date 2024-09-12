@@ -1,19 +1,4 @@
-# Counterfactual Regret Minimization (CFR) {#sec-cfr}
+# COUNTERFACTUAL REGRET MINIMIZATION (CFR) {#sec-cfr}
 
 Hello
 
-## CFR Intuitions
-CFR is 
-Gradient descent 
-
-## CFR Simplified Example
-
-## CFR Algorithm
-
-### Vanilla CFR
-
-### Why average strategy? 
-
-## Relation to Reinforcement Learning
-
-## Regret Bounds and Convergence Rates
