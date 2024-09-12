@@ -324,7 +324,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "Game Trees",
+      "GAME TREES",
       "<span class='chapter-number'>30</span>  <span class='chapter-title'>Perfect Information</span>"
     ]
   },
@@ -335,7 +335,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "Game Trees",
+      "GAME TREES",
       "<span class='chapter-number'>31</span>  <span class='chapter-title'>Minimax</span>"
     ]
   },
@@ -346,7 +346,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "Game Trees",
+      "GAME TREES",
       "<span class='chapter-number'>32</span>  <span class='chapter-title'>Imperfect Information Games</span>"
     ]
   },
@@ -919,11 +919,11 @@
   {
     "objectID": "gametrees.html",
     "href": "gametrees.html",
-    "title": "Game Trees",
+    "title": "GAME TREES",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "Game Trees"
+      "GAME TREES"
     ]
   },
   {

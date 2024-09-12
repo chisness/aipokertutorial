@@ -1,4 +1,3 @@
-# Game Trees {#sec-gametrees}
+# GAME TREES {#sec-gametrees}
 
 Hello
-
