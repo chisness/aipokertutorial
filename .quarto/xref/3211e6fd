@@ -1,1 +1,1 @@
-{"options":{"chapter-id":"sec-montecarlo","chapters":true},"entries":[{"order":{"number":1,"section":[17,0,0,0,0,0,0]},"key":"sec-montecarlo","caption":"17  Monte Carlo Methods"}],"headings":["sec-montecarlo"]}
+{"headings":["sec-montecarlo"],"options":{"chapters":true,"chapter-id":"sec-montecarlo"},"entries":[{"key":"sec-montecarlo","order":{"section":[17,0,0,0,0,0,0],"number":1},"caption":"17  Monte Carlo Methods"}]}

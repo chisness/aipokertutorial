@@ -648,25 +648,25 @@
     ]
   },
   {
-    "objectID": "nonpoker.html",
-    "href": "nonpoker.html",
-    "title": "60  Non-Poker Games",
+    "objectID": "gameai.html",
+    "href": "gameai.html",
+    "title": "60  Types of Games",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "RECENT AI ADVANCES",
-      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Non-Poker Games</span>"
+      "recentgameaiadvances.qmd",
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Types of Games</span>"
     ]
   },
   {
-    "objectID": "multiplayergames.html",
-    "href": "multiplayergames.html",
-    "title": "61  Multiplayer Games",
+    "objectID": "mas.html",
+    "href": "mas.html",
+    "title": "61  Multi-agent Systems",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "RECENT AI ADVANCES",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>Multiplayer Games</span>"
+      "recentgameaiadvances.qmd",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>Multi-agent Systems</span>"
     ]
   },
   {
@@ -984,16 +984,6 @@
     "text": "Hello",
     "crumbs": [
       "AI FOUNDATIONS"
-    ]
-  },
-  {
-    "objectID": "recentaiadvances.html",
-    "href": "recentaiadvances.html",
-    "title": "RECENT AI ADVANCES",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "RECENT AI ADVANCES"
     ]
   },
   {

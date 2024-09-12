@@ -112,10 +112,10 @@ book:
         - dl.qmd
         - rl.qmd
 
-    - part: recentaiadvances.qmd
+    - part: recentgameaiadvances.qmd
       chapters:
-        - nonpoker.qmd
-        - multiplayergames.qmd
+        - gameai.qmd
+        - mas.qmd
 
     - part: stateoftheartpokerai.qmd 
       chapters:
