@@ -1,0 +1,4 @@
+# Advanced Strategy {#sec-advancedstrategy}
+
+Hello
+

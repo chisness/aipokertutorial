@@ -1,5 +1,3 @@
-# Home {.unnumbered}
+# AI Poker Tutorial {#sec-aipt}
 
-AI Poker Camp Beta Course Materials
-
-Visit [https://poker.camp](https://poker.camp) for info on the course
+Hello

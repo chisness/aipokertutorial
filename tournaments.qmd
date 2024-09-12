@@ -1,0 +1,4 @@
+# Tournaments {#sec-tournaments}
+
+Hello
+

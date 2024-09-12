@@ -1,43 +1,4 @@
----
-title: "Poker and Trading"
-format:
-  html:
-    math: true
----
+# Trading {#sec-trading}
 
-## Test layer 2
+Hello
 
-### Test layer 3
-
-## Test layer 2 again
-
-abc
-
-abc
-abc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abcabc
-
-abc
-
-$E = mc^{2}$

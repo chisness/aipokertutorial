@@ -1,5 +1,4 @@
-# Best Response
+# Best Response {#sec-bestresponse}
 
-This is a book created from markdown and executable code.
+Hello
 
-See @knuth84 for additional discussion of literate programming.

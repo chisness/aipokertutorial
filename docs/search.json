@@ -4,328 +4,856 @@
     "href": "index.html",
     "title": "AI Poker Tutorial",
     "section": "",
-    "text": "Home\nAI Poker Camp Beta Course Materials\nVisit https://poker.camp for info on the course",
+    "text": "1 AI Poker Tutorial\nHello",
     "crumbs": [
-      "Home"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>AI Poker Tutorial</span>"
     ]
   },
   {
-    "objectID": "poker.html",
-    "href": "poker.html",
-    "title": "1  Poker Basics",
+    "objectID": "whypoker.html",
+    "href": "whypoker.html",
+    "title": "2  Why Poker?",
     "section": "",
-    "text": "1.1 Section 1",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Poker Basics</span>"
+      "INTRO",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Poker?</span>"
     ]
   },
   {
-    "objectID": "poker.html#section-2",
-    "href": "poker.html#section-2",
-    "title": "1  Poker Basics",
-    "section": "1.2 Section 2",
-    "text": "1.2 Section 2\n\n1.2.1 Section 2.1\n\n\n1.2.2 Section 2.2",
-    "crumbs": [
-      "Games",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Poker Basics</span>"
-    ]
-  },
-  {
-    "objectID": "poker.html#section-3",
-    "href": "poker.html#section-3",
-    "title": "1  Poker Basics",
-    "section": "1.3 Section 3",
-    "text": "1.3 Section 3\n\n1.3.1 Section 3.1\n\n\n1.3.2 Section 3.2\n\n\n1.3.3 Section 3.3",
-    "crumbs": [
-      "Games",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Poker Basics</span>"
-    ]
-  },
-  {
-    "objectID": "poker.html#section-4",
-    "href": "poker.html#section-4",
-    "title": "1  Poker Basics",
-    "section": "1.4 Section 4",
-    "text": "1.4 Section 4",
-    "crumbs": [
-      "Games",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Poker Basics</span>"
-    ]
-  },
-  {
-    "objectID": "kuhn.html",
-    "href": "kuhn.html",
-    "title": "2  Kuhn Poker",
+    "objectID": "pokercamp.html",
+    "href": "pokercamp.html",
+    "title": "3  Poker Camp",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kuhn Poker</span>"
+      "INTRO",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Poker Camp</span>"
     ]
   },
   {
-    "objectID": "blackjack.html",
-    "href": "blackjack.html",
-    "title": "3  Blackjack",
+    "objectID": "problemsolving.html",
+    "href": "problemsolving.html",
+    "title": "4  Problem Solving",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Blackjack</span>"
+      "INTRO",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problem Solving</span>"
     ]
   },
   {
-    "objectID": "tictactoe.html",
-    "href": "tictactoe.html",
-    "title": "4  Tic Tac Toe",
+    "objectID": "games.html",
+    "href": "games.html",
+    "title": "5  Games",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tic Tac Toe</span>"
+      "INTRO",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Games</span>"
     ]
   },
   {
-    "objectID": "leduc.html",
-    "href": "leduc.html",
-    "title": "5  Leduc Poker",
+    "objectID": "basicstrategy.html",
+    "href": "basicstrategy.html",
+    "title": "6  Basic Strategy",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Leduc Poker</span>"
+      "INTRO",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic Strategy</span>"
     ]
   },
   {
-    "objectID": "rps.html",
-    "href": "rps.html",
-    "title": "6  Rock Paper Scissors",
+    "objectID": "ethics.html",
+    "href": "ethics.html",
+    "title": "7  Ethical Considerations",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Rock Paper Scissors</span>"
+      "INTRO",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Ethical Considerations</span>"
     ]
   },
   {
-    "objectID": "holdem.html",
-    "href": "holdem.html",
-    "title": "7  Texas Hold’em",
+    "objectID": "python.html",
+    "href": "python.html",
+    "title": "8  Python",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Texas Hold'em</span>"
+      "CODING FOUNDATIONS",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Python</span>"
     ]
   },
   {
-    "objectID": "texastt.html",
-    "href": "texastt.html",
-    "title": "8  Texas Tac Toe",
+    "objectID": "aiagents.html",
+    "href": "aiagents.html",
+    "title": "9  AI Agents",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Texas Tac Toe</span>"
+      "CODING FOUNDATIONS",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>AI Agents</span>"
     ]
   },
   {
-    "objectID": "rpokers.html",
-    "href": "rpokers.html",
-    "title": "9  Rock Poker Scissors",
+    "objectID": "buildingaiagents.html",
+    "href": "buildingaiagents.html",
+    "title": "10  Building AI Agents",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Games",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Rock Poker Scissors</span>"
+      "CODING FOUNDATIONS",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Building AI Agents</span>"
+    ]
+  },
+  {
+    "objectID": "algebra.html",
+    "href": "algebra.html",
+    "title": "11  Algebra",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Algebra</span>"
+    ]
+  },
+  {
+    "objectID": "probability.html",
+    "href": "probability.html",
+    "title": "12  Probability",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Probability</span>"
+    ]
+  },
+  {
+    "objectID": "combinatorics.html",
+    "href": "combinatorics.html",
+    "title": "13  Combinatorics",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Combinatorics</span>"
     ]
   },
   {
     "objectID": "expectedvalue.html",
     "href": "expectedvalue.html",
-    "title": "10  Expected Value",
+    "title": "14  Expected Value",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Game Theory",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Expected Value</span>"
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Expected Value</span>"
     ]
   },
   {
-    "objectID": "gametheory.html",
-    "href": "gametheory.html",
-    "title": "11  Game Theory",
+    "objectID": "bayesrule.html",
+    "href": "bayesrule.html",
+    "title": "15  Bayes’ Rule",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Game Theory",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Game Theory</span>"
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Bayes' Rule</span>"
     ]
   },
   {
-    "objectID": "regret.html",
-    "href": "regret.html",
-    "title": "12  Regret",
+    "objectID": "statistics.html",
+    "href": "statistics.html",
+    "title": "16  Statistics",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Game Theory",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Regret</span>"
-    ]
-  },
-  {
-    "objectID": "trees.html",
-    "href": "trees.html",
-    "title": "13  Game Trees",
-    "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
-    "crumbs": [
-      "Game Theory",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Game Trees</span>"
-    ]
-  },
-  {
-    "objectID": "bandits.html",
-    "href": "bandits.html",
-    "title": "14  Bandits",
-    "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
-    "crumbs": [
-      "Reinforcement Learning",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Bandits</span>"
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Statistics</span>"
     ]
   },
   {
     "objectID": "montecarlo.html",
     "href": "montecarlo.html",
-    "title": "15  Monte Carlo Methods",
+    "title": "17  Monte Carlo Methods",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Reinforcement Learning",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Monte Carlo Methods</span>"
+      "MATH FOUNDATIONS",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Monte Carlo Methods</span>"
+    ]
+  },
+  {
+    "objectID": "logic.html",
+    "href": "logic.html",
+    "title": "18  Logic",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "KNOWLEDGE",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Logic</span>"
+    ]
+  },
+  {
+    "objectID": "knowledgerepresentation.html",
+    "href": "knowledgerepresentation.html",
+    "title": "19  Knowledge Representation",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "KNOWLEDGE",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Knowledge Representation</span>"
+    ]
+  },
+  {
+    "objectID": "rationality.html",
+    "href": "rationality.html",
+    "title": "20  Rationality",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "KNOWLEDGE",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Rationality</span>"
+    ]
+  },
+  {
+    "objectID": "psychology.html",
+    "href": "psychology.html",
+    "title": "21  Psychology and Mindset",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "KNOWLEDGE",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Psychology and Mindset</span>"
+    ]
+  },
+  {
+    "objectID": "probabilisticthinking.html",
+    "href": "probabilisticthinking.html",
+    "title": "22  Probabilistic Thinking",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "DECISION MAKING UNDER UNCERTAINTY",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Probabilistic Thinking</span>"
+    ]
+  },
+  {
+    "objectID": "decisiontheory.html",
+    "href": "decisiontheory.html",
+    "title": "23  Decision Theory",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "DECISION MAKING UNDER UNCERTAINTY",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Decision Theory</span>"
+    ]
+  },
+  {
+    "objectID": "risk.html",
+    "href": "risk.html",
+    "title": "24  Risk",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "DECISION MAKING UNDER UNCERTAINTY",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Risk</span>"
+    ]
+  },
+  {
+    "objectID": "regret.html",
+    "href": "regret.html",
+    "title": "25  Regret",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "DECISION MAKING UNDER UNCERTAINTY",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Regret</span>"
+    ]
+  },
+  {
+    "objectID": "bandits.html",
+    "href": "bandits.html",
+    "title": "26  Multi-armed Bandits",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "DECISION MAKING UNDER UNCERTAINTY",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Multi-armed Bandits</span>"
+    ]
+  },
+  {
+    "objectID": "nash.html",
+    "href": "nash.html",
+    "title": "27  Nash Equilibrium",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME THEORY",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Nash Equilibrium</span>"
+    ]
+  },
+  {
+    "objectID": "gto.html",
+    "href": "gto.html",
+    "title": "28  Game Theory Optimal (GTO)",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME THEORY",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Game Theory Optimal (GTO)</span>"
+    ]
+  },
+  {
+    "objectID": "mixedstrategies.html",
+    "href": "mixedstrategies.html",
+    "title": "29  Mixed Strategies",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME THEORY",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Mixed Strategies</span>"
+    ]
+  },
+  {
+    "objectID": "perfectinfo.html",
+    "href": "perfectinfo.html",
+    "title": "30  Perfect Information",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME TREES",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Perfect Information</span>"
+    ]
+  },
+  {
+    "objectID": "minimax.html",
+    "href": "minimax.html",
+    "title": "31  Minimax",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME TREES",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Minimax</span>"
+    ]
+  },
+  {
+    "objectID": "imperfectinfo.html",
+    "href": "imperfectinfo.html",
+    "title": "32  Imperfect Information Games",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "GAME TREES",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Imperfect Information Games</span>"
+    ]
+  },
+  {
+    "objectID": "analytical.html",
+    "href": "analytical.html",
+    "title": "33  Analytical Solutions",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "SOLVING TOY GAMES",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Analytical Solutions</span>"
+    ]
+  },
+  {
+    "objectID": "normalform.html",
+    "href": "normalform.html",
+    "title": "34  Normal Form",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "SOLVING TOY GAMES",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Normal Form</span>"
+    ]
+  },
+  {
+    "objectID": "optimization.html",
+    "href": "optimization.html",
+    "title": "35  Optimization",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "SOLVING TOY GAMES",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "sequenceform.html",
+    "href": "sequenceform.html",
+    "title": "36  Sequence Form",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "SOLVING TOY GAMES",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Sequence Form</span>"
+    ]
+  },
+  {
+    "objectID": "algorithm.html",
+    "href": "algorithm.html",
+    "title": "37  CFR Algorithm",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+    ]
+  },
+  {
+    "objectID": "interactive.html",
+    "href": "interactive.html",
+    "title": "38  CFR Interactive",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>CFR Interactive</span>"
+    ]
+  },
+  {
+    "objectID": "proof.html",
+    "href": "proof.html",
+    "title": "39  CFR Proof",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>CFR Proof</span>"
+    ]
+  },
+  {
+    "objectID": "algimprovements.html",
+    "href": "algimprovements.html",
+    "title": "40  CFR Algorithm Improvements",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
+    ]
+  },
+  {
+    "objectID": "montecarlocfr.html",
+    "href": "montecarlocfr.html",
+    "title": "41  Monte Carlo CFR",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Monte Carlo CFR</span>"
+    ]
+  },
+  {
+    "objectID": "vectorcfr.html",
+    "href": "vectorcfr.html",
+    "title": "42  Vector CFR",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Vector CFR</span>"
+    ]
+  },
+  {
+    "objectID": "gamesize.html",
+    "href": "gamesize.html",
+    "title": "43  Game Size",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "ABSTRACTING LARGE GAMES",
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Game Size</span>"
+    ]
+  },
+  {
+    "objectID": "cardabstraction.html",
+    "href": "cardabstraction.html",
+    "title": "44  Card Abstraction",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "ABSTRACTING LARGE GAMES",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Card Abstraction</span>"
+    ]
+  },
+  {
+    "objectID": "betabstraction.html",
+    "href": "betabstraction.html",
+    "title": "45  Bet Abstraction",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "ABSTRACTING LARGE GAMES",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Bet Abstraction</span>"
+    ]
+  },
+  {
+    "objectID": "agentevaluation.html",
+    "href": "agentevaluation.html",
+    "title": "46  Agent Evaluation",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "ABSTRACTING LARGE GAMES",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Agent Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "howsolverswork.html",
+    "href": "howsolverswork.html",
+    "title": "47  How Solvers Work",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>How Solvers Work</span>"
+    ]
+  },
+  {
+    "objectID": "usingsolvers.html",
+    "href": "usingsolvers.html",
+    "title": "48  Using Solvers",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Using Solvers</span>"
+    ]
+  },
+  {
+    "objectID": "generalizingsolvers.html",
+    "href": "generalizingsolvers.html",
+    "title": "49  Generalizing Solver Outputs",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Generalizing Solver Outputs</span>"
+    ]
+  },
+  {
+    "objectID": "studyingpopulations.html",
+    "href": "studyingpopulations.html",
+    "title": "50  Studying Populations",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Studying Populations</span>"
+    ]
+  },
+  {
+    "objectID": "solverlimitations.html",
+    "href": "solverlimitations.html",
+    "title": "51  Solver Limitations",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Solver Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "advancedstrategy.html",
+    "href": "advancedstrategy.html",
+    "title": "52  Advanced Strategy",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Advanced Strategy</span>"
+    ]
+  },
+  {
+    "objectID": "tournaments.html",
+    "href": "tournaments.html",
+    "title": "53  Tournaments",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "POKER SOLVERS",
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Tournaments</span>"
+    ]
+  },
+  {
+    "objectID": "calculus.html",
+    "href": "calculus.html",
+    "title": "54  Calculus",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI MATH",
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Calculus</span>"
+    ]
+  },
+  {
+    "objectID": "linearalgebra.html",
+    "href": "linearalgebra.html",
+    "title": "55  Linear Algebra",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI MATH",
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Linear Algebra</span>"
+    ]
+  },
+  {
+    "objectID": "infotheory.html",
+    "href": "infotheory.html",
+    "title": "56  Information Theory",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI MATH",
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>Information Theory</span>"
+    ]
+  },
+  {
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "57  Machine Learning",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI FOUNDATIONS",
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "dl.html",
+    "href": "dl.html",
+    "title": "58  Deep Learning",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "AI FOUNDATIONS",
+      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Deep Learning</span>"
     ]
   },
   {
     "objectID": "rl.html",
     "href": "rl.html",
-    "title": "16  Reinforcement Learning",
+    "title": "59  Reinforcement Learning",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Reinforcement Learning",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Reinforcement Learning</span>"
+      "AI FOUNDATIONS",
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Reinforcement Learning</span>"
     ]
   },
   {
-    "objectID": "kuhncfr.html",
-    "href": "kuhncfr.html",
-    "title": "17  Kuhn Poker CFR",
+    "objectID": "nonpoker.html",
+    "href": "nonpoker.html",
+    "title": "60  Non-Poker Games",
     "section": "",
-    "text": "This is the CFR page\n\\(E = mc^2\\)",
+    "text": "Hello",
     "crumbs": [
-      "Optimal Strategies",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Kuhn Poker CFR</span>"
+      "RECENT AI ADVANCES",
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Non-Poker Games</span>"
     ]
   },
   {
-    "objectID": "cfr.html",
-    "href": "cfr.html",
-    "title": "18  CFR (Counterfactual Regret Minimization)",
+    "objectID": "multiplayergames.html",
+    "href": "multiplayergames.html",
+    "title": "61  Multiplayer Games",
     "section": "",
-    "text": "This is the Kuhn Poker page",
+    "text": "Hello",
     "crumbs": [
-      "Optimal Strategies",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>CFR (Counterfactual Regret Minimization)</span>"
+      "RECENT AI ADVANCES",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>Multiplayer Games</span>"
     ]
   },
   {
-    "objectID": "mccfr.html",
-    "href": "mccfr.html",
-    "title": "19  MCCFR (Monte Carlo CFR)",
+    "objectID": "deepcfr.html",
+    "href": "deepcfr.html",
+    "title": "62  Deep CFR",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Optimal Strategies",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>MCCFR (Monte Carlo CFR)</span>"
+      "STATE OF THE ART POKER AI",
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Deep CFR</span>"
+    ]
+  },
+  {
+    "objectID": "toppokeragents.html",
+    "href": "toppokeragents.html",
+    "title": "63  Top Poker Agents",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "STATE OF THE ART POKER AI",
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Top Poker Agents</span>"
+    ]
+  },
+  {
+    "objectID": "variancereduction.html",
+    "href": "variancereduction.html",
+    "title": "64  Variance Reduction",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "STATE OF THE ART POKER AI",
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Variance Reduction</span>"
+    ]
+  },
+  {
+    "objectID": "humanvsai.html",
+    "href": "humanvsai.html",
+    "title": "65  Human vs. AI",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "STATE OF THE ART POKER AI",
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Human vs. AI</span>"
+    ]
+  },
+  {
+    "objectID": "newresearch.html",
+    "href": "newresearch.html",
+    "title": "66  New Research",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "STATE OF THE ART POKER AI",
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>New Research</span>"
+    ]
+  },
+  {
+    "objectID": "transformers.html",
+    "href": "transformers.html",
+    "title": "67  Transformers",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "LLMS",
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>Transformers</span>"
+    ]
+  },
+  {
+    "objectID": "othellogpt.html",
+    "href": "othellogpt.html",
+    "title": "68  OthelloGPT",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "LLMS",
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>OthelloGPT</span>"
+    ]
+  },
+  {
+    "objectID": "pokergpt.html",
+    "href": "pokergpt.html",
+    "title": "69  PokerGPT",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "LLMS",
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>PokerGPT</span>"
+    ]
+  },
+  {
+    "objectID": "interpretability.html",
+    "href": "interpretability.html",
+    "title": "70  Interpretability",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "LLMS",
+      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Interpretability</span>"
     ]
   },
   {
     "objectID": "bestresponse.html",
     "href": "bestresponse.html",
-    "title": "20  Best Response",
+    "title": "71  Best Response",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Exploitative Strategies",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Best Response</span>"
+      "OPPONENT MODELING",
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Best Response</span>"
     ]
   },
   {
-    "objectID": "opponentmodeling.html",
-    "href": "opponentmodeling.html",
-    "title": "21  Opponent Modeling",
+    "objectID": "exploitativestrategies.html",
+    "href": "exploitativestrategies.html",
+    "title": "72  Exploitative Strategies",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Exploitative Strategies",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Opponent Modeling</span>"
+      "OPPONENT MODELING",
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Exploitative Strategies</span>"
     ]
   },
   {
-    "objectID": "cardabs.html",
-    "href": "cardabs.html",
-    "title": "22  Card Abstractions",
+    "objectID": "shortterm.html",
+    "href": "shortterm.html",
+    "title": "73  Ethics and Short-term Risks",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Abstracting Large Games",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Card Abstractions</span>"
+      "AI RISKS AND SAFETY",
+      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Ethics and Short-term Risks</span>"
     ]
   },
   {
-    "objectID": "betabs.html",
-    "href": "betabs.html",
-    "title": "23  Bet Abstractions",
+    "objectID": "longterm.html",
+    "href": "longterm.html",
+    "title": "74  Alignment and Long-term Risks",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Abstracting Large Games",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Bet Abstractions</span>"
+      "AI RISKS AND SAFETY",
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Alignment and Long-term Risks</span>"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "24  Intro to Poker Camp",
+    "objectID": "trading.html",
+    "href": "trading.html",
+    "title": "75  Trading",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Setup",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Intro to Poker Camp</span>"
+      "THE RIVER",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Trading</span>"
     ]
   },
   {
-    "objectID": "server.html",
-    "href": "server.html",
-    "title": "25  Poker Camp Servers",
+    "objectID": "predictionmarkets.html",
+    "href": "predictionmarkets.html",
+    "title": "76  Prediction Marketes",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Setup",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Poker Camp Servers</span>"
+      "THE RIVER",
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Prediction Marketes</span>"
     ]
   },
   {
-    "objectID": "agents.html",
-    "href": "agents.html",
-    "title": "26  Building Agents",
+    "objectID": "otherbetting.html",
+    "href": "otherbetting.html",
+    "title": "77  Other Betting",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hello",
     "crumbs": [
-      "Setup",
-      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Building Agents</span>"
+      "THE RIVER",
+      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Other Betting</span>"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "78  Projects",
+    "section": "",
+    "text": "Hello",
+    "crumbs": [
+      "PROJECT IDEAS",
+      "<span class='chapter-number'>78</span>  <span class='chapter-title'>Projects</span>"
     ]
   }
 ]

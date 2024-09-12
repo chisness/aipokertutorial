@@ -1,0 +1,4 @@
+# How Solvers Work {#sec-howsolverswork}
+
+Hello
+

@@ -1,0 +1,4 @@
+# Game Size {#sec-gamesize}
+
+Hello
+

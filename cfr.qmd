@@ -1,3 +1,19 @@
-# CFR (Counterfactual Regret Minimization)
+# Counterfactual Regret Minimization (CFR) {#sec-cfr}
 
-This is the Kuhn Poker page
+Hello
+
+## CFR Intuitions
+CFR is 
+Gradient descent 
+
+## CFR Simplified Example
+
+## CFR Algorithm
+
+### Vanilla CFR
+
+### Why average strategy? 
+
+## Relation to Reinforcement Learning
+
+## Regret Bounds and Convergence Rates

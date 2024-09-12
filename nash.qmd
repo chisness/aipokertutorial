@@ -1,0 +1,4 @@
+# Nash Equilibrium {#sec-nash}
+
+Hello
+

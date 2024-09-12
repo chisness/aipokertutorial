@@ -1,0 +1,4 @@
+# Mixed Strategies {#sec-mixedstrategies}
+
+Hello
+

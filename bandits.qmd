@@ -1,5 +1,4 @@
-# Bandits
+# Multi-armed Bandits {#sec-bandits}
 
-This is the CFR page 
+Hello
 
-$E = mc^2$ 

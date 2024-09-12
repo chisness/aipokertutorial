@@ -1,5 +1,4 @@
-# Python Foundations and Hello Poker Poker Math
+# Python {#sec-python}
 
-This is a book created from markdown and executable code.
+Hello
 
-See @knuth84 for additional discussion of literate programming.

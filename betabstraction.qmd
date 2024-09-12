@@ -1,0 +1,4 @@
+# Bet Abstraction {#sec-betabstraction}
+
+Hello
+

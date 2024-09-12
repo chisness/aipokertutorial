@@ -1,0 +1,4 @@
+# Minimax {#sec-minimax}
+
+Hello
+

@@ -4,87 +4,153 @@ project:
 
 book:
   title: "AI Poker Tutorial"
-  # author: "Max Chiswick"
-  # date: "5/28/2024"
+  author: "Max Chiswick"
+  date: "9/11/2024"
+  cover-image: pcicon.png
+  page-footer: "© 2024 poker.camp. All rights reserved."
+  favicon: favicon.svg
   sidebar:
     style: docked
     background: light
   chapters:
     - index.qmd
-    - part: "Games"
+
+    - part: "INTRO"
       chapters: 
-        - poker.qmd
-        - kuhn.qmd
-        - blackjack.qmd
-        - tictactoe.qmd 
-        - leduc.qmd
-        - rps.qmd
-        - holdem.qmd 
-        - texastt.qmd
-        - rpokers.qmd 
-    - part: "Game Theory"
+        - whypoker.qmd
+        - pokercamp.qmd
+        - problemsolving.qmd
+        - games.qmd
+        - basicstrategy.qmd
+        - ethics.qmd
+
+    - part: "CODING FOUNDATIONS"
+      chapters: 
+        - python.qmd
+        - aiagents.qmd
+        - buildingaiagents.qmd
+
+    - part: "MATH FOUNDATIONS"
       chapters:
-        - expectedvalue.qmd 
-        - gametheory.qmd 
-        - regret.qmd 
-        - trees.qmd 
-    - part: "Reinforcement Learning"
-      chapters: 
-        - bandits.qmd 
-        - montecarlo.qmd  
+        - algebra.qmd
+        - probability.qmd
+        - combinatorics.qmd
+        - expectedvalue.qmd
+        - bayesrule.qmd
+        - statistics.qmd
+        - montecarlo.qmd
+
+    - part: "KNOWLEDGE"
+      chapters:
+        - logic.qmd
+        - knowledgerepresentation.qmd
+        - rationality.qmd
+        - psychology.qmd
+
+    - part: "DECISION MAKING UNDER UNCERTAINTY"
+      chapters:
+        - probabilisticthinking.qmd
+        - decisiontheory.qmd
+        - risk.qmd
+        - regret.qmd
+        - bandits.qmd
+
+    - part: "GAME THEORY"
+      chapters:
+        - nash.qmd
+        - gto.qmd
+        - mixedstrategies.qmd
+
+    - part: "GAME TREES"
+      chapters:
+        - perfectinfo.qmd
+        - minimax.qmd
+        - imperfectinfo.qmd
+
+    - part: "SOLVING TOY GAMES"
+      chapters:
+        - analytical.qmd
+        - normalform.qmd
+        - optimization.qmd
+        - sequenceform.qmd
+
+    - part: "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
+      chapters:
+        - algorithm.qmd
+        - interactive.qmd
+        - proof.qmd
+        - algimprovements.qmd
+        - montecarlocfr.qmd
+        - vectorcfr.qmd
+
+    - part: "ABSTRACTING LARGE GAMES"
+      chapters:
+        - gamesize.qmd
+        - cardabstraction.qmd
+        - betabstraction.qmd
+        - agentevaluation.qmd
+
+    - part: "POKER SOLVERS"
+      chapters:
+        - howsolverswork.qmd
+        - usingsolvers.qmd
+        - generalizingsolvers.qmd
+        - studyingpopulations.qmd
+        - solverlimitations.qmd
+        - advancedstrategy.qmd
+        - tournaments.qmd
+
+    - part: "AI MATH"
+      chapters:
+        - calculus.qmd
+        - linearalgebra.qmd
+        - infotheory.qmd
+
+    - part: "AI FOUNDATIONS"
+      chapters:
+        - ml.qmd
+        - dl.qmd
         - rl.qmd
-    - part: "Optimal Strategies"
+
+    - part: "RECENT AI ADVANCES"
       chapters:
-        - kuhncfr.qmd
-        - cfr.qmd
-        - mccfr.qmd  
-    - part: "Exploitative Strategies"
+        - nonpoker.qmd
+        - multiplayergames.qmd
+
+    - part: "STATE OF THE ART POKER AI"
       chapters:
-        - bestresponse.qmd 
-        - opponentmodeling.qmd 
-    - part: "Abstracting Large Games"
+        - deepcfr.qmd
+        - toppokeragents.qmd
+        - variancereduction.qmd
+        - humanvsai.qmd
+        - newresearch.qmd
+
+    - part: "LLMS"
       chapters:
-        - cardabs.qmd
-        - betabs.qmd
-    - part: "Setup"
+        - transformers.qmd
+        - othellogpt.qmd
+        - pokergpt.qmd
+        - interpretability.qmd
+
+    - part: "OPPONENT MODELING"
       chapters:
-        - intro.qmd 
-        - server.qmd 
-        - agents.qmd 
-    # - part: "Intro"
-    #   chapters:
-    #     - intro.qmd
-    #     - trading.qmd
-    #     - python.qmd
-    # - part: "Game Theory and Decision Making"
-    #   chapters:
-    #     - gametheory.qmd
-    #     - decisionmaking.qmd
-    #     - toypoker.qmd 
-    #     - gametrees.qmd
-    # - part: "CFR and Solvers"
-    #   chapters: 
-    #     - cfr.qmd 
-    #     - montecarlo.qmd
-    #     - solvers.qmd 
-    # - part: "Machine Learning and Deep Learning"
-    #   chapters: 
-    #     - mlmath.qmd 
-    #     - ml.qmd
-    #     - dl.qmd
-    #     - rl.qmd
-    # - part: "AI Poker Today"
-    #   chapters: 
-    #     - aiagents.qmd
-    #     - recentai.qmd 
-    # - part: "Advanced Topics"
-    #   chapters: 
-    #     - opponentmodeling.qmd
-    #     - llms.qmd
-    #     - aisafety.qmd
-    # - part: "Projects"
-    #   chapters: 
-    #     - projects.qmd
+        - bestresponse.qmd
+        - exploitativestrategies.qmd
+
+    - part: "AI RISKS AND SAFETY"
+      chapters:
+        - shortterm.qmd
+        - longterm.qmd
+
+    - part: "THE RIVER"
+      chapters:
+        - trading.qmd
+        - predictionmarkets.qmd
+        - otherbetting.qmd
+
+    - part: "PROJECT IDEAS"
+      chapters:
+        - projects.qmd
 
 bibliography: references.bib
 

@@ -1,0 +1,4 @@
+# Variance Reduction {#sec-variancereduction}
+
+Hello
+

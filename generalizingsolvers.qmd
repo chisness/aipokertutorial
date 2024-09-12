@@ -1,0 +1,4 @@
+# Generalizing Solver Outputs {#sec-generalizingsolvers}
+
+Hello
+

@@ -1,0 +1,4 @@
+# Basic Strategy {#sec-basicstrategy}
+
+Hello
+
