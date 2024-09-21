@@ -1,4 +1,0 @@
-# CFR Algorithm Improvements {#sec-cfralgimprovements}
-
-Hello
-

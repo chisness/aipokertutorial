@@ -1,168 +1,150 @@
-project:
-  type: book
-  output-dir: docs
-
-book:
-  title: "Artificial Intelligence: Through the Lens of Poker"
-  author: "Max Chiswick"
-  date: "9/11/2024"
-  cover-image: pcicon.png
-  page-footer: "© 2024 poker.camp. All rights reserved."
-  favicon: favicon.svg
-  sidebar:
-    style: docked
-    background: light
-  chapters:
-    - index.qmd
-
-    - part: intro.qmd
-      chapters: 
-        - whypoker.qmd
-        - pokercamp.qmd
-        - problemsolving.qmd
-        - games.qmd
-        - basicstrategy.qmd
-        - ethics.qmd
-
-    - part: codingfoundations.qmd
-      chapters: 
-        - python.qmd
-        - aiagents.qmd
-        - buildingaiagents.qmd
-
-    - part: mathfoundations.qmd
-      chapters:
-        - algebra.qmd
-        - probability.qmd
-        - combinatorics.qmd
-        - expectedvalue.qmd
-        - bayesrule.qmd
-        - statistics.qmd
-        - montecarlo.qmd
-
-    - part: knowledge.qmd
-      chapters:
-        - logic.qmd
-        - knowledgerepresentation.qmd
-        - rationality.qmd
-        - psychology.qmd
-
-    - part: decisiomakingunderuncertainty.qmd
-      chapters:
-        - probabilisticthinking.qmd
-        - decisiontheory.qmd
-        - risk.qmd
-        - regret.qmd
-        - bandits.qmd
-
-    - part: gametheory.qmd
-      chapters:
-        - nash.qmd
-        - gto.qmd
-        - mixedstrategies.qmd
-
-    - part: gametrees.qmd
-      chapters:
-        - perfectinfo.qmd
-        - minimax.qmd
-        - imperfectinfo.qmd
-
-    - part: solvingtoygames.qmd
-      chapters:
-        - analytical.qmd
-        - normalform.qmd
-        - optimization.qmd
-        - sequenceform.qmd
-
-    - part: cfr.qmd
-      chapters:
-        - algorithm.qmd
-        - interactive.qmd
-        - proof.qmd
-        - algimprovements.qmd
-        - montecarlocfr.qmd
-        - vectorcfr.qmd
-
-    - part: abstractinglargegames.qmd
-      chapters:
-        - gamesize.qmd
-        - cardabstraction.qmd
-        - betabstraction.qmd
-        - agentevaluation.qmd
-
-    - part: pokersolvers.qmd
-      chapters:
-        - howsolverswork.qmd
-        - usingsolvers.qmd
-        - generalizingsolvers.qmd
-        - studyingpopulations.qmd
-        - solverlimitations.qmd
-        - advancedstrategy.qmd
-        - tournaments.qmd
-
-    - part: aimath.qmd
-      chapters:
-        - calculus.qmd
-        - linearalgebra.qmd
-        - infotheory.qmd
-
-    - part: aifoundations.qmd
-      chapters:
-        - ml.qmd
-        - dl.qmd
-        - rl.qmd
-
-    - part: recentgameaiadvances.qmd
-      chapters:
-        - gameai.qmd
-        - mas.qmd
-
-    - part: stateoftheartpokerai.qmd 
-      chapters:
-        - deepcfr.qmd
-        - toppokeragents.qmd
-        - variancereduction.qmd
-        - humanvsai.qmd
-        - newresearch.qmd
-
-    - part: llms.qmd
-      chapters:
-        - transformers.qmd
-        - othellogpt.qmd
-        - pokergpt.qmd
-        - interpretability.qmd
-
-    - part: opponentmodeling.qmd
-      chapters:
-        - bestresponse.qmd
-        - exploitativestrategies.qmd
-
-    - part: aisafety.qmd
-      chapters:
-        - shortterm.qmd
-        - longterm.qmd
-
-    - part: theriver.qmd
-      chapters:
-        - trading.qmd
-        - predictionmarkets.qmd
-        - otherbetting.qmd
-
-    - part: projectideas.qmd
-      chapters:
-        - projects.qmd
-
 bibliography: references.bib
-
+book:
+  author: Max Chiswick
+  chapters:
+  - index.qmd
+  - chapters:
+    - intro/whypoker.qmd
+    - intro/pokercamp.qmd
+    - intro/problemsolving.qmd
+    - intro/games.qmd
+    - intro/basicstrategy.qmd
+    - intro/ethics.qmd
+    part: intro/intro.qmd
+  - chapters:
+    - codingfoundations/python.qmd
+    - codingfoundations/aiagents.qmd
+    - codingfoundations/buildingaiagents.qmd
+    part: codingfoundations/codingfoundations.qmd
+  - chapters:
+    - mathfoundations/algebra.qmd
+    - mathfoundations/probability.qmd
+    - mathfoundations/combinatorics.qmd
+    - mathfoundations/expectedvalue.qmd
+    - mathfoundations/bayesrule.qmd
+    - mathfoundations/statistics.qmd
+    - mathfoundations/montecarlo.qmd
+    part: mathfoundations/mathfoundations.qmd
+  - chapters:
+    - knowledge/logic.qmd
+    - knowledge/knowledgerepresentation.qmd
+    - knowledge/rationality.qmd
+    - knowledge/psychology.qmd
+    part: knowledge/knowledge.qmd
+  - chapters:
+    - decisiomakingunderuncertainty/probabilisticthinking.qmd
+    - decisiomakingunderuncertainty/decisiontheory.qmd
+    - decisiomakingunderuncertainty/risk.qmd
+    - decisiomakingunderuncertainty/regret.qmd
+    - decisiomakingunderuncertainty/bandits.qmd
+    part: decisiomakingunderuncertainty/decisiomakingunderuncertainty.qmd
+  - chapters:
+    - gametheory/nash.qmd
+    - gametheory/gto.qmd
+    - gametheory/mixedstrategies.qmd
+    part: gametheory/gametheory.qmd
+  - chapters:
+    - gametrees/perfectinfo.qmd
+    - gametrees/minimax.qmd
+    - gametrees/imperfectinfo.qmd
+    part: gametrees/gametrees.qmd
+  - chapters:
+    - solvingtoygames/analytical.qmd
+    - solvingtoygames/normalform.qmd
+    - solvingtoygames/optimization.qmd
+    - solvingtoygames/sequenceform.qmd
+    part: solvingtoygames/solvingtoygames.qmd
+  - chapters:
+    - cfr/algorithm.qmd
+    - cfr/interactive.qmd
+    - cfr/cfrrpspoker.qmd
+    - cfr/proof.qmd
+    - cfr/algimprovements.qmd
+    - cfr/montecarlocfr.qmd
+    - cfr/vectorcfr.qmd
+    part: cfr/cfr.qmd
+  - chapters:
+    - abstractinglargegames/gamesize.qmd
+    - abstractinglargegames/cardabstraction.qmd
+    - abstractinglargegames/betabstraction.qmd
+    - abstractinglargegames/agentevaluation.qmd
+    part: abstractinglargegames/abstractinglargegames.qmd
+  - chapters:
+    - pokersolvers/howsolverswork.qmd
+    - pokersolvers/usingsolvers.qmd
+    - pokersolvers/generalizingsolvers.qmd
+    - pokersolvers/studyingpopulations.qmd
+    - pokersolvers/solverlimitations.qmd
+    - pokersolvers/advancedstrategy.qmd
+    - pokersolvers/tournaments.qmd
+    part: pokersolvers/pokersolvers.qmd
+  - chapters:
+    - aimath/calculus.qmd
+    - aimath/linearalgebra.qmd
+    - aimath/infotheory.qmd
+    part: aimath/aimath.qmd
+  - chapters:
+    - aifoundations/ml.qmd
+    - aifoundations/dl.qmd
+    - aifoundations/rl.qmd
+    part: aifoundations/aifoundations.qmd
+  - chapters:
+    - recentgameaiadvances/gameai.qmd
+    - recentgameaiadvances/mas.qmd
+    part: recentgameaiadvances/recentgameaiadvances.qmd
+  - chapters:
+    - stateoftheartpokerai/deepcfr.qmd
+    - stateoftheartpokerai/toppokeragents.qmd
+    - stateoftheartpokerai/variancereduction.qmd
+    - stateoftheartpokerai/humanvsai.qmd
+    - stateoftheartpokerai/newresearch.qmd
+    part: stateoftheartpokerai/stateoftheartpokerai.qmd
+  - chapters:
+    - llms/transformers.qmd
+    - llms/othellogpt.qmd
+    - llms/pokergpt.qmd
+    - llms/interpretability.qmd
+    part: llms/llms.qmd
+  - chapters:
+    - opponentmodeling/bestresponse.qmd
+    - opponentmodeling/exploitativestrategies.qmd
+    part: opponentmodeling/opponentmodeling.qmd
+  - chapters:
+    - aisafety/shortterm.qmd
+    - aisafety/longterm.qmd
+    part: aisafety/aisafety.qmd
+  - chapters:
+    - theriver/trading.qmd
+    - theriver/predictionmarkets.qmd
+    - theriver/otherbetting.qmd
+    part: theriver/theriver.qmd
+  - chapters:
+    - projectideas/projects.qmd
+    part: projectideas/projectideas.qmd
+  cover-image: pcicon.png
+  date: 9/11/2024
+  favicon: favicon.svg
+  page-footer: "\xA9 2024 poker.camp. All rights reserved."
+  sidebar:
+    background: light
+    style: docked
+  title: 'Artificial Intelligence: Through the Lens of Poker'
 format:
   html:
+    math: true
+    mathjax:
+      config:
+        text:
+          inlineMath:
+          - - $
+            - $
+          - - \\(
+            - \\)
     theme: cerulean
-    math: true 
     toc: true
     toc-expand: true
-    mathjax: 
-      config: 
-        text: 
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
   pdf:
     documentclass: scrreprt
+project:
+  output-dir: docs
+  type: book

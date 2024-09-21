@@ -1,0 +1,19 @@
+# CFR Algorithm Improvements {#sec-cfralgimprovements}
+
+Hello
+
+CFR+ variation such that regrets can’t be <0
+
+Linear CFR such that regrets are weighted by their recency
+
+## CFR+
+
+## Discounted CFR
+
+https://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 6
+When is CFR+ worse? High variance play keeps getting very positive
+
+CFR+ does exhaustive iterations over the entire game tree and uses a variant of regret matching (regret matching+) where regrets are constrained to be non-negative. Actions that have appeared poor (with less than zero regret for not having been played) will be chosen again immediately after proving useful (rather than waiting many iterations for the regret to become positive). Finally, unlike with CFR, we have empirically observed that the exploitability of the players’ current strategies during the computation regularly approaches zero. Therefore, we can skip the step of computing and storing the average strategy, instead using the players’ current strategies as the CFR+ solution.
+
+
+What are other ways to improve CFR?

@@ -1,4 +1,0 @@
-# CFR Proof {#sec-cfrproof}
-
-Hello
-

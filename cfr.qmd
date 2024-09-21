@@ -1,4 +1,0 @@
-# COUNTERFACTUAL REGRET MINIMIZATION (CFR) {#sec-cfr}
-
-Hello
-

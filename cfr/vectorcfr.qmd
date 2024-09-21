@@ -1,0 +1,6 @@
+# Vector CFR {#sec-vectorcfr}
+
+Hello
+
+MCCFR worse for headsup postflop, slows down at lower exploitability
+Vector alg efficient at headsup postflop (pass down ranges, update regrets for entire range at once), evaluate showdowns O(n) instead of O(n^2)

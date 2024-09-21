@@ -1,0 +1,19 @@
+# Monte Carlo CFR {#sec-montecarlocfr}
+
+Hello
+
+https://www.cs.cmu.edu/~sandholm/cs15-888F21/ lecture 10
+Improve upon CFR with Monte Carlo sampling
+Monte Carlo CFR versions (focus on chance sampling and external sampling)
+MCCFR
+Mini-Project: MCCFR implemented 
+https://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 14
+https://ai.stackexchange.com/questions/26345/how-exactly-is-monte-carlo-counterfactual-regret-minimization-with-external-samp
+
+Sampling methods
+
+External: Sample chance and opponent nodes
+
+Chance: Sample chance only
+
+Outcome: Sample outcomes

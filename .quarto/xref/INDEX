@@ -361,5 +361,296 @@
   },
   "mas.qmd": {
     "mas.html": "d134767e"
+  },
+  "intro/intro.qmd": {
+    "intro.html": "06a9495b"
+  },
+  "intro/whypoker.qmd": {
+    "whypoker.html": "2239836e"
+  },
+  "intro/pokercamp.qmd": {
+    "pokercamp.html": "d659591a"
+  },
+  "intro/problemsolving.qmd": {
+    "problemsolving.html": "416992f5"
+  },
+  "intro/games.qmd": {
+    "games.html": "29e87cc4"
+  },
+  "intro/basicstrategy.qmd": {
+    "basicstrategy.html": "d1862497"
+  },
+  "intro/ethics.qmd": {
+    "ethics.html": "56360897"
+  },
+  "codingfoundations/codingfoundations.qmd": {
+    "codingfoundations.html": "58cea1fb"
+  },
+  "codingfoundations/python.qmd": {
+    "python.html": "a4de6b3a"
+  },
+  "codingfoundations/aiagents.qmd": {
+    "aiagents.html": "14f49968"
+  },
+  "codingfoundations/buildingaiagents.qmd": {
+    "buildingaiagents.html": "ac7661db"
+  },
+  "mathfoundations/mathfoundations.qmd": {
+    "mathfoundations.html": "477a10a6"
+  },
+  "mathfoundations/algebra.qmd": {
+    "algebra.html": "aeb95bcd"
+  },
+  "mathfoundations/probability.qmd": {
+    "probability.html": "3be18e91"
+  },
+  "mathfoundations/combinatorics.qmd": {
+    "combinatorics.html": "128a22d9"
+  },
+  "mathfoundations/expectedvalue.qmd": {
+    "expectedvalue.html": "9596e2d2"
+  },
+  "mathfoundations/bayesrule.qmd": {
+    "bayesrule.html": "e0395283"
+  },
+  "mathfoundations/statistics.qmd": {
+    "statistics.html": "0363b846"
+  },
+  "mathfoundations/montecarlo.qmd": {
+    "montecarlo.html": "9412b617"
+  },
+  "knowledge/knowledge.qmd": {
+    "knowledge.html": "c3b7db9e"
+  },
+  "knowledge/logic.qmd": {
+    "logic.html": "fbabc621"
+  },
+  "knowledge/knowledgerepresentation.qmd": {
+    "knowledgerepresentation.html": "3e8cfe95"
+  },
+  "knowledge/rationality.qmd": {
+    "rationality.html": "9d2650aa"
+  },
+  "knowledge/psychology.qmd": {
+    "psychology.html": "66ee95b2"
+  },
+  "decisiomakingunderuncertainty/decisiomakingunderuncertainty.qmd": {
+    "decisiomakingunderuncertainty.html": "759b4ddd"
+  },
+  "decisiomakingunderuncertainty/probabilisticthinking.qmd": {
+    "probabilisticthinking.html": "016c7051"
+  },
+  "decisiomakingunderuncertainty/decisiontheory.qmd": {
+    "decisiontheory.html": "328bc6d5"
+  },
+  "decisiomakingunderuncertainty/risk.qmd": {
+    "risk.html": "5c8f0370"
+  },
+  "decisiomakingunderuncertainty/regret.qmd": {
+    "regret.html": "0045dda7"
+  },
+  "decisiomakingunderuncertainty/bandits.qmd": {
+    "bandits.html": "d159fed3"
+  },
+  "gametheory/gametheory.qmd": {
+    "gametheory.html": "d362e486"
+  },
+  "gametheory/nash.qmd": {
+    "nash.html": "815244ad"
+  },
+  "gametheory/gto.qmd": {
+    "gto.html": "59518519"
+  },
+  "gametheory/mixedstrategies.qmd": {
+    "mixedstrategies.html": "96d689ac"
+  },
+  "gametrees/gametrees.qmd": {
+    "gametrees.html": "2f5906b8"
+  },
+  "gametrees/perfectinfo.qmd": {
+    "perfectinfo.html": "5408bbd1"
+  },
+  "gametrees/minimax.qmd": {
+    "minimax.html": "f053eea9"
+  },
+  "gametrees/imperfectinfo.qmd": {
+    "imperfectinfo.html": "610daee3"
+  },
+  "solvingtoygames/solvingtoygames.qmd": {
+    "solvingtoygames.html": "fde51b99"
+  },
+  "solvingtoygames/analytical.qmd": {
+    "analytical.html": "800578b5"
+  },
+  "solvingtoygames/normalform.qmd": {
+    "normalform.html": "f774f22e"
+  },
+  "solvingtoygames/optimization.qmd": {
+    "optimization.html": "8a2d36e4"
+  },
+  "solvingtoygames/sequenceform.qmd": {
+    "sequenceform.html": "76f37e01"
+  },
+  "cfr/cfr.qmd": {
+    "cfr.html": "e6e7749c"
+  },
+  "cfr/algorithm.qmd": {
+    "algorithm.html": "26e6d8b9"
+  },
+  "cfr/interactive.qmd": {
+    "interactive.html": "327545b6"
+  },
+  "cfr/cfrrpspoker.qmd": {
+    "cfrrpspoker.html": "951f114b"
+  },
+  "cfr/proof.qmd": {
+    "proof.html": "bc89a005"
+  },
+  "cfr/algimprovements.qmd": {
+    "algimprovements.html": "4919b5bd"
+  },
+  "cfr/montecarlocfr.qmd": {
+    "montecarlocfr.html": "f1f58129"
+  },
+  "cfr/vectorcfr.qmd": {
+    "vectorcfr.html": "a0e091bf"
+  },
+  "abstractinglargegames/abstractinglargegames.qmd": {
+    "abstractinglargegames.html": "634b18f4"
+  },
+  "abstractinglargegames/gamesize.qmd": {
+    "gamesize.html": "7d6b0f4e"
+  },
+  "abstractinglargegames/cardabstraction.qmd": {
+    "cardabstraction.html": "11469797"
+  },
+  "abstractinglargegames/betabstraction.qmd": {
+    "betabstraction.html": "85289d08"
+  },
+  "abstractinglargegames/agentevaluation.qmd": {
+    "agentevaluation.html": "40d68244"
+  },
+  "pokersolvers/pokersolvers.qmd": {
+    "pokersolvers.html": "561b3931"
+  },
+  "pokersolvers/howsolverswork.qmd": {
+    "howsolverswork.html": "8f20424a"
+  },
+  "pokersolvers/usingsolvers.qmd": {
+    "usingsolvers.html": "8ce521af"
+  },
+  "pokersolvers/generalizingsolvers.qmd": {
+    "generalizingsolvers.html": "db68dbd8"
+  },
+  "pokersolvers/studyingpopulations.qmd": {
+    "studyingpopulations.html": "851480f3"
+  },
+  "pokersolvers/solverlimitations.qmd": {
+    "solverlimitations.html": "33e7224f"
+  },
+  "pokersolvers/advancedstrategy.qmd": {
+    "advancedstrategy.html": "f8260fa2"
+  },
+  "pokersolvers/tournaments.qmd": {
+    "tournaments.html": "6cdd8b39"
+  },
+  "aimath/aimath.qmd": {
+    "aimath.html": "6439bdcb"
+  },
+  "aimath/calculus.qmd": {
+    "calculus.html": "d274b703"
+  },
+  "aimath/linearalgebra.qmd": {
+    "linearalgebra.html": "8a9a789c"
+  },
+  "aimath/infotheory.qmd": {
+    "infotheory.html": "3634b73e"
+  },
+  "aifoundations/aifoundations.qmd": {
+    "aifoundations.html": "543ab52a"
+  },
+  "aifoundations/ml.qmd": {
+    "ml.html": "7fb3739c"
+  },
+  "aifoundations/dl.qmd": {
+    "dl.html": "d7006113"
+  },
+  "aifoundations/rl.qmd": {
+    "rl.html": "8a1b9d27"
+  },
+  "recentgameaiadvances/gameai.qmd": {
+    "gameai.html": "af53fb4f"
+  },
+  "recentgameaiadvances/mas.qmd": {
+    "mas.html": "550e0d72"
+  },
+  "stateoftheartpokerai/stateoftheartpokerai.qmd": {
+    "stateoftheartpokerai.html": "154ce561"
+  },
+  "stateoftheartpokerai/deepcfr.qmd": {
+    "deepcfr.html": "39672077"
+  },
+  "stateoftheartpokerai/toppokeragents.qmd": {
+    "toppokeragents.html": "17cdbd85"
+  },
+  "stateoftheartpokerai/variancereduction.qmd": {
+    "variancereduction.html": "859c44f2"
+  },
+  "stateoftheartpokerai/humanvsai.qmd": {
+    "humanvsai.html": "0551c5c7"
+  },
+  "stateoftheartpokerai/newresearch.qmd": {
+    "newresearch.html": "f8636c57"
+  },
+  "llms/llms.qmd": {
+    "llms.html": "b653486b"
+  },
+  "llms/transformers.qmd": {
+    "transformers.html": "ea1aca1f"
+  },
+  "llms/othellogpt.qmd": {
+    "othellogpt.html": "d03f69fa"
+  },
+  "llms/pokergpt.qmd": {
+    "pokergpt.html": "935c7ad1"
+  },
+  "llms/interpretability.qmd": {
+    "interpretability.html": "942924b5"
+  },
+  "opponentmodeling/opponentmodeling.qmd": {
+    "opponentmodeling.html": "d44672cd"
+  },
+  "opponentmodeling/bestresponse.qmd": {
+    "bestresponse.html": "c5542947"
+  },
+  "opponentmodeling/exploitativestrategies.qmd": {
+    "exploitativestrategies.html": "9ea596e8"
+  },
+  "aisafety/aisafety.qmd": {
+    "aisafety.html": "afd744d9"
+  },
+  "aisafety/shortterm.qmd": {
+    "shortterm.html": "9415b74d"
+  },
+  "aisafety/longterm.qmd": {
+    "longterm.html": "2dd0b7d4"
+  },
+  "theriver/theriver.qmd": {
+    "theriver.html": "77af9801"
+  },
+  "theriver/trading.qmd": {
+    "trading.html": "42f1518a"
+  },
+  "theriver/predictionmarkets.qmd": {
+    "predictionmarkets.html": "27739de3"
+  },
+  "theriver/otherbetting.qmd": {
+    "otherbetting.html": "536cdb89"
+  },
+  "projectideas/projectideas.qmd": {
+    "projectideas.html": "ba373efb"
+  },
+  "projectideas/projects.qmd": {
+    "projects.html": "0078f04d"
   }
 }
