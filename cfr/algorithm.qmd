@@ -1,4 +1,33 @@
 # CFR Algorithm {#sec-cfralgorithm}
+The most popular method for iteratively solving poker games is the Counterfactual Regret Minimization (CFR) algorithm. CFR was developed in 2007 at the University of Alberta. It converges to Nash equilibrium in two player zero-sum games. 
+
+## Counterfactual
+Counterfactual means “relating to or expressing what has not happened or is not the case”. For example, if in reality I didn’t bring an umbrella and got wet in the rain, I could say counterfactually, “If I had brought an umbrella, I wouldn’t have gotten wet.”
+
+**Actual event:** I didn’t bring an umbrella, and I got wet in the rain
+
+**Counterfactual event:** If I had brought an umbrella, I wouldn’t have gotten wet
+
+## Regret
+Regret we previously touched on in [Section @sec-regret]. 
+
+In brief, it’s a way to assign a value to the difference between a made decision and an optimal decision. For example, if you choose to play a slot machine that returns a value of $5$ rather than the best machine that returns a value of $10$, then your regret would be $10 - 5 = 5$.
+
+## Minimization
+Minimization refers to minimizing the difference between the made decision and the optimal decision. Playing the optimal slot machine, i.e. the one that returns a value of $10$, would minimize the regret to $0$.
+
+## What is CFR? 
+In brief, CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts play with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.
+
+Each action at each information set in the game has an associated regret value that is calculated based on how that action performs compared to how the overall strategy at that infoset performs. Positive regret means that the action did better than the overall strategy and negative means worse. 
+
+The regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated according to the proportion of the positive regrets, meaning that actions with higher regret that performed well will get played more often.  
+
+At the end, the average of all strategies played converges to the equilibrium strategy. 
+
+The strategy is computed offline and then can be used in play -- it's a fixed, opponent-agnostic strategy that can’t be beaten in the long-run, but also doesn’t take advantage of opponent weaknesses.
+
+*See [Mike Johanson's intuitive explanation of CFR for more details](https://www.quora.com/What-is-an-intuitive-explanation-of-counterfactual-regret-minimization)*.
 
 ## Algorithm Overview
 Each information set maintains a `strategy` and `regret` tabular counter for each action. These accumulate the sum of all strategies and the sum of all regrets. 

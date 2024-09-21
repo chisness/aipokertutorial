@@ -399,9 +399,53 @@
     "href": "cfr/algorithm.html",
     "title": "37  CFR Algorithm",
     "section": "",
-    "text": "37.1 Algorithm Overview\nEach information set maintains a strategy and regret tabular counter for each action. These accumulate the sum of all strategies and the sum of all regrets.\nIn a game like Rock Paper Scissors, there is effectively only one infoset, so only one table for strategy over each action (Rock, Paper, Scissors) and one table for regret over each action (Rock, Paper, Scissors).\nRegrets are linked to strategies through a policy called regret matching, which selects strategies proportionally to their positive regrets.\nAfter using regret matching and after many iterations, we can minimize expected regret by using the average strategy at the end, which is the strategy that converges to equilibrium.\nIf two players were training against each other using regret matching, they would converge to the Nash Equilibrium of \\(1/3\\) for each action using the average strategy in Rock Paper Scissors.",
+    "text": "37.1 Counterfactual\nCounterfactual means “relating to or expressing what has not happened or is not the case”. For example, if in reality I didn’t bring an umbrella and got wet in the rain, I could say counterfactually, “If I had brought an umbrella, I wouldn’t have gotten wet.”\nActual event: I didn’t bring an umbrella, and I got wet in the rain\nCounterfactual event: If I had brought an umbrella, I wouldn’t have gotten wet",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+    ]
+  },
+  {
+    "objectID": "cfr/algorithm.html#regret",
+    "href": "cfr/algorithm.html#regret",
+    "title": "37  CFR Algorithm",
+    "section": "37.2 Regret",
+    "text": "37.2 Regret\nRegret we previously touched on in Section 25.\nIn brief, it’s a way to assign a value to the difference between a made decision and an optimal decision. For example, if you choose to play a slot machine that returns a value of \\(5\\) rather than the best machine that returns a value of \\(10\\), then your regret would be \\(10 - 5 = 5\\).",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+    ]
+  },
+  {
+    "objectID": "cfr/algorithm.html#minimization",
+    "href": "cfr/algorithm.html#minimization",
+    "title": "37  CFR Algorithm",
+    "section": "37.3 Minimization",
+    "text": "37.3 Minimization\nMinimization refers to minimizing the difference between the made decision and the optimal decision. Playing the optimal slot machine, i.e. the one that returns a value of \\(10\\), would minimize the regret to \\(0\\).",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+    ]
+  },
+  {
+    "objectID": "cfr/algorithm.html#what-is-cfr",
+    "href": "cfr/algorithm.html#what-is-cfr",
+    "title": "37  CFR Algorithm",
+    "section": "37.4 What is CFR?",
+    "text": "37.4 What is CFR?\nIn brief, CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts play with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.\nEach action at each information set in the game has an associated regret value that is calculated based on how that action performs compared to how the overall strategy at that infoset performs. Positive regret means that the action did better than the overall strategy and negative means worse.\nThe regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated according to the proportion of the positive regrets, meaning that actions with higher regret that performed well will get played more often.\nAt the end, the average of all strategies played converges to the equilibrium strategy.\nThe strategy is computed offline and then can be used in play – it’s a fixed, opponent-agnostic strategy that can’t be beaten in the long-run, but also doesn’t take advantage of opponent weaknesses.\nSee Mike Johanson’s intuitive explanation of CFR for more details.",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+    ]
+  },
+  {
+    "objectID": "cfr/algorithm.html#algorithm-overview",
+    "href": "cfr/algorithm.html#algorithm-overview",
+    "title": "37  CFR Algorithm",
+    "section": "37.5 Algorithm Overview",
+    "text": "37.5 Algorithm Overview\nEach information set maintains a strategy and regret tabular counter for each action. These accumulate the sum of all strategies and the sum of all regrets.\nIn a game like Rock Paper Scissors, there is effectively only one infoset, so only one table for strategy over each action (Rock, Paper, Scissors) and one table for regret over each action (Rock, Paper, Scissors).\nRegrets are linked to strategies through a policy called regret matching, which selects strategies proportionally to their positive regrets.\nAfter using regret matching and after many iterations, we can minimize expected regret by using the average strategy at the end, which is the strategy that converges to equilibrium.\nIf two players were training against each other using regret matching, they would converge to the Nash Equilibrium of \\(1/3\\) for each action using the average strategy in Rock Paper Scissors.",
+    "crumbs": [
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
@@ -409,10 +453,10 @@
     "objectID": "cfr/algorithm.html#simplified-cfr-example-regret-updates-in-rps",
     "href": "cfr/algorithm.html#simplified-cfr-example-regret-updates-in-rps",
     "title": "37  CFR Algorithm",
-    "section": "37.2 Simplified CFR Example: Regret Updates in RPS",
-    "text": "37.2 Simplified CFR Example: Regret Updates in RPS\nLet’s see how that works in Rock Paper Scissors.\nIn general, we define regret as:\n\\(\\text{Regret} = u(\\text{Alternative Strategy}) − u(\\text{Current Strategy})\\)\nWe prefer alternative actions with high regret and wish to minimize our overall regret. That second part might sound counterintuitive, but as we play more of the better actions, we will consequently minimize overall regret.\nWe play Rock and opponent plays Paper \\(\\implies \\text{u(rock,paper)} = -1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(rock,paper)} = 0-(-1) = 1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(rock,paper)} = -1-(-1) = 0\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(rock,paper)} = 1-(-1) = 2\\)\nWe play Scissors and opponent plays Paper \\(\\implies \\text{u(scissors,paper)} = 1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(scissors,paper)} = 0-1 = -1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(scissors,paper)} = -1-1 = -2\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(scissors,paper)} = 1-1 = 0\\)\nWe play Paper and opponent plays Paper \\(\\implies \\text{u(paper,paper)} = 0\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(paper,paper)} = 0-0 = 0\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(paper,paper)} = -1-0 = -1\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(paper,paper)} = 1-0 = 1\\)\nTo generalize:\n\nThe action played always gets a regret of \\(0\\) since the “alternative” is really just that same action\nWhen we play a tying action, the alternative losing action gets a regret of \\(-1\\) and the alternative winning action gets a regret of \\(+1\\)\nWhen we play a winning action, the alternative tying action gets a regret of \\(-1\\) and the alternative losing action gets a regret of \\(-2\\)\nWhen we play a losing action, the alternative winning action gets a regret of \\(+2\\) and the alternative tying action gets a regret of \\(+1\\)\n\nAfter each play, we accumulate regrets for each of the 3 actions.\nWe decide our strategy probability distribution using regret matching, which means playing a strategy that normalizes over the positive accumulated regrets, i.e. playing in proportion to the positive regrets.\nHere’s an example from Marc Lanctot’s CFR Tutorial. Assume that the regret counters start at 0 for each action.\n\nGame 1: Choose Rock and opponent chooses Paper\n\nLose 1\nRock: Regret 0\nPaper: Regret 1\nScissors: Regret 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 0/3 = 0 \\\\\n\\text{Paper} & 1/3 = 0.333 \\\\\n\\text{Scissors} & 2/3 = 0.667\n\\end{pmatrix}\n\\]\nGame 2: Choose Scissors (probability \\(2/3\\)) and opponent chooses Rock\n\nLose 1\nRock: Regret 1\nPaper: Regret 2\nScissors: Regret 0\n\nCumulative regrets:\n\nRock: 1\nPaper: 3\nScissors: 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 1/6 = 0.167 \\\\\n\\text{Paper} & 3/6 = 0.500 \\\\\n\\text{Scissors} & 2/6 = 0.333\n\\end{pmatrix}\n\\]",
+    "section": "37.6 Simplified CFR Example: Regret Updates in RPS",
+    "text": "37.6 Simplified CFR Example: Regret Updates in RPS\nLet’s see how that works in Rock Paper Scissors.\nIn general, we define regret as:\n\\(\\text{Regret} = u(\\text{Alternative Strategy}) − u(\\text{Current Strategy})\\)\nWe prefer alternative actions with high regret and wish to minimize our overall regret. That second part might sound counterintuitive, but as we play more of the better actions, we will consequently minimize overall regret.\nWe play Rock and opponent plays Paper \\(\\implies \\text{u(rock,paper)} = -1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(rock,paper)} = 0-(-1) = 1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(rock,paper)} = -1-(-1) = 0\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(rock,paper)} = 1-(-1) = 2\\)\nWe play Scissors and opponent plays Paper \\(\\implies \\text{u(scissors,paper)} = 1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(scissors,paper)} = 0-1 = -1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(scissors,paper)} = -1-1 = -2\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(scissors,paper)} = 1-1 = 0\\)\nWe play Paper and opponent plays Paper \\(\\implies \\text{u(paper,paper)} = 0\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(paper,paper)} = 0-0 = 0\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(paper,paper)} = -1-0 = -1\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(paper,paper)} = 1-0 = 1\\)\nTo generalize:\n\nThe action played always gets a regret of \\(0\\) since the “alternative” is really just that same action\nWhen we play a tying action, the alternative losing action gets a regret of \\(-1\\) and the alternative winning action gets a regret of \\(+1\\)\nWhen we play a winning action, the alternative tying action gets a regret of \\(-1\\) and the alternative losing action gets a regret of \\(-2\\)\nWhen we play a losing action, the alternative winning action gets a regret of \\(+2\\) and the alternative tying action gets a regret of \\(+1\\)\n\nAfter each play, we accumulate regrets for each of the 3 actions.\nWe decide our strategy probability distribution using regret matching, which means playing a strategy that normalizes over the positive accumulated regrets, i.e. playing in proportion to the positive regrets.\nHere’s an example from Marc Lanctot’s CFR Tutorial. Assume that the regret counters start at 0 for each action.\n\nGame 1: Choose Rock and opponent chooses Paper\n\nLose 1\nRock: Regret 0\nPaper: Regret 1\nScissors: Regret 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 0/3 = 0 \\\\\n\\text{Paper} & 1/3 = 0.333 \\\\\n\\text{Scissors} & 2/3 = 0.667\n\\end{pmatrix}\n\\]\nGame 2: Choose Scissors (probability \\(2/3\\)) and opponent chooses Rock\n\nLose 1\nRock: Regret 1\nPaper: Regret 2\nScissors: Regret 0\n\nCumulative regrets:\n\nRock: 1\nPaper: 3\nScissors: 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 1/6 = 0.167 \\\\\n\\text{Paper} & 3/6 = 0.500 \\\\\n\\text{Scissors} & 2/6 = 0.333\n\\end{pmatrix}\n\\]",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
@@ -420,10 +464,10 @@
     "objectID": "cfr/algorithm.html#simplified-cfr-example-counterfactual-values",
     "href": "cfr/algorithm.html#simplified-cfr-example-counterfactual-values",
     "title": "37  CFR Algorithm",
-    "section": "37.3 Simplified CFR Example: Counterfactual Values",
-    "text": "37.3 Simplified CFR Example: Counterfactual Values\n\nHere we have a very simple game tree showing a Player 1 node at the end of the game. For simplicity, we assume that this is the first iteration of the algorithm so each action is assigned a uniform \\(1/3\\) probability.\n\nThe counterfactual reach probability of information state I, π σ −i (I), is the probability of reaching I with strategy profile σ except that, we treat current player i actions to reach the state as having probability 1. In all situations we refer to as “counterfactual”, one treats the computation as if player i’s strategy was modified to have intentionally played to information set Ii . Put another way, we exclude the probabilities that factually came into player i’s play from the computation.\nRegular expected value: We can compute the regular expected value for each action of P1: \n\\(\\mathbb{E}(\\text{a}) = 0.33*(4) = 1.33\\)\n\\(\\mathbb{E}(\\text{b}) = 0.33*(7) = 2.33\\)\n\\(\\mathbb{E}(\\text{c}) = 0.33*(-10) = -3.33\\)\nCounterfactual value: The counterfactual value includes the reach probability \\(\\sigma_(-i) = 0.38\\) of the opponent and chance playing to this node.\n\\[ CV()\nv_i(I,a) = \\pi^\\sigma_{-i}(h)\\pi^{\\sigma:I\\rightarrow a}(h,z)u_i(z)\nv\n\\]",
+    "section": "37.7 Simplified CFR Example: Counterfactual Values",
+    "text": "37.7 Simplified CFR Example: Counterfactual Values\n\nHere we have a very simple game tree showing a Player 1 node at the end of the game. For simplicity, we assume that this is the first iteration of the algorithm so each action is assigned a uniform \\(1/3\\) probability.\n\nThe counterfactual reach probability of information state I, π σ −i (I), is the probability of reaching I with strategy profile σ except that, we treat current player i actions to reach the state as having probability 1. In all situations we refer to as “counterfactual”, one treats the computation as if player i’s strategy was modified to have intentionally played to information set Ii . Put another way, we exclude the probabilities that factually came into player i’s play from the computation.\nRegular expected value: We can compute the regular expected value for each action of P1: \n\\(\\mathbb{E}(\\text{a}) = 0.33*(4) = 1.33\\)\n\\(\\mathbb{E}(\\text{b}) = 0.33*(7) = 2.33\\)\n\\(\\mathbb{E}(\\text{c}) = 0.33*(-10) = -3.33\\)\nCounterfactual value: The counterfactual value includes the reach probability \\(\\sigma_(-i) = 0.38\\) of the opponent and chance playing to this node.\n\\[ CV()\nv_i(I,a) = \\pi^\\sigma_{-i}(h)\\pi^{\\sigma:I\\rightarrow a}(h,z)u_i(z)\nv\n\\]",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
@@ -431,10 +475,10 @@
     "objectID": "cfr/algorithm.html#core-cfr-algorithm",
     "href": "cfr/algorithm.html#core-cfr-algorithm",
     "title": "37  CFR Algorithm",
-    "section": "37.4 Core CFR Algorithm",
-    "text": "37.4 Core CFR Algorithm\nHigh quantity of definitions (conventions primarily sourced from 2015 paper Solving Heads-up Limit Texas Hold’em):\n\\(P\\): Set of players\n\\(H\\): Game state, represented as history of actions from start of game\nTabular storing strategies and regrets at each infoset\nRegrets based on action values compared to node EV, which is based on counterfactual values\nRegret minimization, usually regret matching, to get new strategies\nAverage strategy converges to Nash equilibrium\nAs we think about solving larger games, we start to look at iterative algorithms.\n\n37.4.1 Regret and Strategies\nA strategy at an infoset is a probability distribution over each possible action.\nRegret is a measure of how much each strategy at an infoset is preferred and is used as a way to update strategies.\nFor a given P1 strategy and P2 strategy, a player has regret when they take an action at an infoset that was not the highest-EV action at that infoset.\n\n\n\n\n\n\nRegret Exercise\n\n\n\n\nWhat is the regret for each action?\n\n\n\nAction\nRegret\n\n\n\n\nA\n\n\n\nB\n\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nRegret\n\n\n\n\nA\n4\n\n\nB\n2\n\n\nC\n0\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Value Exercise\n\n\n\n\nIf taking a uniform strategy at this node (i.e. \\(\\frac{1}{3}\\) for each action), then what is the expected value of the node?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\mathbb{E} = \\frac{1}{3}*1 + \\frac{1}{3}*3+\\frac{1}{3}*5 = 0.33+1+1.67 = 3\\)\n\n\n\n\n\n\n\n\n\nPoker Regret Exercise\n\n\n\n\nIn poker games, the regret for each action is defined as the value for that action minus the expected value of the node. Give the regret values for each action under this definition.\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nValue\nPoker Regret\n\n\n\n\nA\n1\n-2\n\n\nB\n3\n0\n\n\nC\n5\n2\n\n\n\nAt a node in a poker game, the player prefers actions with higher regrets by this definition.\n\n\n\nRegret matching definitions:\n\n\\(a\\) is actions\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\n\\[\n\\sigma_i^t(a) = \\begin{cases}\n\\frac{\\max(R_i^t(a), 0)}{\\sum_{a' \\in A} \\max(R_i^t(a'), 0)} & \\text{if } \\sum_{a' \\in A} \\max(R_i^t(a'), 0) &gt; 0 \\\\\n\\frac{1}{|A|} & \\text{otherwise}\n\\end{cases}\n\\]\nThis is showing that we take the cumulative regret for an action divided by the cumulative regrets for all actions (normalizing) and then play that strategy for this action on the next iteration.\nIf all cumulative regrets are \\(\\leq 0\\) then we use the uniform distribution.\nIf cumulative regrets are positive, but are are \\(&lt;0\\) for a specific action, then we use \\(0\\) for that action.\nIn code:\n    def get_strategy(self):\n  #First find the normalizing sum\n        normalizing_sum = 0\n        for a in range(NUM_ACTIONS):\n            if self.regret_sum[a] &gt; 0:\n                self.strategy[a] = self.regret_sum[a]\n            else:\n                self.strategy[a] = 0\n            normalizing_sum += self.strategy[a]\n\n    #Then normalize each action\n        for a in range(NUM_ACTIONS):\n            if normalizing_sum &gt; 0:\n                self.strategy[a] /= normalizing_sum\n            else:\n                self.strategy[a] = 1.0/NUM_ACTIONS\n            self.strategy_sum[a] += self.strategy[a]\n\n        return self.strategy\n\n\n37.4.2 Iterating through the Tree\nThe core feature of the iterative algorithms is self-play by traversing the game tree over all infosets and tracking the strategies and regrets at each.\nFrom above, we know how to find the strategy and regret in the simple Rock Paper Scissors environment.\nIn poker:\n\nStrategies are determined the same as above, through regret matching from the previous regret values at the specific information set for each action\nCFR definitions:\n\n\\(a\\) is actions\n\\(I\\) is infoset\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\\(z\\) is a terminal node\n\\(u\\) is utility (payoffs)\n\\(p\\) is the current player who plays at this node\n\\(-p\\) is the the opponent player and chance\n\\(v\\) is counterfactual value\n\nCounterfactual values are effectively the value of an information set. They are weighted by the probability of opponent and chance playing to this node (in other words, the probability of playing to this node if this player tried to do so).\n\nCounterfactual value: \\(v^\\sigma (I) = \\sum_{z\\in Z_I} \\pi^{\\sigma}_{-p}(z[I])\\pi^{\\sigma}(z[I] \\rightarrow z)u_p(z)\\)\n\\(\\sum_{z\\in Z_I}\\) is summing over all terminal histories reachable from this node\n\\(\\pi^{\\sigma}_{-p}(z[I])\\) is the probability of opponents and chance reaching this node\n\\(\\pi^{\\sigma}(z[I] \\rightarrow z)\\) is the probability of playing from this node to terminal history \\(z\\), i.e. the weight component of the expected value\n\\(u_p(z)\\) is the utility at terminal history \\(z\\), i.e. the value component of the expected value\n\nInstantaneous regrets are based on action values compared to infoset EV. Each action EV then adds to its regret counter:\n\n\\(r^t(I,a) = v^{\\sigma^t}(I,a) - v^{\\sigma^t}(I)\\)\n\nCumulative (counterfactual) regrets are the sum of the individual regrets:\n\n\\(R^T(I,a) = \\sum_{t=1}^T r^t(I,a)\\)",
+    "section": "37.8 Core CFR Algorithm",
+    "text": "37.8 Core CFR Algorithm\nHigh quantity of definitions (conventions primarily sourced from 2015 paper Solving Heads-up Limit Texas Hold’em):\n\\(P\\): Set of players\n\\(H\\): Game state, represented as history of actions from start of game\nTabular storing strategies and regrets at each infoset\nRegrets based on action values compared to node EV, which is based on counterfactual values\nRegret minimization, usually regret matching, to get new strategies\nAverage strategy converges to Nash equilibrium\nAs we think about solving larger games, we start to look at iterative algorithms.\n\n37.8.1 Regret and Strategies\nA strategy at an infoset is a probability distribution over each possible action.\nRegret is a measure of how much each strategy at an infoset is preferred and is used as a way to update strategies.\nFor a given P1 strategy and P2 strategy, a player has regret when they take an action at an infoset that was not the highest-EV action at that infoset.\n\n\n\n\n\n\nRegret Exercise\n\n\n\n\nWhat is the regret for each action?\n\n\n\nAction\nRegret\n\n\n\n\nA\n\n\n\nB\n\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nRegret\n\n\n\n\nA\n4\n\n\nB\n2\n\n\nC\n0\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Value Exercise\n\n\n\n\nIf taking a uniform strategy at this node (i.e. \\(\\frac{1}{3}\\) for each action), then what is the expected value of the node?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\mathbb{E} = \\frac{1}{3}*1 + \\frac{1}{3}*3+\\frac{1}{3}*5 = 0.33+1+1.67 = 3\\)\n\n\n\n\n\n\n\n\n\nPoker Regret Exercise\n\n\n\n\nIn poker games, the regret for each action is defined as the value for that action minus the expected value of the node. Give the regret values for each action under this definition.\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nValue\nPoker Regret\n\n\n\n\nA\n1\n-2\n\n\nB\n3\n0\n\n\nC\n5\n2\n\n\n\nAt a node in a poker game, the player prefers actions with higher regrets by this definition.\n\n\n\nRegret matching definitions:\n\n\\(a\\) is actions\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\n\\[\n\\sigma_i^t(a) = \\begin{cases}\n\\frac{\\max(R_i^t(a), 0)}{\\sum_{a' \\in A} \\max(R_i^t(a'), 0)} & \\text{if } \\sum_{a' \\in A} \\max(R_i^t(a'), 0) &gt; 0 \\\\\n\\frac{1}{|A|} & \\text{otherwise}\n\\end{cases}\n\\]\nThis is showing that we take the cumulative regret for an action divided by the cumulative regrets for all actions (normalizing) and then play that strategy for this action on the next iteration.\nIf all cumulative regrets are \\(\\leq 0\\) then we use the uniform distribution.\nIf cumulative regrets are positive, but are are \\(&lt;0\\) for a specific action, then we use \\(0\\) for that action.\nIn code:\n    def get_strategy(self):\n  #First find the normalizing sum\n        normalizing_sum = 0\n        for a in range(NUM_ACTIONS):\n            if self.regret_sum[a] &gt; 0:\n                self.strategy[a] = self.regret_sum[a]\n            else:\n                self.strategy[a] = 0\n            normalizing_sum += self.strategy[a]\n\n    #Then normalize each action\n        for a in range(NUM_ACTIONS):\n            if normalizing_sum &gt; 0:\n                self.strategy[a] /= normalizing_sum\n            else:\n                self.strategy[a] = 1.0/NUM_ACTIONS\n            self.strategy_sum[a] += self.strategy[a]\n\n        return self.strategy\n\n\n37.8.2 Iterating through the Tree\nThe core feature of the iterative algorithms is self-play by traversing the game tree over all infosets and tracking the strategies and regrets at each.\nFrom above, we know how to find the strategy and regret in the simple Rock Paper Scissors environment.\nIn poker:\n\nStrategies are determined the same as above, through regret matching from the previous regret values at the specific information set for each action\nCFR definitions:\n\n\\(a\\) is actions\n\\(I\\) is infoset\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\\(z\\) is a terminal node\n\\(u\\) is utility (payoffs)\n\\(p\\) is the current player who plays at this node\n\\(-p\\) is the the opponent player and chance\n\\(v\\) is counterfactual value\n\nCounterfactual values are effectively the value of an information set. They are weighted by the probability of opponent and chance playing to this node (in other words, the probability of playing to this node if this player tried to do so).\n\nCounterfactual value: \\(v^\\sigma (I) = \\sum_{z\\in Z_I} \\pi^{\\sigma}_{-p}(z[I])\\pi^{\\sigma}(z[I] \\rightarrow z)u_p(z)\\)\n\\(\\sum_{z\\in Z_I}\\) is summing over all terminal histories reachable from this node\n\\(\\pi^{\\sigma}_{-p}(z[I])\\) is the probability of opponents and chance reaching this node\n\\(\\pi^{\\sigma}(z[I] \\rightarrow z)\\) is the probability of playing from this node to terminal history \\(z\\), i.e. the weight component of the expected value\n\\(u_p(z)\\) is the utility at terminal history \\(z\\), i.e. the value component of the expected value\n\nInstantaneous regrets are based on action values compared to infoset EV. Each action EV then adds to its regret counter:\n\n\\(r^t(I,a) = v^{\\sigma^t}(I,a) - v^{\\sigma^t}(I)\\)\n\nCumulative (counterfactual) regrets are the sum of the individual regrets:\n\n\\(R^T(I,a) = \\sum_{t=1}^T r^t(I,a)\\)",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
@@ -442,10 +486,10 @@
     "objectID": "cfr/algorithm.html#more-exercises",
     "href": "cfr/algorithm.html#more-exercises",
     "title": "37  CFR Algorithm",
-    "section": "37.5 More Exercises",
-    "text": "37.5 More Exercises\n\n\n\n\n\n\nMaximize Against non-Nash Fixed Opponent\n\n\n\nHow would you maximize in RPS knowing the opponent plays a fixed non-Nash strategy that you don’t know?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOne option is to play the equilibrium strategy until you get a significant sample on your opponent and then to exploit their strategy going forward.\n\n\n\n\n\n\n\n\n\nStrategy Against No-Rock Opponent\n\n\n\nWhat is the optimal play if your opponent can’t play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nPaper\n(0, 0)\n(-1, 1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nWe can see that Player 1 playing Paper is dominated by Scissors, so Player 1 should never play Paper.\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nIn the reduced game, we see that if Player 2 plays Paper with probability \\(p\\) and Scissors with probability \\(s\\), then:\n\\(\\mathbb{E}(\\text{P1 R}) = -1*p + 1*s = -p + s\\) \\(\\mathbb{E}(\\text{P1 S}) = 1*p + 0*s = p\\)\nSetting these equal, \\(-p + s = p \\Rightarrow s = 2p\\).\nWe also know that \\(s + p = 1\\).\nTherefore \\(s = 1 - p\\) and \\(1 - p = 2p \\Rightarrow 1 = 3p \\Rightarrow p = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nFor Player 1, we can solve similarly:\n\\(\\mathbb{E}(\\text{P2 P}) = 1*r - 1*s = r - s\\) \\(\\mathbb{E}(\\text{P2 S}) = -1*r + 0*s = -r\\)\n\\(r - s = -r \\Rightarrow 2r = s\\)\nWe also know that \\(r + s = 1\\).\nTherefore \\(s = 1 - r\\) and \\(1 - r = 2r \\Rightarrow 1 = 3r \\Rightarrow r = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nInserting these probabilities, we have:\n\n\n\nPlayer 1/2\nPaper (1/3)\nScissors (2/3)\n\n\n\n\nRock (1/3)\n(-1, 1) (1/9)\n(1, -1) (2/9)\n\n\nScissors (2/3)\n(1, -1) (2/9)\n(0, 0) (4/9)\n\n\n\nTherefore Player 1 has payoffs of: \\(1/9 * -1 + 2/9 * 1 + 2/9 * 1 + 4/9 * 0 = 3/9 = 1/3\\). Therefore the player that can still play Rock has an advantage of \\(1/3\\) at equilibrium.\n\n\n\n\n\n\n\n\n\nMaximize Against Adapting Rock Opponent\n\n\n\n\nSuppose that your opponent is forced to play Rock exactly\n\nSuppose that your opponent gets a card with probability \\(X\\) such that \\(X\\%\\) of the time they are forced to play Rock What if the opponent is adapting to you, but 10% of the time they are forced to play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon\n\n\n\n\n\n\n\n\n\nSkewed Rock Payoff\n\n\n\nWhat is the equilibrium strategy if the payoff for Rock over Scissors is 2 (others stay the same)?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon",
+    "section": "37.9 More Exercises",
+    "text": "37.9 More Exercises\n\n\n\n\n\n\nMaximize Against non-Nash Fixed Opponent\n\n\n\nHow would you maximize in RPS knowing the opponent plays a fixed non-Nash strategy that you don’t know?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOne option is to play the equilibrium strategy until you get a significant sample on your opponent and then to exploit their strategy going forward.\n\n\n\n\n\n\n\n\n\nStrategy Against No-Rock Opponent\n\n\n\nWhat is the optimal play if your opponent can’t play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nPaper\n(0, 0)\n(-1, 1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nWe can see that Player 1 playing Paper is dominated by Scissors, so Player 1 should never play Paper.\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nIn the reduced game, we see that if Player 2 plays Paper with probability \\(p\\) and Scissors with probability \\(s\\), then:\n\\(\\mathbb{E}(\\text{P1 R}) = -1*p + 1*s = -p + s\\) \\(\\mathbb{E}(\\text{P1 S}) = 1*p + 0*s = p\\)\nSetting these equal, \\(-p + s = p \\Rightarrow s = 2p\\).\nWe also know that \\(s + p = 1\\).\nTherefore \\(s = 1 - p\\) and \\(1 - p = 2p \\Rightarrow 1 = 3p \\Rightarrow p = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nFor Player 1, we can solve similarly:\n\\(\\mathbb{E}(\\text{P2 P}) = 1*r - 1*s = r - s\\) \\(\\mathbb{E}(\\text{P2 S}) = -1*r + 0*s = -r\\)\n\\(r - s = -r \\Rightarrow 2r = s\\)\nWe also know that \\(r + s = 1\\).\nTherefore \\(s = 1 - r\\) and \\(1 - r = 2r \\Rightarrow 1 = 3r \\Rightarrow r = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nInserting these probabilities, we have:\n\n\n\nPlayer 1/2\nPaper (1/3)\nScissors (2/3)\n\n\n\n\nRock (1/3)\n(-1, 1) (1/9)\n(1, -1) (2/9)\n\n\nScissors (2/3)\n(1, -1) (2/9)\n(0, 0) (4/9)\n\n\n\nTherefore Player 1 has payoffs of: \\(1/9 * -1 + 2/9 * 1 + 2/9 * 1 + 4/9 * 0 = 3/9 = 1/3\\). Therefore the player that can still play Rock has an advantage of \\(1/3\\) at equilibrium.\n\n\n\n\n\n\n\n\n\nMaximize Against Adapting Rock Opponent\n\n\n\n\nSuppose that your opponent is forced to play Rock exactly\n\nSuppose that your opponent gets a card with probability \\(X\\) such that \\(X\\%\\) of the time they are forced to play Rock What if the opponent is adapting to you, but 10% of the time they are forced to play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon\n\n\n\n\n\n\n\n\n\nSkewed Rock Payoff\n\n\n\nWhat is the equilibrium strategy if the payoff for Rock over Scissors is 2 (others stay the same)?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
@@ -456,7 +500,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>38</span>  <span class='chapter-title'>CFR Interactive</span>"
     ]
   },
@@ -467,7 +511,7 @@
     "section": "",
     "text": "39.0.1 RPS Regret Matching Experiment\nHere we show that regret matching converges only using the average strategy over 10,000 iterations:\nThe bottom shows both players converging to \\(1/3\\), while the top shows Player 1’s volatile current strategies that are cycling around.\nSuppose that your opponent Player 2 is playing 40% Rock, 30% Paper, and 30% Scissors. Here is a regret matching 10,000 game experiment. It shows that it takes around 1,600 games before Player 1 plays only Paper (this will vary).\nWe see that if there is a fixed player, regret matching converges to the best strategy.\nBut what if your opponent is not using a fixed strategy? We’ll talk about that soon.",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>39</span>  <span class='chapter-title'>Solving RPS and Poker with CFR</span>"
     ]
   },
@@ -478,7 +522,7 @@
     "section": "39.1 Data: Talk Paper Scissors",
     "text": "39.1 Data: Talk Paper Scissors\neieio games made a Rock Paper Scissors over voice game in which players call a phone number and get matched up with another player for a 3 game RPS match.\nThey published their 40,000 round data on X:\n\nOverall: R 37.2%, P 35.4%, S 27.4%\n\nRound 1: R 39.7%, P 37.6%, S 22.7%\n\nRound 2: R 34.0%, 33.4%, 32.6%\n\nRound 3: R 37.2%, 34.7%, 28.1%\n\n\n\n\n\n\nExpected Value Against TPS Player\n\n\n\nWhat is the best strategy per round against the average TPS player? What is your expected value per round and overall?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe best strategy is to always play Paper.\n\\(\\mathbb{E}(\\text{Round 1}) = 0.397*1 + 0.376*0 + 0.227*-1 = 0.17\\)\n\\(\\mathbb{E}(\\text{Round 2}) = 0.34*1 + 0.334*0 + 0.326*-1 = 0.014\\)\n\\(\\mathbb{E}(\\text{Round 3}) = 0.372*1 + 0.347*0 + 0.281*-1 = 0.091\\)\n\\(\\mathbb{E}(\\text{Round 4}) = 0.17 + 0.014 + 0.091 = 0.275\\)",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>39</span>  <span class='chapter-title'>Solving RPS and Poker with CFR</span>"
     ]
   },
@@ -489,7 +533,7 @@
     "section": "",
     "text": "Hello\nIntuitions\nhttps://www.reddit.com/r/GAMETHEORY/comments/nq7gly/doubts_about_counterfactual_regret_minimization/ https://www.quora.com/\nEpsilon-Nash Equilibrium HULHE is solved\nA game is said to be ultraweakly solved if, for the initial position(s), the game-theoretic value has been determined; weakly solved if, for the initial position(s), a strategy has been determined to obtain at least the game-theoretic value, for both players, under reasonable resources; and strongly solved if, for all legal positions, a strategy has been determined to obtain the game-theoretic value of the position, for both players, under reasonable resources. In an imperfect-information game, where the game-theoretic value of a position beyond the initial position is not unique, Allis’s notion of “strongly solved” is not well defined. Overall, we require less than 11 TB of storage to store the regrets and 6 TB to store the average strategy during the computation, which is distributed across a cluster of computation nodes. This amount is infeasible to store in main memory, and so we store the values on each node’s local disk. But: Finally, unlike with CFR, we have empirically observed that the exploitability of the players’ current strategies during the computation regularly approaches zero. Therefore, we can skip the step of computing and storing the average strategy, instead using the players’ current strategies as the CFR+ solution.\nA strategy’s “exploitability” is the maximum amount that a perfect counter-strategy could win on expectation against a strategy. A Nash equilibrium has an exploitability of zero, since it cannot be beaten by anyone on expectation, and having a lower exploitability is good. When you run CFR, the average strategy’s exploitability converges towards zero, driving its worst-case loss lower and lower. Note that this is a pessimistic way to measure how good your strategy is: our best poker programs started beating the world’s best human players in heads-up limit hold’em in 2008, even though our programs at that time were still massively exploitable by this worst-case measure.\nIn our January 2015 Science paper, we’ve announced that we’ve produced a strategy that has essentially weakly solved the game. That means that we have computed a strategy with such a low exploitability (0.000986 big blinds per game) that it would take more than a human lifetime of play, using the perfect counter-strategy, for anyone to have 95% statistical confidence that they were actually winning against it. So it’s not an exactly perfect strategy, but it is so close to perfect that the game is essentially solved, as it’s now outside of any human’s ability to beat it for a statistically meaningful amount by playing games against it.",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>40</span>  <span class='chapter-title'>CFR Proof</span>"
     ]
   },
@@ -500,7 +544,7 @@
     "section": "",
     "text": "41.1 CFR+",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>41</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
     ]
   },
@@ -511,7 +555,7 @@
     "section": "41.2 Discounted CFR",
     "text": "41.2 Discounted CFR\nhttps://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 6 When is CFR+ worse? High variance play keeps getting very positive\nCFR+ does exhaustive iterations over the entire game tree and uses a variant of regret matching (regret matching+) where regrets are constrained to be non-negative. Actions that have appeared poor (with less than zero regret for not having been played) will be chosen again immediately after proving useful (rather than waiting many iterations for the regret to become positive). Finally, unlike with CFR, we have empirically observed that the exploitability of the players’ current strategies during the computation regularly approaches zero. Therefore, we can skip the step of computing and storing the average strategy, instead using the players’ current strategies as the CFR+ solution.\nWhat are other ways to improve CFR?",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>41</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
     ]
   },
@@ -522,7 +566,7 @@
     "section": "",
     "text": "Hello\nhttps://www.cs.cmu.edu/~sandholm/cs15-888F21/ lecture 10 Improve upon CFR with Monte Carlo sampling Monte Carlo CFR versions (focus on chance sampling and external sampling) MCCFR Mini-Project: MCCFR implemented https://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 14 https://ai.stackexchange.com/questions/26345/how-exactly-is-monte-carlo-counterfactual-regret-minimization-with-external-samp\nSampling methods\nExternal: Sample chance and opponent nodes\nChance: Sample chance only\nOutcome: Sample outcomes",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>42</span>  <span class='chapter-title'>Monte Carlo CFR</span>"
     ]
   },
@@ -533,7 +577,7 @@
     "section": "",
     "text": "Hello\nMCCFR worse for headsup postflop, slows down at lower exploitability Vector alg efficient at headsup postflop (pass down ranges, update regrets for entire range at once), evaluate showdowns O(n) instead of O(n^2)",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
+      "COUNTERFACTUAL REGRET MINIMIZATION",
       "<span class='chapter-number'>43</span>  <span class='chapter-title'>Vector CFR</span>"
     ]
   },
@@ -665,7 +709,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI MATH",
+      "AI MATH FOUNDATIONS",
       "<span class='chapter-number'>55</span>  <span class='chapter-title'>Calculus</span>"
     ]
   },
@@ -676,7 +720,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI MATH",
+      "AI MATH FOUNDATIONS",
       "<span class='chapter-number'>56</span>  <span class='chapter-title'>Linear Algebra</span>"
     ]
   },
@@ -687,7 +731,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI MATH",
+      "AI MATH FOUNDATIONS",
       "<span class='chapter-number'>57</span>  <span class='chapter-title'>Information Theory</span>"
     ]
   },
@@ -731,7 +775,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "recentgameaiadvances/recentgameaiadvances.qmd",
+      "RECENT GAME AI ADVANCES",
       "<span class='chapter-number'>61</span>  <span class='chapter-title'>Types of Games</span>"
     ]
   },
@@ -742,7 +786,7 @@
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "recentgameaiadvances/recentgameaiadvances.qmd",
+      "RECENT GAME AI ADVANCES",
       "<span class='chapter-number'>62</span>  <span class='chapter-title'>Multi-agent Systems</span>"
     ]
   },
@@ -931,226 +975,6 @@
     "crumbs": [
       "PROJECT IDEAS",
       "<span class='chapter-number'>79</span>  <span class='chapter-title'>Projects</span>"
-    ]
-  },
-  {
-    "objectID": "intro/intro.html",
-    "href": "intro/intro.html",
-    "title": "INTRO",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "INTRO"
-    ]
-  },
-  {
-    "objectID": "codingfoundations/codingfoundations.html",
-    "href": "codingfoundations/codingfoundations.html",
-    "title": "CODING FOUNDATIONS",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "CODING FOUNDATIONS"
-    ]
-  },
-  {
-    "objectID": "mathfoundations/mathfoundations.html",
-    "href": "mathfoundations/mathfoundations.html",
-    "title": "MATH FOUNDATIONS",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "MATH FOUNDATIONS"
-    ]
-  },
-  {
-    "objectID": "knowledge/knowledge.html",
-    "href": "knowledge/knowledge.html",
-    "title": "KNOWLEDGE",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "KNOWLEDGE"
-    ]
-  },
-  {
-    "objectID": "decisiomakingunderuncertainty/decisiomakingunderuncertainty.html",
-    "href": "decisiomakingunderuncertainty/decisiomakingunderuncertainty.html",
-    "title": "DECISION MAKING UNDER UNCERTAINTY",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "DECISION MAKING UNDER UNCERTAINTY"
-    ]
-  },
-  {
-    "objectID": "gametheory/gametheory.html",
-    "href": "gametheory/gametheory.html",
-    "title": "GAME THEORY",
-    "section": "",
-    "text": "Hello\nA Nash equilibrium is a set of strategies, one for each player in the game. If the game is two-player and zero-sum, and if the players alternate positions to even out the advantage of playing in each position (as in poker games), then a Nash equilibrium has a useful theoretical property: it can do no worse than tie, on expectation, against any other opponent strategy. In a game such as poker, that “on expectation” is important: due to the luck in the game from the cards being randomly dealt, there is no guarantee that a Nash equilibrium (or any strategy!) will win every single hand. However, if you average over a large set of hands, or compute the expectation exactly, then it cannot to any worse than tie against anyone.\nIf the opponent also plays a Nash equilibrium strategy then they will tie; if the opponent carefully considers the Nash equilibrium strategy and computes a perfect counter-strategy then they will also tie. If the opponent makes mistakes, however, then they can lose value, allowing the Nash equilibrium strategy to win. In other words, a Nash equilibrium just plays perfect defence: it doesn’t try to learn about or exploit the opponent’s flaws, and instead just wins when the opponent makes mistakes. This is on purpose, since attempting to find and exploit an opponent’s mistakes usually makes it possible for an even smarter opponent to exploit your new strategy. There’s a tradeoff between playing defence and offence.\nSince a Nash equilibrium is an unbeatable strategy for this type of game, it is considered to be an optimal strategy, and “solving” a game is equivalent to computing a Nash equilibrium. In this sense, “solve” is a technical term, meant in exactly the same sense that one might “solve for X” in a mathematical equation.",
-    "crumbs": [
-      "GAME THEORY"
-    ]
-  },
-  {
-    "objectID": "gametrees/gametrees.html",
-    "href": "gametrees/gametrees.html",
-    "title": "GAME TREES",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "GAME TREES"
-    ]
-  },
-  {
-    "objectID": "solvingtoygames/solvingtoygames.html",
-    "href": "solvingtoygames/solvingtoygames.html",
-    "title": "SOLVING TOY GAMES",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "SOLVING TOY GAMES"
-    ]
-  },
-  {
-    "objectID": "cfr/cfr.html",
-    "href": "cfr/cfr.html",
-    "title": "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
-    "section": "",
-    "text": "Counterfactual\nCounterfactual means “relating to or expressing what has not happened or is not the case”. For example, if in reality I didn’t bring an umbrella and got wet in the rain, I could say counterfactually, “If I had brought an umbrella, I wouldn’t have gotten wet.”\nActual event: I didn’t bring an umbrella, and I got wet in the rain\nCounterfactual event: If I had brought an umbrella, I wouldn’t have gotten wet",
-    "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
-    ]
-  },
-  {
-    "objectID": "cfr/cfr.html#regret",
-    "href": "cfr/cfr.html#regret",
-    "title": "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
-    "section": "Regret",
-    "text": "Regret\nRegret we previously touched on in Section 25  Regret.\nIn brief, it’s a way to assign a value to the difference between a made decision and an optimal decision. For example, if you choose to play a slot machine that returns a value of \\(5\\) rather than the best machine that returns a value of \\(10\\), then your regret would be \\(10 - 5 = 5\\).",
-    "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
-    ]
-  },
-  {
-    "objectID": "cfr/cfr.html#minimization",
-    "href": "cfr/cfr.html#minimization",
-    "title": "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
-    "section": "Minimization",
-    "text": "Minimization\nMinimization refers to minimizing the difference between the made decision and the optimal decision. Playing the optimal slot machine, i.e. the one that returns a value of \\(10\\), would minimize the regret to \\(0\\).",
-    "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
-    ]
-  },
-  {
-    "objectID": "cfr/cfr.html#what-is-cfr",
-    "href": "cfr/cfr.html#what-is-cfr",
-    "title": "COUNTERFACTUAL REGRET MINIMIZATION (CFR)",
-    "section": "What is CFR?",
-    "text": "What is CFR?\nIn brief, CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts play with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.\nEach action at each information set in the game has an associated regret value that is calculated based on how that action performs compared to how the overall strategy at that infoset performs. Positive regret means that the action did better than the overall strategy and negative means worse.\nThe regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated according to the proportion of the positive regrets, meaning that actions with higher regret that performed well will get played more often.\nAt the end, the average of all strategies played converges to the equilibrium strategy.\nThe strategy is computed offline and then can be used in play – it’s a fixed, opponent-agnostic strategy that can’t be beaten in the long-run, but also doesn’t take advantage of opponent weaknesses.\nSee Mike Johanson’s intuitive explanation of CFR for more details.",
-    "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION (CFR)"
-    ]
-  },
-  {
-    "objectID": "abstractinglargegames/abstractinglargegames.html",
-    "href": "abstractinglargegames/abstractinglargegames.html",
-    "title": "ABSTRACTING LARGE GAMES",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "ABSTRACTING LARGE GAMES"
-    ]
-  },
-  {
-    "objectID": "pokersolvers/pokersolvers.html",
-    "href": "pokersolvers/pokersolvers.html",
-    "title": "POKER SOLVERS",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "POKER SOLVERS"
-    ]
-  },
-  {
-    "objectID": "aimath/aimath.html",
-    "href": "aimath/aimath.html",
-    "title": "AI MATH",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "AI MATH"
-    ]
-  },
-  {
-    "objectID": "aifoundations/aifoundations.html",
-    "href": "aifoundations/aifoundations.html",
-    "title": "AI FOUNDATIONS",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "AI FOUNDATIONS"
-    ]
-  },
-  {
-    "objectID": "stateoftheartpokerai/stateoftheartpokerai.html",
-    "href": "stateoftheartpokerai/stateoftheartpokerai.html",
-    "title": "STATE OF THE ART POKER AI",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "STATE OF THE ART POKER AI"
-    ]
-  },
-  {
-    "objectID": "llms/llms.html",
-    "href": "llms/llms.html",
-    "title": "LLMS",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "LLMS"
-    ]
-  },
-  {
-    "objectID": "opponentmodeling/opponentmodeling.html",
-    "href": "opponentmodeling/opponentmodeling.html",
-    "title": "OPPONENT MODELING",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "OPPONENT MODELING"
-    ]
-  },
-  {
-    "objectID": "aisafety/aisafety.html",
-    "href": "aisafety/aisafety.html",
-    "title": "AI RISKS AND SAFETY",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "AI RISKS AND SAFETY"
-    ]
-  },
-  {
-    "objectID": "theriver/theriver.html",
-    "href": "theriver/theriver.html",
-    "title": "THE RIVER",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "THE RIVER"
-    ]
-  },
-  {
-    "objectID": "projectideas/projectideas.html",
-    "href": "projectideas/projectideas.html",
-    "title": "PROJECT IDEAS",
-    "section": "",
-    "text": "Hello",
-    "crumbs": [
-      "PROJECT IDEAS"
     ]
   }
 ]

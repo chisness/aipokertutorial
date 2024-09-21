@@ -1,4 +1,0 @@
-# STATE OF THE ART POKER AI {#sec-stateoftheartpokerai}
-
-Hello
-

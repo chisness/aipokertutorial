@@ -10,12 +10,12 @@ book:
     - intro/games.qmd
     - intro/basicstrategy.qmd
     - intro/ethics.qmd
-    part: intro/intro.qmd
+    part: "INTRO"
   - chapters:
     - codingfoundations/python.qmd
     - codingfoundations/aiagents.qmd
     - codingfoundations/buildingaiagents.qmd
-    part: codingfoundations/codingfoundations.qmd
+    part: "CODING FOUNDATIONS"
   - chapters:
     - mathfoundations/algebra.qmd
     - mathfoundations/probability.qmd
@@ -24,36 +24,36 @@ book:
     - mathfoundations/bayesrule.qmd
     - mathfoundations/statistics.qmd
     - mathfoundations/montecarlo.qmd
-    part: mathfoundations/mathfoundations.qmd
+    part: "MATH FOUNDATIONS"
   - chapters:
     - knowledge/logic.qmd
     - knowledge/knowledgerepresentation.qmd
     - knowledge/rationality.qmd
     - knowledge/psychology.qmd
-    part: knowledge/knowledge.qmd
+    part: "KNOWLEDGE"
   - chapters:
     - decisiomakingunderuncertainty/probabilisticthinking.qmd
     - decisiomakingunderuncertainty/decisiontheory.qmd
     - decisiomakingunderuncertainty/risk.qmd
     - decisiomakingunderuncertainty/regret.qmd
     - decisiomakingunderuncertainty/bandits.qmd
-    part: decisiomakingunderuncertainty/decisiomakingunderuncertainty.qmd
+    part: "DECISION MAKING UNDER UNCERTAINTY"
   - chapters:
     - gametheory/nash.qmd
     - gametheory/gto.qmd
     - gametheory/mixedstrategies.qmd
-    part: gametheory/gametheory.qmd
+    part: "GAME THEORY"
   - chapters:
     - gametrees/perfectinfo.qmd
     - gametrees/minimax.qmd
     - gametrees/imperfectinfo.qmd
-    part: gametrees/gametrees.qmd
+    part: "GAME TREES"
   - chapters:
     - solvingtoygames/analytical.qmd
     - solvingtoygames/normalform.qmd
     - solvingtoygames/optimization.qmd
     - solvingtoygames/sequenceform.qmd
-    part: solvingtoygames/solvingtoygames.qmd
+    part: "SOLVING TOY GAMES"
   - chapters:
     - cfr/algorithm.qmd
     - cfr/interactive.qmd
@@ -62,13 +62,13 @@ book:
     - cfr/algimprovements.qmd
     - cfr/montecarlocfr.qmd
     - cfr/vectorcfr.qmd
-    part: cfr/cfr.qmd
+    part: "COUNTERFACTUAL REGRET MINIMIZATION"
   - chapters:
     - abstractinglargegames/gamesize.qmd
     - abstractinglargegames/cardabstraction.qmd
     - abstractinglargegames/betabstraction.qmd
     - abstractinglargegames/agentevaluation.qmd
-    part: abstractinglargegames/abstractinglargegames.qmd
+    part: "ABSTRACTING LARGE GAMES"
   - chapters:
     - pokersolvers/howsolverswork.qmd
     - pokersolvers/usingsolvers.qmd
@@ -77,50 +77,50 @@ book:
     - pokersolvers/solverlimitations.qmd
     - pokersolvers/advancedstrategy.qmd
     - pokersolvers/tournaments.qmd
-    part: pokersolvers/pokersolvers.qmd
+    part: "POKER SOLVERS"
   - chapters:
     - aimath/calculus.qmd
     - aimath/linearalgebra.qmd
     - aimath/infotheory.qmd
-    part: aimath/aimath.qmd
+    part: "AI MATH FOUNDATIONS"
   - chapters:
     - aifoundations/ml.qmd
     - aifoundations/dl.qmd
     - aifoundations/rl.qmd
-    part: aifoundations/aifoundations.qmd
+    part: "AI FOUNDATIONS"
   - chapters:
     - recentgameaiadvances/gameai.qmd
     - recentgameaiadvances/mas.qmd
-    part: recentgameaiadvances/recentgameaiadvances.qmd
+    part: "RECENT GAME AI ADVANCES"
   - chapters:
     - stateoftheartpokerai/deepcfr.qmd
     - stateoftheartpokerai/toppokeragents.qmd
     - stateoftheartpokerai/variancereduction.qmd
     - stateoftheartpokerai/humanvsai.qmd
     - stateoftheartpokerai/newresearch.qmd
-    part: stateoftheartpokerai/stateoftheartpokerai.qmd
+    part: "STATE OF THE ART POKER AI"
   - chapters:
     - llms/transformers.qmd
     - llms/othellogpt.qmd
     - llms/pokergpt.qmd
     - llms/interpretability.qmd
-    part: llms/llms.qmd
+    part: "LLMS"
   - chapters:
     - opponentmodeling/bestresponse.qmd
     - opponentmodeling/exploitativestrategies.qmd
-    part: opponentmodeling/opponentmodeling.qmd
+    part: "OPPONENT MODELING"
   - chapters:
     - aisafety/shortterm.qmd
     - aisafety/longterm.qmd
-    part: aisafety/aisafety.qmd
+    part: "AI RISKS AND SAFETY"
   - chapters:
     - theriver/trading.qmd
     - theriver/predictionmarkets.qmd
     - theriver/otherbetting.qmd
-    part: theriver/theriver.qmd
+    part: "THE RIVER"
   - chapters:
     - projectideas/projects.qmd
-    part: projectideas/projectideas.qmd
+    part: "PROJECT IDEAS"
   cover-image: pcicon.png
   date: 9/11/2024
   favicon: favicon.svg

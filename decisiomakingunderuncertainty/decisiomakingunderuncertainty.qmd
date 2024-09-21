@@ -1,4 +1,0 @@
-# DECISION MAKING UNDER UNCERTAINTY {#sec-decisiomakingunderuncertainty}
-
-Hello
-

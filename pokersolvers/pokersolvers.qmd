@@ -1,4 +1,0 @@
-# POKER SOLVERS {#sec-pokersolvers}
-
-Hello
-

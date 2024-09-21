@@ -1,4 +1,0 @@
-# ABSTRACTING LARGE GAMES {#sec-abstractinglargegames}
-
-Hello
-
