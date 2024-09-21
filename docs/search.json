@@ -4,977 +4,977 @@
     "href": "index.html",
     "title": "Artificial Intelligence: Through the Lens of Poker",
     "section": "",
-    "text": "1 AI Poker Tutorial\nNew AIPT by Poker Camp coming soon.",
+    "text": "Welcome\nA text by Poker Camp. Coming soon.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>AI Poker Tutorial</span>"
+      "Welcome"
     ]
   },
   {
     "objectID": "intro/whypoker.html",
     "href": "intro/whypoker.html",
-    "title": "2  Why Poker?",
+    "title": "1  Why Poker?",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "INTRO",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Poker?</span>"
+      "Introduction",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Why Poker?</span>"
     ]
   },
   {
     "objectID": "intro/pokercamp.html",
     "href": "intro/pokercamp.html",
-    "title": "3  Poker Camp",
+    "title": "2  Poker Camp",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "INTRO",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Poker Camp</span>"
+      "Introduction",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Poker Camp</span>"
     ]
   },
   {
     "objectID": "intro/problemsolving.html",
     "href": "intro/problemsolving.html",
-    "title": "4  Problem Solving",
+    "title": "3  Problem Solving",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "INTRO",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problem Solving</span>"
+      "Introduction",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Problem Solving</span>"
     ]
   },
   {
     "objectID": "intro/games.html",
     "href": "intro/games.html",
-    "title": "5  Games",
+    "title": "4  Games",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "INTRO",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Games</span>"
+      "Introduction",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Games</span>"
     ]
   },
   {
     "objectID": "intro/basicstrategy.html",
     "href": "intro/basicstrategy.html",
-    "title": "6  Basic Strategy",
+    "title": "5  Basic Strategy",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "INTRO",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic Strategy</span>"
+      "Introduction",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Basic Strategy</span>"
     ]
   },
   {
     "objectID": "intro/ethics.html",
     "href": "intro/ethics.html",
-    "title": "7  Ethical Considerations",
+    "title": "6  Ethical Considerations",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "INTRO",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Ethical Considerations</span>"
+      "Introduction",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Ethical Considerations</span>"
     ]
   },
   {
     "objectID": "codingfoundations/python.html",
     "href": "codingfoundations/python.html",
-    "title": "8  Python",
+    "title": "7  Python",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "CODING FOUNDATIONS",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Python</span>"
+      "Coding Foundations",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Python</span>"
     ]
   },
   {
     "objectID": "codingfoundations/aiagents.html",
     "href": "codingfoundations/aiagents.html",
-    "title": "9  AI Agents",
+    "title": "8  AI Agents",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "CODING FOUNDATIONS",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>AI Agents</span>"
+      "Coding Foundations",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>AI Agents</span>"
     ]
   },
   {
     "objectID": "codingfoundations/buildingaiagents.html",
     "href": "codingfoundations/buildingaiagents.html",
-    "title": "10  Building AI Agents",
+    "title": "9  Building AI Agents",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "CODING FOUNDATIONS",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Building AI Agents</span>"
+      "Coding Foundations",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Building AI Agents</span>"
     ]
   },
   {
     "objectID": "mathfoundations/algebra.html",
     "href": "mathfoundations/algebra.html",
-    "title": "11  Algebra",
+    "title": "10  Algebra",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Algebra</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Algebra</span>"
     ]
   },
   {
     "objectID": "mathfoundations/probability.html",
     "href": "mathfoundations/probability.html",
-    "title": "12  Probability",
+    "title": "11  Probability",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Probability</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Probability</span>"
     ]
   },
   {
     "objectID": "mathfoundations/combinatorics.html",
     "href": "mathfoundations/combinatorics.html",
-    "title": "13  Combinatorics",
+    "title": "12  Combinatorics",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Combinatorics</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Combinatorics</span>"
     ]
   },
   {
     "objectID": "mathfoundations/expectedvalue.html",
     "href": "mathfoundations/expectedvalue.html",
-    "title": "14  Expected Value",
+    "title": "13  Expected Value",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Expected Value</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Expected Value</span>"
     ]
   },
   {
     "objectID": "mathfoundations/bayesrule.html",
     "href": "mathfoundations/bayesrule.html",
-    "title": "15  Bayes’ Rule",
+    "title": "14  Bayes’ Rule",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Bayes' Rule</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Bayes' Rule</span>"
     ]
   },
   {
     "objectID": "mathfoundations/statistics.html",
     "href": "mathfoundations/statistics.html",
-    "title": "16  Statistics",
+    "title": "15  Statistics",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Statistics</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Statistics</span>"
     ]
   },
   {
     "objectID": "mathfoundations/montecarlo.html",
     "href": "mathfoundations/montecarlo.html",
-    "title": "17  Monte Carlo Methods",
+    "title": "16  Monte Carlo Methods",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "MATH FOUNDATIONS",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Monte Carlo Methods</span>"
+      "Math Foundations",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Monte Carlo Methods</span>"
     ]
   },
   {
     "objectID": "knowledge/logic.html",
     "href": "knowledge/logic.html",
-    "title": "18  Logic",
+    "title": "17  Logic",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "KNOWLEDGE",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Logic</span>"
+      "Knowledge",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Logic</span>"
     ]
   },
   {
     "objectID": "knowledge/knowledgerepresentation.html",
     "href": "knowledge/knowledgerepresentation.html",
-    "title": "19  Knowledge Representation",
+    "title": "18  Knowledge Representation",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "KNOWLEDGE",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Knowledge Representation</span>"
+      "Knowledge",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Knowledge Representation</span>"
     ]
   },
   {
     "objectID": "knowledge/rationality.html",
     "href": "knowledge/rationality.html",
-    "title": "20  Rationality",
+    "title": "19  Rationality",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "KNOWLEDGE",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Rationality</span>"
+      "Knowledge",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Rationality</span>"
     ]
   },
   {
     "objectID": "knowledge/psychology.html",
     "href": "knowledge/psychology.html",
-    "title": "21  Psychology and Mindset",
+    "title": "20  Psychology and Mindset",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "KNOWLEDGE",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Psychology and Mindset</span>"
+      "Knowledge",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Psychology and Mindset</span>"
     ]
   },
   {
     "objectID": "decisiomakingunderuncertainty/probabilisticthinking.html",
     "href": "decisiomakingunderuncertainty/probabilisticthinking.html",
-    "title": "22  Probabilistic Thinking",
+    "title": "21  Probabilistic Thinking",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "DECISION MAKING UNDER UNCERTAINTY",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Probabilistic Thinking</span>"
+      "Decision Making Under Uncertainty",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Probabilistic Thinking</span>"
     ]
   },
   {
     "objectID": "decisiomakingunderuncertainty/decisiontheory.html",
     "href": "decisiomakingunderuncertainty/decisiontheory.html",
-    "title": "23  Decision Theory",
+    "title": "22  Decision Theory",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "DECISION MAKING UNDER UNCERTAINTY",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Decision Theory</span>"
+      "Decision Making Under Uncertainty",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Decision Theory</span>"
     ]
   },
   {
     "objectID": "decisiomakingunderuncertainty/risk.html",
     "href": "decisiomakingunderuncertainty/risk.html",
-    "title": "24  Risk",
+    "title": "23  Risk",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "DECISION MAKING UNDER UNCERTAINTY",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Risk</span>"
+      "Decision Making Under Uncertainty",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Risk</span>"
     ]
   },
   {
     "objectID": "decisiomakingunderuncertainty/regret.html",
     "href": "decisiomakingunderuncertainty/regret.html",
-    "title": "25  Regret",
+    "title": "24  Regret",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "DECISION MAKING UNDER UNCERTAINTY",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Regret</span>"
+      "Decision Making Under Uncertainty",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Regret</span>"
     ]
   },
   {
     "objectID": "decisiomakingunderuncertainty/bandits.html",
     "href": "decisiomakingunderuncertainty/bandits.html",
-    "title": "26  Multi-armed Bandits",
+    "title": "25  Multi-armed Bandits",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "DECISION MAKING UNDER UNCERTAINTY",
-      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Multi-armed Bandits</span>"
+      "Decision Making Under Uncertainty",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Multi-armed Bandits</span>"
     ]
   },
   {
     "objectID": "gametheory/nash.html",
     "href": "gametheory/nash.html",
-    "title": "27  Nash Equilibrium",
+    "title": "26  Nash Equilibrium",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME THEORY",
-      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Nash Equilibrium</span>"
+      "Game Theory",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Nash Equilibrium</span>"
     ]
   },
   {
     "objectID": "gametheory/gto.html",
     "href": "gametheory/gto.html",
-    "title": "28  Game Theory Optimal (GTO)",
+    "title": "27  Game Theory Optimal (GTO)",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME THEORY",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Game Theory Optimal (GTO)</span>"
+      "Game Theory",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Game Theory Optimal (GTO)</span>"
     ]
   },
   {
     "objectID": "gametheory/mixedstrategies.html",
     "href": "gametheory/mixedstrategies.html",
-    "title": "29  Mixed Strategies",
+    "title": "28  Mixed Strategies",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME THEORY",
-      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Mixed Strategies</span>"
+      "Game Theory",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Mixed Strategies</span>"
     ]
   },
   {
     "objectID": "gametrees/perfectinfo.html",
     "href": "gametrees/perfectinfo.html",
-    "title": "30  Perfect Information",
+    "title": "29  Perfect Information",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME TREES",
-      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Perfect Information</span>"
+      "Game Trees",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Perfect Information</span>"
     ]
   },
   {
     "objectID": "gametrees/minimax.html",
     "href": "gametrees/minimax.html",
-    "title": "31  Minimax",
+    "title": "30  Minimax",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME TREES",
-      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Minimax</span>"
+      "Game Trees",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Minimax</span>"
     ]
   },
   {
     "objectID": "gametrees/imperfectinfo.html",
     "href": "gametrees/imperfectinfo.html",
-    "title": "32  Imperfect Information Games",
+    "title": "31  Imperfect Information Games",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "GAME TREES",
-      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Imperfect Information Games</span>"
+      "Game Trees",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Imperfect Information Games</span>"
     ]
   },
   {
     "objectID": "solvingtoygames/analytical.html",
     "href": "solvingtoygames/analytical.html",
-    "title": "33  Analytical Solutions",
+    "title": "32  Analytical Solutions",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "SOLVING TOY GAMES",
-      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Analytical Solutions</span>"
+      "Solving Toy Games",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Analytical Solutions</span>"
     ]
   },
   {
     "objectID": "solvingtoygames/normalform.html",
     "href": "solvingtoygames/normalform.html",
-    "title": "34  Normal Form",
+    "title": "33  Normal Form",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "SOLVING TOY GAMES",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Normal Form</span>"
+      "Solving Toy Games",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Normal Form</span>"
     ]
   },
   {
     "objectID": "solvingtoygames/optimization.html",
     "href": "solvingtoygames/optimization.html",
-    "title": "35  Optimization",
+    "title": "34  Optimization",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "SOLVING TOY GAMES",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Optimization</span>"
+      "Solving Toy Games",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Optimization</span>"
     ]
   },
   {
     "objectID": "solvingtoygames/sequenceform.html",
     "href": "solvingtoygames/sequenceform.html",
-    "title": "36  Sequence Form",
+    "title": "35  Sequence Form",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "SOLVING TOY GAMES",
-      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Sequence Form</span>"
+      "Solving Toy Games",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Sequence Form</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html",
     "href": "cfr/algorithm.html",
-    "title": "37  CFR Algorithm",
+    "title": "36  CFR Algorithm",
     "section": "",
-    "text": "37.1 Counterfactual\nCounterfactual means “relating to or expressing what has not happened or is not the case”. For example, if in reality I didn’t bring an umbrella and got wet in the rain, I could say counterfactually, “If I had brought an umbrella, I wouldn’t have gotten wet.”\nActual event: I didn’t bring an umbrella, and I got wet in the rain\nCounterfactual event: If I had brought an umbrella, I wouldn’t have gotten wet",
+    "text": "36.1 Counterfactual\nCounterfactual means “relating to or expressing what has not happened or is not the case”. For example, if in reality I didn’t bring an umbrella and got wet in the rain, I could say counterfactually, “If I had brought an umbrella, I wouldn’t have gotten wet.”\nActual event: I didn’t bring an umbrella, and I got wet in the rain\nCounterfactual event: If I had brought an umbrella, I wouldn’t have gotten wet",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#regret",
     "href": "cfr/algorithm.html#regret",
-    "title": "37  CFR Algorithm",
-    "section": "37.2 Regret",
-    "text": "37.2 Regret\nRegret we previously touched on in Section 25.\nIn brief, it’s a way to assign a value to the difference between a made decision and an optimal decision. For example, if you choose to play a slot machine that returns a value of \\(5\\) rather than the best machine that returns a value of \\(10\\), then your regret would be \\(10 - 5 = 5\\).",
+    "title": "36  CFR Algorithm",
+    "section": "36.2 Regret",
+    "text": "36.2 Regret\nRegret we previously touched on in Section 24.\nIn brief, it’s a way to assign a value to the difference between a made decision and an optimal decision. For example, if you choose to play a slot machine that returns a value of \\(5\\) rather than the best machine that returns a value of \\(10\\), then your regret would be \\(10 - 5 = 5\\).",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#minimization",
     "href": "cfr/algorithm.html#minimization",
-    "title": "37  CFR Algorithm",
-    "section": "37.3 Minimization",
-    "text": "37.3 Minimization\nMinimization refers to minimizing the difference between the made decision and the optimal decision. Playing the optimal slot machine, i.e. the one that returns a value of \\(10\\), would minimize the regret to \\(0\\).",
+    "title": "36  CFR Algorithm",
+    "section": "36.3 Minimization",
+    "text": "36.3 Minimization\nMinimization refers to minimizing the difference between the made decision and the optimal decision. Playing the optimal slot machine, i.e. the one that returns a value of \\(10\\), would minimize the regret to \\(0\\).",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#what-is-cfr",
     "href": "cfr/algorithm.html#what-is-cfr",
-    "title": "37  CFR Algorithm",
-    "section": "37.4 What is CFR?",
-    "text": "37.4 What is CFR?\nIn brief, CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts play with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.\nEach action at each information set in the game has an associated regret value that is calculated based on how that action performs compared to how the overall strategy at that infoset performs. Positive regret means that the action did better than the overall strategy and negative means worse.\nThe regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated according to the proportion of the positive regrets, meaning that actions with higher regret that performed well will get played more often.\nAt the end, the average of all strategies played converges to the equilibrium strategy.\nThe strategy is computed offline and then can be used in play – it’s a fixed, opponent-agnostic strategy that can’t be beaten in the long-run, but also doesn’t take advantage of opponent weaknesses.\nSee Mike Johanson’s intuitive explanation of CFR for more details.",
+    "title": "36  CFR Algorithm",
+    "section": "36.4 What is CFR?",
+    "text": "36.4 What is CFR?\nIn brief, CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts play with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.\nEach action at each information set in the game has an associated regret value that is calculated based on how that action performs compared to how the overall strategy at that infoset performs. Positive regret means that the action did better than the overall strategy and negative means worse.\nThe regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated according to the proportion of the positive regrets, meaning that actions with higher regret that performed well will get played more often.\nAt the end, the average of all strategies played converges to the equilibrium strategy.\nThe strategy is computed offline and then can be used in play – it’s a fixed, opponent-agnostic strategy that can’t be beaten in the long-run, but also doesn’t take advantage of opponent weaknesses.\nSee Mike Johanson’s intuitive explanation of CFR for more details.",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#algorithm-overview",
     "href": "cfr/algorithm.html#algorithm-overview",
-    "title": "37  CFR Algorithm",
-    "section": "37.5 Algorithm Overview",
-    "text": "37.5 Algorithm Overview\nEach information set maintains a strategy and regret tabular counter for each action. These accumulate the sum of all strategies and the sum of all regrets.\nIn a game like Rock Paper Scissors, there is effectively only one infoset, so only one table for strategy over each action (Rock, Paper, Scissors) and one table for regret over each action (Rock, Paper, Scissors).\nRegrets are linked to strategies through a policy called regret matching, which selects strategies proportionally to their positive regrets.\nAfter using regret matching and after many iterations, we can minimize expected regret by using the average strategy at the end, which is the strategy that converges to equilibrium.\nIf two players were training against each other using regret matching, they would converge to the Nash Equilibrium of \\(1/3\\) for each action using the average strategy in Rock Paper Scissors.",
+    "title": "36  CFR Algorithm",
+    "section": "36.5 Algorithm Overview",
+    "text": "36.5 Algorithm Overview\nEach information set maintains a strategy and regret tabular counter for each action. These accumulate the sum of all strategies and the sum of all regrets.\nIn a game like Rock Paper Scissors, there is effectively only one infoset, so only one table for strategy over each action (Rock, Paper, Scissors) and one table for regret over each action (Rock, Paper, Scissors).\nRegrets are linked to strategies through a policy called regret matching, which selects strategies proportionally to their positive regrets.\nAfter using regret matching and after many iterations, we can minimize expected regret by using the average strategy at the end, which is the strategy that converges to equilibrium.\nIf two players were training against each other using regret matching, they would converge to the Nash Equilibrium of \\(1/3\\) for each action using the average strategy in Rock Paper Scissors.",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#simplified-cfr-example-regret-updates-in-rps",
     "href": "cfr/algorithm.html#simplified-cfr-example-regret-updates-in-rps",
-    "title": "37  CFR Algorithm",
-    "section": "37.6 Simplified CFR Example: Regret Updates in RPS",
-    "text": "37.6 Simplified CFR Example: Regret Updates in RPS\nLet’s see how that works in Rock Paper Scissors.\nIn general, we define regret as:\n\\(\\text{Regret} = u(\\text{Alternative Strategy}) − u(\\text{Current Strategy})\\)\nWe prefer alternative actions with high regret and wish to minimize our overall regret. That second part might sound counterintuitive, but as we play more of the better actions, we will consequently minimize overall regret.\nWe play Rock and opponent plays Paper \\(\\implies \\text{u(rock,paper)} = -1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(rock,paper)} = 0-(-1) = 1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(rock,paper)} = -1-(-1) = 0\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(rock,paper)} = 1-(-1) = 2\\)\nWe play Scissors and opponent plays Paper \\(\\implies \\text{u(scissors,paper)} = 1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(scissors,paper)} = 0-1 = -1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(scissors,paper)} = -1-1 = -2\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(scissors,paper)} = 1-1 = 0\\)\nWe play Paper and opponent plays Paper \\(\\implies \\text{u(paper,paper)} = 0\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(paper,paper)} = 0-0 = 0\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(paper,paper)} = -1-0 = -1\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(paper,paper)} = 1-0 = 1\\)\nTo generalize:\n\nThe action played always gets a regret of \\(0\\) since the “alternative” is really just that same action\nWhen we play a tying action, the alternative losing action gets a regret of \\(-1\\) and the alternative winning action gets a regret of \\(+1\\)\nWhen we play a winning action, the alternative tying action gets a regret of \\(-1\\) and the alternative losing action gets a regret of \\(-2\\)\nWhen we play a losing action, the alternative winning action gets a regret of \\(+2\\) and the alternative tying action gets a regret of \\(+1\\)\n\nAfter each play, we accumulate regrets for each of the 3 actions.\nWe decide our strategy probability distribution using regret matching, which means playing a strategy that normalizes over the positive accumulated regrets, i.e. playing in proportion to the positive regrets.\nHere’s an example from Marc Lanctot’s CFR Tutorial. Assume that the regret counters start at 0 for each action.\n\nGame 1: Choose Rock and opponent chooses Paper\n\nLose 1\nRock: Regret 0\nPaper: Regret 1\nScissors: Regret 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 0/3 = 0 \\\\\n\\text{Paper} & 1/3 = 0.333 \\\\\n\\text{Scissors} & 2/3 = 0.667\n\\end{pmatrix}\n\\]\nGame 2: Choose Scissors (probability \\(2/3\\)) and opponent chooses Rock\n\nLose 1\nRock: Regret 1\nPaper: Regret 2\nScissors: Regret 0\n\nCumulative regrets:\n\nRock: 1\nPaper: 3\nScissors: 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 1/6 = 0.167 \\\\\n\\text{Paper} & 3/6 = 0.500 \\\\\n\\text{Scissors} & 2/6 = 0.333\n\\end{pmatrix}\n\\]",
+    "title": "36  CFR Algorithm",
+    "section": "36.6 Simplified CFR Example: Regret Updates in RPS",
+    "text": "36.6 Simplified CFR Example: Regret Updates in RPS\nLet’s see how that works in Rock Paper Scissors.\nIn general, we define regret as:\n\\(\\text{Regret} = u(\\text{Alternative Strategy}) − u(\\text{Current Strategy})\\)\nWe prefer alternative actions with high regret and wish to minimize our overall regret. That second part might sound counterintuitive, but as we play more of the better actions, we will consequently minimize overall regret.\nWe play Rock and opponent plays Paper \\(\\implies \\text{u(rock,paper)} = -1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(rock,paper)} = 0-(-1) = 1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(rock,paper)} = -1-(-1) = 0\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(rock,paper)} = 1-(-1) = 2\\)\nWe play Scissors and opponent plays Paper \\(\\implies \\text{u(scissors,paper)} = 1\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(scissors,paper)} = 0-1 = -1\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(scissors,paper)} = -1-1 = -2\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(scissors,paper)} = 1-1 = 0\\)\nWe play Paper and opponent plays Paper \\(\\implies \\text{u(paper,paper)} = 0\\)\n\\(\\text{Regret(paper)} = \\text{u(paper,paper)} - \\text{u(paper,paper)} = 0-0 = 0\\)\n\\(\\text{Regret(rock)} = \\text{u(rock,paper)} - \\text{u(paper,paper)} = -1-0 = -1\\)\n\\(\\text{Regret(scissors)} = \\text{u(scissors,paper)} - \\text{u(paper,paper)} = 1-0 = 1\\)\nTo generalize:\n\nThe action played always gets a regret of \\(0\\) since the “alternative” is really just that same action\nWhen we play a tying action, the alternative losing action gets a regret of \\(-1\\) and the alternative winning action gets a regret of \\(+1\\)\nWhen we play a winning action, the alternative tying action gets a regret of \\(-1\\) and the alternative losing action gets a regret of \\(-2\\)\nWhen we play a losing action, the alternative winning action gets a regret of \\(+2\\) and the alternative tying action gets a regret of \\(+1\\)\n\nAfter each play, we accumulate regrets for each of the 3 actions.\nWe decide our strategy probability distribution using regret matching, which means playing a strategy that normalizes over the positive accumulated regrets, i.e. playing in proportion to the positive regrets.\nHere’s an example from Marc Lanctot’s CFR Tutorial. Assume that the regret counters start at 0 for each action.\n\nGame 1: Choose Rock and opponent chooses Paper\n\nLose 1\nRock: Regret 0\nPaper: Regret 1\nScissors: Regret 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 0/3 = 0 \\\\\n\\text{Paper} & 1/3 = 0.333 \\\\\n\\text{Scissors} & 2/3 = 0.667\n\\end{pmatrix}\n\\]\nGame 2: Choose Scissors (probability \\(2/3\\)) and opponent chooses Rock\n\nLose 1\nRock: Regret 1\nPaper: Regret 2\nScissors: Regret 0\n\nCumulative regrets:\n\nRock: 1\nPaper: 3\nScissors: 2\n\nNext Action: Proportional \\[\n\\begin{pmatrix}\n\\text{Rock} & 1/6 = 0.167 \\\\\n\\text{Paper} & 3/6 = 0.500 \\\\\n\\text{Scissors} & 2/6 = 0.333\n\\end{pmatrix}\n\\]",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#simplified-cfr-example-counterfactual-values",
     "href": "cfr/algorithm.html#simplified-cfr-example-counterfactual-values",
-    "title": "37  CFR Algorithm",
-    "section": "37.7 Simplified CFR Example: Counterfactual Values",
-    "text": "37.7 Simplified CFR Example: Counterfactual Values\n\nHere we have a very simple game tree showing a Player 1 node at the end of the game. For simplicity, we assume that this is the first iteration of the algorithm so each action is assigned a uniform \\(1/3\\) probability.\n\nThe counterfactual reach probability of information state I, π σ −i (I), is the probability of reaching I with strategy profile σ except that, we treat current player i actions to reach the state as having probability 1. In all situations we refer to as “counterfactual”, one treats the computation as if player i’s strategy was modified to have intentionally played to information set Ii . Put another way, we exclude the probabilities that factually came into player i’s play from the computation.\nRegular expected value: We can compute the regular expected value for each action of P1: \n\\(\\mathbb{E}(\\text{a}) = 0.33*(4) = 1.33\\)\n\\(\\mathbb{E}(\\text{b}) = 0.33*(7) = 2.33\\)\n\\(\\mathbb{E}(\\text{c}) = 0.33*(-10) = -3.33\\)\nCounterfactual value: The counterfactual value includes the reach probability \\(\\sigma_(-i) = 0.38\\) of the opponent and chance playing to this node.\n\\[ CV()\nv_i(I,a) = \\pi^\\sigma_{-i}(h)\\pi^{\\sigma:I\\rightarrow a}(h,z)u_i(z)\nv\n\\]",
+    "title": "36  CFR Algorithm",
+    "section": "36.7 Simplified CFR Example: Counterfactual Values",
+    "text": "36.7 Simplified CFR Example: Counterfactual Values\n\nHere we have a very simple game tree showing a Player 1 node at the end of the game. For simplicity, we assume that this is the first iteration of the algorithm so each action is assigned a uniform \\(1/3\\) probability.\n\nThe counterfactual reach probability of information state I, π σ −i (I), is the probability of reaching I with strategy profile σ except that, we treat current player i actions to reach the state as having probability 1. In all situations we refer to as “counterfactual”, one treats the computation as if player i’s strategy was modified to have intentionally played to information set Ii . Put another way, we exclude the probabilities that factually came into player i’s play from the computation.\nRegular expected value: We can compute the regular expected value for each action of P1: \n\\(\\mathbb{E}(\\text{a}) = 0.33*(4) = 1.33\\)\n\\(\\mathbb{E}(\\text{b}) = 0.33*(7) = 2.33\\)\n\\(\\mathbb{E}(\\text{c}) = 0.33*(-10) = -3.33\\)\nCounterfactual value: The counterfactual value includes the reach probability \\(\\sigma_(-i) = 0.38\\) of the opponent and chance playing to this node.\n\\[ CV()\nv_i(I,a) = \\pi^\\sigma_{-i}(h)\\pi^{\\sigma:I\\rightarrow a}(h,z)u_i(z)\nv\n\\]",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#core-cfr-algorithm",
     "href": "cfr/algorithm.html#core-cfr-algorithm",
-    "title": "37  CFR Algorithm",
-    "section": "37.8 Core CFR Algorithm",
-    "text": "37.8 Core CFR Algorithm\nHigh quantity of definitions (conventions primarily sourced from 2015 paper Solving Heads-up Limit Texas Hold’em):\n\\(P\\): Set of players\n\\(H\\): Game state, represented as history of actions from start of game\nTabular storing strategies and regrets at each infoset\nRegrets based on action values compared to node EV, which is based on counterfactual values\nRegret minimization, usually regret matching, to get new strategies\nAverage strategy converges to Nash equilibrium\nAs we think about solving larger games, we start to look at iterative algorithms.\n\n37.8.1 Regret and Strategies\nA strategy at an infoset is a probability distribution over each possible action.\nRegret is a measure of how much each strategy at an infoset is preferred and is used as a way to update strategies.\nFor a given P1 strategy and P2 strategy, a player has regret when they take an action at an infoset that was not the highest-EV action at that infoset.\n\n\n\n\n\n\nRegret Exercise\n\n\n\n\nWhat is the regret for each action?\n\n\n\nAction\nRegret\n\n\n\n\nA\n\n\n\nB\n\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nRegret\n\n\n\n\nA\n4\n\n\nB\n2\n\n\nC\n0\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Value Exercise\n\n\n\n\nIf taking a uniform strategy at this node (i.e. \\(\\frac{1}{3}\\) for each action), then what is the expected value of the node?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\mathbb{E} = \\frac{1}{3}*1 + \\frac{1}{3}*3+\\frac{1}{3}*5 = 0.33+1+1.67 = 3\\)\n\n\n\n\n\n\n\n\n\nPoker Regret Exercise\n\n\n\n\nIn poker games, the regret for each action is defined as the value for that action minus the expected value of the node. Give the regret values for each action under this definition.\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nValue\nPoker Regret\n\n\n\n\nA\n1\n-2\n\n\nB\n3\n0\n\n\nC\n5\n2\n\n\n\nAt a node in a poker game, the player prefers actions with higher regrets by this definition.\n\n\n\nRegret matching definitions:\n\n\\(a\\) is actions\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\n\\[\n\\sigma_i^t(a) = \\begin{cases}\n\\frac{\\max(R_i^t(a), 0)}{\\sum_{a' \\in A} \\max(R_i^t(a'), 0)} & \\text{if } \\sum_{a' \\in A} \\max(R_i^t(a'), 0) &gt; 0 \\\\\n\\frac{1}{|A|} & \\text{otherwise}\n\\end{cases}\n\\]\nThis is showing that we take the cumulative regret for an action divided by the cumulative regrets for all actions (normalizing) and then play that strategy for this action on the next iteration.\nIf all cumulative regrets are \\(\\leq 0\\) then we use the uniform distribution.\nIf cumulative regrets are positive, but are are \\(&lt;0\\) for a specific action, then we use \\(0\\) for that action.\nIn code:\n    def get_strategy(self):\n  #First find the normalizing sum\n        normalizing_sum = 0\n        for a in range(NUM_ACTIONS):\n            if self.regret_sum[a] &gt; 0:\n                self.strategy[a] = self.regret_sum[a]\n            else:\n                self.strategy[a] = 0\n            normalizing_sum += self.strategy[a]\n\n    #Then normalize each action\n        for a in range(NUM_ACTIONS):\n            if normalizing_sum &gt; 0:\n                self.strategy[a] /= normalizing_sum\n            else:\n                self.strategy[a] = 1.0/NUM_ACTIONS\n            self.strategy_sum[a] += self.strategy[a]\n\n        return self.strategy\n\n\n37.8.2 Iterating through the Tree\nThe core feature of the iterative algorithms is self-play by traversing the game tree over all infosets and tracking the strategies and regrets at each.\nFrom above, we know how to find the strategy and regret in the simple Rock Paper Scissors environment.\nIn poker:\n\nStrategies are determined the same as above, through regret matching from the previous regret values at the specific information set for each action\nCFR definitions:\n\n\\(a\\) is actions\n\\(I\\) is infoset\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\\(z\\) is a terminal node\n\\(u\\) is utility (payoffs)\n\\(p\\) is the current player who plays at this node\n\\(-p\\) is the the opponent player and chance\n\\(v\\) is counterfactual value\n\nCounterfactual values are effectively the value of an information set. They are weighted by the probability of opponent and chance playing to this node (in other words, the probability of playing to this node if this player tried to do so).\n\nCounterfactual value: \\(v^\\sigma (I) = \\sum_{z\\in Z_I} \\pi^{\\sigma}_{-p}(z[I])\\pi^{\\sigma}(z[I] \\rightarrow z)u_p(z)\\)\n\\(\\sum_{z\\in Z_I}\\) is summing over all terminal histories reachable from this node\n\\(\\pi^{\\sigma}_{-p}(z[I])\\) is the probability of opponents and chance reaching this node\n\\(\\pi^{\\sigma}(z[I] \\rightarrow z)\\) is the probability of playing from this node to terminal history \\(z\\), i.e. the weight component of the expected value\n\\(u_p(z)\\) is the utility at terminal history \\(z\\), i.e. the value component of the expected value\n\nInstantaneous regrets are based on action values compared to infoset EV. Each action EV then adds to its regret counter:\n\n\\(r^t(I,a) = v^{\\sigma^t}(I,a) - v^{\\sigma^t}(I)\\)\n\nCumulative (counterfactual) regrets are the sum of the individual regrets:\n\n\\(R^T(I,a) = \\sum_{t=1}^T r^t(I,a)\\)",
+    "title": "36  CFR Algorithm",
+    "section": "36.8 Core CFR Algorithm",
+    "text": "36.8 Core CFR Algorithm\nHigh quantity of definitions (conventions primarily sourced from 2015 paper Solving Heads-up Limit Texas Hold’em):\n\\(P\\): Set of players\n\\(H\\): Game state, represented as history of actions from start of game\nTabular storing strategies and regrets at each infoset\nRegrets based on action values compared to node EV, which is based on counterfactual values\nRegret minimization, usually regret matching, to get new strategies\nAverage strategy converges to Nash equilibrium\nAs we think about solving larger games, we start to look at iterative algorithms.\n\n36.8.1 Regret and Strategies\nA strategy at an infoset is a probability distribution over each possible action.\nRegret is a measure of how much each strategy at an infoset is preferred and is used as a way to update strategies.\nFor a given P1 strategy and P2 strategy, a player has regret when they take an action at an infoset that was not the highest-EV action at that infoset.\n\n\n\n\n\n\nRegret Exercise\n\n\n\n\nWhat is the regret for each action?\n\n\n\nAction\nRegret\n\n\n\n\nA\n\n\n\nB\n\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nRegret\n\n\n\n\nA\n4\n\n\nB\n2\n\n\nC\n0\n\n\n\n\n\n\n\n\n\n\n\n\nExpected Value Exercise\n\n\n\n\nIf taking a uniform strategy at this node (i.e. \\(\\frac{1}{3}\\) for each action), then what is the expected value of the node?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\mathbb{E} = \\frac{1}{3}*1 + \\frac{1}{3}*3+\\frac{1}{3}*5 = 0.33+1+1.67 = 3\\)\n\n\n\n\n\n\n\n\n\nPoker Regret Exercise\n\n\n\n\nIn poker games, the regret for each action is defined as the value for that action minus the expected value of the node. Give the regret values for each action under this definition.\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nAction\nValue\nPoker Regret\n\n\n\n\nA\n1\n-2\n\n\nB\n3\n0\n\n\nC\n5\n2\n\n\n\nAt a node in a poker game, the player prefers actions with higher regrets by this definition.\n\n\n\nRegret matching definitions:\n\n\\(a\\) is actions\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\n\\[\n\\sigma_i^t(a) = \\begin{cases}\n\\frac{\\max(R_i^t(a), 0)}{\\sum_{a' \\in A} \\max(R_i^t(a'), 0)} & \\text{if } \\sum_{a' \\in A} \\max(R_i^t(a'), 0) &gt; 0 \\\\\n\\frac{1}{|A|} & \\text{otherwise}\n\\end{cases}\n\\]\nThis is showing that we take the cumulative regret for an action divided by the cumulative regrets for all actions (normalizing) and then play that strategy for this action on the next iteration.\nIf all cumulative regrets are \\(\\leq 0\\) then we use the uniform distribution.\nIf cumulative regrets are positive, but are are \\(&lt;0\\) for a specific action, then we use \\(0\\) for that action.\nIn code:\n    def get_strategy(self):\n  #First find the normalizing sum\n        normalizing_sum = 0\n        for a in range(NUM_ACTIONS):\n            if self.regret_sum[a] &gt; 0:\n                self.strategy[a] = self.regret_sum[a]\n            else:\n                self.strategy[a] = 0\n            normalizing_sum += self.strategy[a]\n\n    #Then normalize each action\n        for a in range(NUM_ACTIONS):\n            if normalizing_sum &gt; 0:\n                self.strategy[a] /= normalizing_sum\n            else:\n                self.strategy[a] = 1.0/NUM_ACTIONS\n            self.strategy_sum[a] += self.strategy[a]\n\n        return self.strategy\n\n\n36.8.2 Iterating through the Tree\nThe core feature of the iterative algorithms is self-play by traversing the game tree over all infosets and tracking the strategies and regrets at each.\nFrom above, we know how to find the strategy and regret in the simple Rock Paper Scissors environment.\nIn poker:\n\nStrategies are determined the same as above, through regret matching from the previous regret values at the specific information set for each action\nCFR definitions:\n\n\\(a\\) is actions\n\\(I\\) is infoset\n\\(\\sigma\\) is strategy\n\\(t\\) is time\n\\(i\\) is player\n\\(R\\) is cumulative regret\n\\(z\\) is a terminal node\n\\(u\\) is utility (payoffs)\n\\(p\\) is the current player who plays at this node\n\\(-p\\) is the the opponent player and chance\n\\(v\\) is counterfactual value\n\nCounterfactual values are effectively the value of an information set. They are weighted by the probability of opponent and chance playing to this node (in other words, the probability of playing to this node if this player tried to do so).\n\nCounterfactual value: \\(v^\\sigma (I) = \\sum_{z\\in Z_I} \\pi^{\\sigma}_{-p}(z[I])\\pi^{\\sigma}(z[I] \\rightarrow z)u_p(z)\\)\n\\(\\sum_{z\\in Z_I}\\) is summing over all terminal histories reachable from this node\n\\(\\pi^{\\sigma}_{-p}(z[I])\\) is the probability of opponents and chance reaching this node\n\\(\\pi^{\\sigma}(z[I] \\rightarrow z)\\) is the probability of playing from this node to terminal history \\(z\\), i.e. the weight component of the expected value\n\\(u_p(z)\\) is the utility at terminal history \\(z\\), i.e. the value component of the expected value\n\nInstantaneous regrets are based on action values compared to infoset EV. Each action EV then adds to its regret counter:\n\n\\(r^t(I,a) = v^{\\sigma^t}(I,a) - v^{\\sigma^t}(I)\\)\n\nCumulative (counterfactual) regrets are the sum of the individual regrets:\n\n\\(R^T(I,a) = \\sum_{t=1}^T r^t(I,a)\\)",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/algorithm.html#more-exercises",
     "href": "cfr/algorithm.html#more-exercises",
-    "title": "37  CFR Algorithm",
-    "section": "37.9 More Exercises",
-    "text": "37.9 More Exercises\n\n\n\n\n\n\nMaximize Against non-Nash Fixed Opponent\n\n\n\nHow would you maximize in RPS knowing the opponent plays a fixed non-Nash strategy that you don’t know?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOne option is to play the equilibrium strategy until you get a significant sample on your opponent and then to exploit their strategy going forward.\n\n\n\n\n\n\n\n\n\nStrategy Against No-Rock Opponent\n\n\n\nWhat is the optimal play if your opponent can’t play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nPaper\n(0, 0)\n(-1, 1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nWe can see that Player 1 playing Paper is dominated by Scissors, so Player 1 should never play Paper.\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nIn the reduced game, we see that if Player 2 plays Paper with probability \\(p\\) and Scissors with probability \\(s\\), then:\n\\(\\mathbb{E}(\\text{P1 R}) = -1*p + 1*s = -p + s\\) \\(\\mathbb{E}(\\text{P1 S}) = 1*p + 0*s = p\\)\nSetting these equal, \\(-p + s = p \\Rightarrow s = 2p\\).\nWe also know that \\(s + p = 1\\).\nTherefore \\(s = 1 - p\\) and \\(1 - p = 2p \\Rightarrow 1 = 3p \\Rightarrow p = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nFor Player 1, we can solve similarly:\n\\(\\mathbb{E}(\\text{P2 P}) = 1*r - 1*s = r - s\\) \\(\\mathbb{E}(\\text{P2 S}) = -1*r + 0*s = -r\\)\n\\(r - s = -r \\Rightarrow 2r = s\\)\nWe also know that \\(r + s = 1\\).\nTherefore \\(s = 1 - r\\) and \\(1 - r = 2r \\Rightarrow 1 = 3r \\Rightarrow r = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nInserting these probabilities, we have:\n\n\n\nPlayer 1/2\nPaper (1/3)\nScissors (2/3)\n\n\n\n\nRock (1/3)\n(-1, 1) (1/9)\n(1, -1) (2/9)\n\n\nScissors (2/3)\n(1, -1) (2/9)\n(0, 0) (4/9)\n\n\n\nTherefore Player 1 has payoffs of: \\(1/9 * -1 + 2/9 * 1 + 2/9 * 1 + 4/9 * 0 = 3/9 = 1/3\\). Therefore the player that can still play Rock has an advantage of \\(1/3\\) at equilibrium.\n\n\n\n\n\n\n\n\n\nMaximize Against Adapting Rock Opponent\n\n\n\n\nSuppose that your opponent is forced to play Rock exactly\n\nSuppose that your opponent gets a card with probability \\(X\\) such that \\(X\\%\\) of the time they are forced to play Rock What if the opponent is adapting to you, but 10% of the time they are forced to play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon\n\n\n\n\n\n\n\n\n\nSkewed Rock Payoff\n\n\n\nWhat is the equilibrium strategy if the payoff for Rock over Scissors is 2 (others stay the same)?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon",
+    "title": "36  CFR Algorithm",
+    "section": "36.9 More Exercises",
+    "text": "36.9 More Exercises\n\n\n\n\n\n\nMaximize Against non-Nash Fixed Opponent\n\n\n\nHow would you maximize in RPS knowing the opponent plays a fixed non-Nash strategy that you don’t know?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOne option is to play the equilibrium strategy until you get a significant sample on your opponent and then to exploit their strategy going forward.\n\n\n\n\n\n\n\n\n\nStrategy Against No-Rock Opponent\n\n\n\nWhat is the optimal play if your opponent can’t play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nPaper\n(0, 0)\n(-1, 1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nWe can see that Player 1 playing Paper is dominated by Scissors, so Player 1 should never play Paper.\n\n\n\nPlayer 1/2\nPaper\nScissors\n\n\n\n\nRock\n(-1, 1)\n(1, -1)\n\n\nScissors\n(1, -1)\n(0, 0)\n\n\n\nIn the reduced game, we see that if Player 2 plays Paper with probability \\(p\\) and Scissors with probability \\(s\\), then:\n\\(\\mathbb{E}(\\text{P1 R}) = -1*p + 1*s = -p + s\\) \\(\\mathbb{E}(\\text{P1 S}) = 1*p + 0*s = p\\)\nSetting these equal, \\(-p + s = p \\Rightarrow s = 2p\\).\nWe also know that \\(s + p = 1\\).\nTherefore \\(s = 1 - p\\) and \\(1 - p = 2p \\Rightarrow 1 = 3p \\Rightarrow p = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nFor Player 1, we can solve similarly:\n\\(\\mathbb{E}(\\text{P2 P}) = 1*r - 1*s = r - s\\) \\(\\mathbb{E}(\\text{P2 S}) = -1*r + 0*s = -r\\)\n\\(r - s = -r \\Rightarrow 2r = s\\)\nWe also know that \\(r + s = 1\\).\nTherefore \\(s = 1 - r\\) and \\(1 - r = 2r \\Rightarrow 1 = 3r \\Rightarrow r = 1/3\\).\nTherefore, \\(s = 1 - 1/3 = 2/3\\).\nFor Player 2, we have \\(s = 2/3\\) and \\(p = 1/3\\).\nInserting these probabilities, we have:\n\n\n\nPlayer 1/2\nPaper (1/3)\nScissors (2/3)\n\n\n\n\nRock (1/3)\n(-1, 1) (1/9)\n(1, -1) (2/9)\n\n\nScissors (2/3)\n(1, -1) (2/9)\n(0, 0) (4/9)\n\n\n\nTherefore Player 1 has payoffs of: \\(1/9 * -1 + 2/9 * 1 + 2/9 * 1 + 4/9 * 0 = 3/9 = 1/3\\). Therefore the player that can still play Rock has an advantage of \\(1/3\\) at equilibrium.\n\n\n\n\n\n\n\n\n\nMaximize Against Adapting Rock Opponent\n\n\n\n\nSuppose that your opponent is forced to play Rock exactly\n\nSuppose that your opponent gets a card with probability \\(X\\) such that \\(X\\%\\) of the time they are forced to play Rock What if the opponent is adapting to you, but 10% of the time they are forced to play Rock?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon\n\n\n\n\n\n\n\n\n\nSkewed Rock Payoff\n\n\n\nWhat is the equilibrium strategy if the payoff for Rock over Scissors is 2 (others stay the same)?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSoon",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Algorithm</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>CFR Algorithm</span>"
     ]
   },
   {
     "objectID": "cfr/interactive.html",
     "href": "cfr/interactive.html",
-    "title": "38  CFR Interactive",
+    "title": "37  CFR Interactive",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>38</span>  <span class='chapter-title'>CFR Interactive</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>CFR Interactive</span>"
     ]
   },
   {
     "objectID": "cfr/cfrrpspoker.html",
     "href": "cfr/cfrrpspoker.html",
-    "title": "39  Solving RPS and Poker with CFR",
+    "title": "38  Solving RPS and Poker with CFR",
     "section": "",
-    "text": "39.0.1 RPS Regret Matching Experiment\nHere we show that regret matching converges only using the average strategy over 10,000 iterations:\nThe bottom shows both players converging to \\(1/3\\), while the top shows Player 1’s volatile current strategies that are cycling around.\nSuppose that your opponent Player 2 is playing 40% Rock, 30% Paper, and 30% Scissors. Here is a regret matching 10,000 game experiment. It shows that it takes around 1,600 games before Player 1 plays only Paper (this will vary).\nWe see that if there is a fixed player, regret matching converges to the best strategy.\nBut what if your opponent is not using a fixed strategy? We’ll talk about that soon.",
+    "text": "38.0.1 RPS Regret Matching Experiment\nHere we show that regret matching converges only using the average strategy over 10,000 iterations:\nThe bottom shows both players converging to \\(1/3\\), while the top shows Player 1’s volatile current strategies that are cycling around.\nSuppose that your opponent Player 2 is playing 40% Rock, 30% Paper, and 30% Scissors. Here is a regret matching 10,000 game experiment. It shows that it takes around 1,600 games before Player 1 plays only Paper (this will vary).\nWe see that if there is a fixed player, regret matching converges to the best strategy.\nBut what if your opponent is not using a fixed strategy? We’ll talk about that soon.",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Solving RPS and Poker with CFR</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Solving RPS and Poker with CFR</span>"
     ]
   },
   {
     "objectID": "cfr/cfrrpspoker.html#data-talk-paper-scissors",
     "href": "cfr/cfrrpspoker.html#data-talk-paper-scissors",
-    "title": "39  Solving RPS and Poker with CFR",
-    "section": "39.1 Data: Talk Paper Scissors",
-    "text": "39.1 Data: Talk Paper Scissors\neieio games made a Rock Paper Scissors over voice game in which players call a phone number and get matched up with another player for a 3 game RPS match.\nThey published their 40,000 round data on X:\n\nOverall: R 37.2%, P 35.4%, S 27.4%\n\nRound 1: R 39.7%, P 37.6%, S 22.7%\n\nRound 2: R 34.0%, 33.4%, 32.6%\n\nRound 3: R 37.2%, 34.7%, 28.1%\n\n\n\n\n\n\nExpected Value Against TPS Player\n\n\n\nWhat is the best strategy per round against the average TPS player? What is your expected value per round and overall?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe best strategy is to always play Paper.\n\\(\\mathbb{E}(\\text{Round 1}) = 0.397*1 + 0.376*0 + 0.227*-1 = 0.17\\)\n\\(\\mathbb{E}(\\text{Round 2}) = 0.34*1 + 0.334*0 + 0.326*-1 = 0.014\\)\n\\(\\mathbb{E}(\\text{Round 3}) = 0.372*1 + 0.347*0 + 0.281*-1 = 0.091\\)\n\\(\\mathbb{E}(\\text{Round 4}) = 0.17 + 0.014 + 0.091 = 0.275\\)",
+    "title": "38  Solving RPS and Poker with CFR",
+    "section": "38.1 Data: Talk Paper Scissors",
+    "text": "38.1 Data: Talk Paper Scissors\neieio games made a Rock Paper Scissors over voice game in which players call a phone number and get matched up with another player for a 3 game RPS match.\nThey published their 40,000 round data on X:\n\nOverall: R 37.2%, P 35.4%, S 27.4%\n\nRound 1: R 39.7%, P 37.6%, S 22.7%\n\nRound 2: R 34.0%, 33.4%, 32.6%\n\nRound 3: R 37.2%, 34.7%, 28.1%\n\n\n\n\n\n\nExpected Value Against TPS Player\n\n\n\nWhat is the best strategy per round against the average TPS player? What is your expected value per round and overall?\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe best strategy is to always play Paper.\n\\(\\mathbb{E}(\\text{Round 1}) = 0.397*1 + 0.376*0 + 0.227*-1 = 0.17\\)\n\\(\\mathbb{E}(\\text{Round 2}) = 0.34*1 + 0.334*0 + 0.326*-1 = 0.014\\)\n\\(\\mathbb{E}(\\text{Round 3}) = 0.372*1 + 0.347*0 + 0.281*-1 = 0.091\\)\n\\(\\mathbb{E}(\\text{Round 4}) = 0.17 + 0.014 + 0.091 = 0.275\\)",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Solving RPS and Poker with CFR</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Solving RPS and Poker with CFR</span>"
     ]
   },
   {
     "objectID": "cfr/proof.html",
     "href": "cfr/proof.html",
-    "title": "40  CFR Proof",
+    "title": "39  CFR Proof",
     "section": "",
     "text": "Hello\nIntuitions\nhttps://www.reddit.com/r/GAMETHEORY/comments/nq7gly/doubts_about_counterfactual_regret_minimization/ https://www.quora.com/\nEpsilon-Nash Equilibrium HULHE is solved\nA game is said to be ultraweakly solved if, for the initial position(s), the game-theoretic value has been determined; weakly solved if, for the initial position(s), a strategy has been determined to obtain at least the game-theoretic value, for both players, under reasonable resources; and strongly solved if, for all legal positions, a strategy has been determined to obtain the game-theoretic value of the position, for both players, under reasonable resources. In an imperfect-information game, where the game-theoretic value of a position beyond the initial position is not unique, Allis’s notion of “strongly solved” is not well defined. Overall, we require less than 11 TB of storage to store the regrets and 6 TB to store the average strategy during the computation, which is distributed across a cluster of computation nodes. This amount is infeasible to store in main memory, and so we store the values on each node’s local disk. But: Finally, unlike with CFR, we have empirically observed that the exploitability of the players’ current strategies during the computation regularly approaches zero. Therefore, we can skip the step of computing and storing the average strategy, instead using the players’ current strategies as the CFR+ solution.\nA strategy’s “exploitability” is the maximum amount that a perfect counter-strategy could win on expectation against a strategy. A Nash equilibrium has an exploitability of zero, since it cannot be beaten by anyone on expectation, and having a lower exploitability is good. When you run CFR, the average strategy’s exploitability converges towards zero, driving its worst-case loss lower and lower. Note that this is a pessimistic way to measure how good your strategy is: our best poker programs started beating the world’s best human players in heads-up limit hold’em in 2008, even though our programs at that time were still massively exploitable by this worst-case measure.\nIn our January 2015 Science paper, we’ve announced that we’ve produced a strategy that has essentially weakly solved the game. That means that we have computed a strategy with such a low exploitability (0.000986 big blinds per game) that it would take more than a human lifetime of play, using the perfect counter-strategy, for anyone to have 95% statistical confidence that they were actually winning against it. So it’s not an exactly perfect strategy, but it is so close to perfect that the game is essentially solved, as it’s now outside of any human’s ability to beat it for a statistically meaningful amount by playing games against it.",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>CFR Proof</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>CFR Proof</span>"
     ]
   },
   {
     "objectID": "cfr/algimprovements.html",
     "href": "cfr/algimprovements.html",
-    "title": "41  CFR Algorithm Improvements",
+    "title": "40  CFR Algorithm Improvements",
     "section": "",
-    "text": "41.1 CFR+",
+    "text": "40.1 CFR+",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>41</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
     ]
   },
   {
     "objectID": "cfr/algimprovements.html#discounted-cfr",
     "href": "cfr/algimprovements.html#discounted-cfr",
-    "title": "41  CFR Algorithm Improvements",
-    "section": "41.2 Discounted CFR",
-    "text": "41.2 Discounted CFR\nhttps://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 6 When is CFR+ worse? High variance play keeps getting very positive\nCFR+ does exhaustive iterations over the entire game tree and uses a variant of regret matching (regret matching+) where regrets are constrained to be non-negative. Actions that have appeared poor (with less than zero regret for not having been played) will be chosen again immediately after proving useful (rather than waiting many iterations for the regret to become positive). Finally, unlike with CFR, we have empirically observed that the exploitability of the players’ current strategies during the computation regularly approaches zero. Therefore, we can skip the step of computing and storing the average strategy, instead using the players’ current strategies as the CFR+ solution.\nWhat are other ways to improve CFR?",
+    "title": "40  CFR Algorithm Improvements",
+    "section": "40.2 Discounted CFR",
+    "text": "40.2 Discounted CFR\nhttps://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 6 When is CFR+ worse? High variance play keeps getting very positive\nCFR+ does exhaustive iterations over the entire game tree and uses a variant of regret matching (regret matching+) where regrets are constrained to be non-negative. Actions that have appeared poor (with less than zero regret for not having been played) will be chosen again immediately after proving useful (rather than waiting many iterations for the regret to become positive). Finally, unlike with CFR, we have empirically observed that the exploitability of the players’ current strategies during the computation regularly approaches zero. Therefore, we can skip the step of computing and storing the average strategy, instead using the players’ current strategies as the CFR+ solution.\nWhat are other ways to improve CFR?",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>41</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>CFR Algorithm Improvements</span>"
     ]
   },
   {
     "objectID": "cfr/montecarlocfr.html",
     "href": "cfr/montecarlocfr.html",
-    "title": "42  Monte Carlo CFR",
+    "title": "41  Monte Carlo CFR",
     "section": "",
     "text": "Hello\nhttps://www.cs.cmu.edu/~sandholm/cs15-888F21/ lecture 10 Improve upon CFR with Monte Carlo sampling Monte Carlo CFR versions (focus on chance sampling and external sampling) MCCFR Mini-Project: MCCFR implemented https://www.cs.cmu.edu/~sandholm/cs15-888F23/ lecture 14 https://ai.stackexchange.com/questions/26345/how-exactly-is-monte-carlo-counterfactual-regret-minimization-with-external-samp\nSampling methods\nExternal: Sample chance and opponent nodes\nChance: Sample chance only\nOutcome: Sample outcomes",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Monte Carlo CFR</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Monte Carlo CFR</span>"
     ]
   },
   {
     "objectID": "cfr/vectorcfr.html",
     "href": "cfr/vectorcfr.html",
-    "title": "43  Vector CFR",
+    "title": "42  Vector CFR",
     "section": "",
     "text": "Hello\nMCCFR worse for headsup postflop, slows down at lower exploitability Vector alg efficient at headsup postflop (pass down ranges, update regrets for entire range at once), evaluate showdowns O(n) instead of O(n^2)",
     "crumbs": [
-      "COUNTERFACTUAL REGRET MINIMIZATION",
-      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Vector CFR</span>"
+      "Counterfactual Regret Minimization",
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Vector CFR</span>"
     ]
   },
   {
     "objectID": "abstractinglargegames/gamesize.html",
     "href": "abstractinglargegames/gamesize.html",
-    "title": "44  Game Size",
+    "title": "43  Game Size",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "ABSTRACTING LARGE GAMES",
-      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Game Size</span>"
+      "Abstracting Large Games",
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Game Size</span>"
     ]
   },
   {
     "objectID": "abstractinglargegames/cardabstraction.html",
     "href": "abstractinglargegames/cardabstraction.html",
-    "title": "45  Card Abstraction",
+    "title": "44  Card Abstraction",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "ABSTRACTING LARGE GAMES",
-      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Card Abstraction</span>"
+      "Abstracting Large Games",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Card Abstraction</span>"
     ]
   },
   {
     "objectID": "abstractinglargegames/betabstraction.html",
     "href": "abstractinglargegames/betabstraction.html",
-    "title": "46  Bet Abstraction",
+    "title": "45  Bet Abstraction",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "ABSTRACTING LARGE GAMES",
-      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Bet Abstraction</span>"
+      "Abstracting Large Games",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Bet Abstraction</span>"
     ]
   },
   {
     "objectID": "abstractinglargegames/agentevaluation.html",
     "href": "abstractinglargegames/agentevaluation.html",
-    "title": "47  Agent Evaluation",
+    "title": "46  Agent Evaluation",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "ABSTRACTING LARGE GAMES",
-      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Agent Evaluation</span>"
+      "Abstracting Large Games",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Agent Evaluation</span>"
     ]
   },
   {
     "objectID": "pokersolvers/howsolverswork.html",
     "href": "pokersolvers/howsolverswork.html",
-    "title": "48  How Solvers Work",
+    "title": "47  How Solvers Work",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>48</span>  <span class='chapter-title'>How Solvers Work</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>How Solvers Work</span>"
     ]
   },
   {
     "objectID": "pokersolvers/usingsolvers.html",
     "href": "pokersolvers/usingsolvers.html",
-    "title": "49  Using Solvers",
+    "title": "48  Using Solvers",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Using Solvers</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Using Solvers</span>"
     ]
   },
   {
     "objectID": "pokersolvers/generalizingsolvers.html",
     "href": "pokersolvers/generalizingsolvers.html",
-    "title": "50  Generalizing Solver Outputs",
+    "title": "49  Generalizing Solver Outputs",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Generalizing Solver Outputs</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Generalizing Solver Outputs</span>"
     ]
   },
   {
     "objectID": "pokersolvers/studyingpopulations.html",
     "href": "pokersolvers/studyingpopulations.html",
-    "title": "51  Studying Populations",
+    "title": "50  Studying Populations",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Studying Populations</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Studying Populations</span>"
     ]
   },
   {
     "objectID": "pokersolvers/solverlimitations.html",
     "href": "pokersolvers/solverlimitations.html",
-    "title": "52  Solver Limitations",
+    "title": "51  Solver Limitations",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Solver Limitations</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Solver Limitations</span>"
     ]
   },
   {
     "objectID": "pokersolvers/advancedstrategy.html",
     "href": "pokersolvers/advancedstrategy.html",
-    "title": "53  Advanced Strategy",
+    "title": "52  Advanced Strategy",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Advanced Strategy</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Advanced Strategy</span>"
     ]
   },
   {
     "objectID": "pokersolvers/tournaments.html",
     "href": "pokersolvers/tournaments.html",
-    "title": "54  Tournaments",
+    "title": "53  Tournaments",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "POKER SOLVERS",
-      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Tournaments</span>"
+      "Poker Solvers",
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Tournaments</span>"
     ]
   },
   {
     "objectID": "aimath/calculus.html",
     "href": "aimath/calculus.html",
-    "title": "55  Calculus",
+    "title": "54  Calculus",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI MATH FOUNDATIONS",
-      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Calculus</span>"
+      "AI Math Foundations",
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Calculus</span>"
     ]
   },
   {
     "objectID": "aimath/linearalgebra.html",
     "href": "aimath/linearalgebra.html",
-    "title": "56  Linear Algebra",
+    "title": "55  Linear Algebra",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI MATH FOUNDATIONS",
-      "<span class='chapter-number'>56</span>  <span class='chapter-title'>Linear Algebra</span>"
+      "AI Math Foundations",
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Linear Algebra</span>"
     ]
   },
   {
     "objectID": "aimath/infotheory.html",
     "href": "aimath/infotheory.html",
-    "title": "57  Information Theory",
+    "title": "56  Information Theory",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI MATH FOUNDATIONS",
-      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Information Theory</span>"
+      "AI Math Foundations",
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>Information Theory</span>"
     ]
   },
   {
     "objectID": "aifoundations/ml.html",
     "href": "aifoundations/ml.html",
-    "title": "58  Machine Learning",
+    "title": "57  Machine Learning",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI FOUNDATIONS",
-      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Machine Learning</span>"
+      "AI Foundations",
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Machine Learning</span>"
     ]
   },
   {
     "objectID": "aifoundations/dl.html",
     "href": "aifoundations/dl.html",
-    "title": "59  Deep Learning",
+    "title": "58  Deep Learning",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI FOUNDATIONS",
-      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Deep Learning</span>"
+      "AI Foundations",
+      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Deep Learning</span>"
     ]
   },
   {
     "objectID": "aifoundations/rl.html",
     "href": "aifoundations/rl.html",
-    "title": "60  Reinforcement Learning",
+    "title": "59  Reinforcement Learning",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI FOUNDATIONS",
-      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Reinforcement Learning</span>"
+      "AI Foundations",
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Reinforcement Learning</span>"
     ]
   },
   {
     "objectID": "recentgameaiadvances/gameai.html",
     "href": "recentgameaiadvances/gameai.html",
-    "title": "61  Types of Games",
+    "title": "60  Types of Games",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "RECENT GAME AI ADVANCES",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>Types of Games</span>"
+      "Recent Game AI Advances",
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Types of Games</span>"
     ]
   },
   {
     "objectID": "recentgameaiadvances/mas.html",
     "href": "recentgameaiadvances/mas.html",
-    "title": "62  Multi-agent Systems",
+    "title": "61  Multi-agent Systems",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "RECENT GAME AI ADVANCES",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Multi-agent Systems</span>"
+      "Recent Game AI Advances",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>Multi-agent Systems</span>"
     ]
   },
   {
     "objectID": "stateoftheartpokerai/deepcfr.html",
     "href": "stateoftheartpokerai/deepcfr.html",
-    "title": "63  Deep CFR",
+    "title": "62  Deep CFR",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "STATE OF THE ART POKER AI",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Deep CFR</span>"
+      "State of the Art Poker AI",
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Deep CFR</span>"
     ]
   },
   {
     "objectID": "stateoftheartpokerai/toppokeragents.html",
     "href": "stateoftheartpokerai/toppokeragents.html",
-    "title": "64  Top Poker Agents",
+    "title": "63  Top Poker Agents",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "STATE OF THE ART POKER AI",
-      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Top Poker Agents</span>"
+      "State of the Art Poker AI",
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Top Poker Agents</span>"
     ]
   },
   {
     "objectID": "stateoftheartpokerai/variancereduction.html",
     "href": "stateoftheartpokerai/variancereduction.html",
-    "title": "65  Variance Reduction",
+    "title": "64  Variance Reduction",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "STATE OF THE ART POKER AI",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Variance Reduction</span>"
+      "State of the Art Poker AI",
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Variance Reduction</span>"
     ]
   },
   {
     "objectID": "stateoftheartpokerai/humanvsai.html",
     "href": "stateoftheartpokerai/humanvsai.html",
-    "title": "66  Human vs. AI",
+    "title": "65  Human vs. AI",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "STATE OF THE ART POKER AI",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Human vs. AI</span>"
+      "State of the Art Poker AI",
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Human vs. AI</span>"
     ]
   },
   {
     "objectID": "stateoftheartpokerai/newresearch.html",
     "href": "stateoftheartpokerai/newresearch.html",
-    "title": "67  New Research",
+    "title": "66  New Research",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "STATE OF THE ART POKER AI",
-      "<span class='chapter-number'>67</span>  <span class='chapter-title'>New Research</span>"
+      "State of the Art Poker AI",
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>New Research</span>"
     ]
   },
   {
     "objectID": "llms/transformers.html",
     "href": "llms/transformers.html",
-    "title": "68  Transformers",
+    "title": "67  Transformers",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "LLMS",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Transformers</span>"
+      "LLMs",
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>Transformers</span>"
     ]
   },
   {
     "objectID": "llms/othellogpt.html",
     "href": "llms/othellogpt.html",
-    "title": "69  OthelloGPT",
+    "title": "68  OthelloGPT",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "LLMS",
-      "<span class='chapter-number'>69</span>  <span class='chapter-title'>OthelloGPT</span>"
+      "LLMs",
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>OthelloGPT</span>"
     ]
   },
   {
     "objectID": "llms/pokergpt.html",
     "href": "llms/pokergpt.html",
-    "title": "70  PokerGPT",
+    "title": "69  PokerGPT",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "LLMS",
-      "<span class='chapter-number'>70</span>  <span class='chapter-title'>PokerGPT</span>"
+      "LLMs",
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>PokerGPT</span>"
     ]
   },
   {
     "objectID": "llms/interpretability.html",
     "href": "llms/interpretability.html",
-    "title": "71  Interpretability",
+    "title": "70  Interpretability",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "LLMS",
-      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Interpretability</span>"
+      "LLMs",
+      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Interpretability</span>"
     ]
   },
   {
     "objectID": "opponentmodeling/bestresponse.html",
     "href": "opponentmodeling/bestresponse.html",
-    "title": "72  Best Response",
+    "title": "71  Best Response",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "OPPONENT MODELING",
-      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Best Response</span>"
+      "Opponent Modeling",
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Best Response</span>"
     ]
   },
   {
     "objectID": "opponentmodeling/exploitativestrategies.html",
     "href": "opponentmodeling/exploitativestrategies.html",
-    "title": "73  Exploitative Strategies",
+    "title": "72  Exploitative Strategies",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "OPPONENT MODELING",
-      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Exploitative Strategies</span>"
+      "Opponent Modeling",
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Exploitative Strategies</span>"
     ]
   },
   {
     "objectID": "aisafety/shortterm.html",
     "href": "aisafety/shortterm.html",
-    "title": "74  Ethics and Short-term Risks",
+    "title": "73  Ethics and Short-term Risks",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI RISKS AND SAFETY",
-      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Ethics and Short-term Risks</span>"
+      "AI Risks and Safety",
+      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Ethics and Short-term Risks</span>"
     ]
   },
   {
     "objectID": "aisafety/longterm.html",
     "href": "aisafety/longterm.html",
-    "title": "75  Alignment and Long-term Risks",
+    "title": "74  Alignment and Long-term Risks",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "AI RISKS AND SAFETY",
-      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Alignment and Long-term Risks</span>"
+      "AI Risks and Safety",
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Alignment and Long-term Risks</span>"
     ]
   },
   {
     "objectID": "theriver/trading.html",
     "href": "theriver/trading.html",
-    "title": "76  Trading",
+    "title": "75  Trading",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "THE RIVER",
-      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Trading</span>"
+      "The River",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Trading</span>"
     ]
   },
   {
     "objectID": "theriver/predictionmarkets.html",
     "href": "theriver/predictionmarkets.html",
-    "title": "77  Prediction Marketes",
+    "title": "76  Prediction Marketes",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "THE RIVER",
-      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Prediction Marketes</span>"
+      "The River",
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Prediction Marketes</span>"
     ]
   },
   {
     "objectID": "theriver/otherbetting.html",
     "href": "theriver/otherbetting.html",
-    "title": "78  Other Betting",
+    "title": "77  Other Betting",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "THE RIVER",
-      "<span class='chapter-number'>78</span>  <span class='chapter-title'>Other Betting</span>"
+      "The River",
+      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Other Betting</span>"
     ]
   },
   {
     "objectID": "projectideas/projects.html",
     "href": "projectideas/projects.html",
-    "title": "79  Projects",
+    "title": "78  Projects",
     "section": "",
     "text": "Hello",
     "crumbs": [
-      "PROJECT IDEAS",
-      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Projects</span>"
+      "Project Ideas",
+      "<span class='chapter-number'>78</span>  <span class='chapter-title'>Projects</span>"
     ]
   }
 ]

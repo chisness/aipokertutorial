@@ -1,0 +1,11 @@
+/* Make only the part labels bold in the sidebar */
+.sidebar-item-section > .sidebar-item-container > .sidebar-item-text {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  /* Ensure chapter links are not bold */
+  .sidebar-item-section .sidebar-item:not(.sidebar-section) > .sidebar-item-container > .sidebar-item-text {
+    font-weight: normal;
+    font-size: 1em;
+  }

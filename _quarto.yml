@@ -10,12 +10,12 @@ book:
     - intro/games.qmd
     - intro/basicstrategy.qmd
     - intro/ethics.qmd
-    part: "INTRO"
+    part: "Introduction"
   - chapters:
     - codingfoundations/python.qmd
     - codingfoundations/aiagents.qmd
     - codingfoundations/buildingaiagents.qmd
-    part: "CODING FOUNDATIONS"
+    part: "Coding Foundations"
   - chapters:
     - mathfoundations/algebra.qmd
     - mathfoundations/probability.qmd
@@ -24,36 +24,36 @@ book:
     - mathfoundations/bayesrule.qmd
     - mathfoundations/statistics.qmd
     - mathfoundations/montecarlo.qmd
-    part: "MATH FOUNDATIONS"
+    part: "Math Foundations"
   - chapters:
     - knowledge/logic.qmd
     - knowledge/knowledgerepresentation.qmd
     - knowledge/rationality.qmd
     - knowledge/psychology.qmd
-    part: "KNOWLEDGE"
+    part: "Knowledge"
   - chapters:
     - decisiomakingunderuncertainty/probabilisticthinking.qmd
     - decisiomakingunderuncertainty/decisiontheory.qmd
     - decisiomakingunderuncertainty/risk.qmd
     - decisiomakingunderuncertainty/regret.qmd
     - decisiomakingunderuncertainty/bandits.qmd
-    part: "DECISION MAKING UNDER UNCERTAINTY"
+    part: "Decision Making Under Uncertainty"
   - chapters:
     - gametheory/nash.qmd
     - gametheory/gto.qmd
     - gametheory/mixedstrategies.qmd
-    part: "GAME THEORY"
+    part: "Game Theory"
   - chapters:
     - gametrees/perfectinfo.qmd
     - gametrees/minimax.qmd
     - gametrees/imperfectinfo.qmd
-    part: "GAME TREES"
+    part: "Game Trees"
   - chapters:
     - solvingtoygames/analytical.qmd
     - solvingtoygames/normalform.qmd
     - solvingtoygames/optimization.qmd
     - solvingtoygames/sequenceform.qmd
-    part: "SOLVING TOY GAMES"
+    part: "Solving Toy Games"
   - chapters:
     - cfr/algorithm.qmd
     - cfr/interactive.qmd
@@ -62,13 +62,13 @@ book:
     - cfr/algimprovements.qmd
     - cfr/montecarlocfr.qmd
     - cfr/vectorcfr.qmd
-    part: "COUNTERFACTUAL REGRET MINIMIZATION"
+    part: "Counterfactual Regret Minimization"
   - chapters:
     - abstractinglargegames/gamesize.qmd
     - abstractinglargegames/cardabstraction.qmd
     - abstractinglargegames/betabstraction.qmd
     - abstractinglargegames/agentevaluation.qmd
-    part: "ABSTRACTING LARGE GAMES"
+    part: "Abstracting Large Games"
   - chapters:
     - pokersolvers/howsolverswork.qmd
     - pokersolvers/usingsolvers.qmd
@@ -77,50 +77,50 @@ book:
     - pokersolvers/solverlimitations.qmd
     - pokersolvers/advancedstrategy.qmd
     - pokersolvers/tournaments.qmd
-    part: "POKER SOLVERS"
+    part: "Poker Solvers"
   - chapters:
     - aimath/calculus.qmd
     - aimath/linearalgebra.qmd
     - aimath/infotheory.qmd
-    part: "AI MATH FOUNDATIONS"
+    part: "AI Math Foundations"
   - chapters:
     - aifoundations/ml.qmd
     - aifoundations/dl.qmd
     - aifoundations/rl.qmd
-    part: "AI FOUNDATIONS"
+    part: "AI Foundations"
   - chapters:
     - recentgameaiadvances/gameai.qmd
     - recentgameaiadvances/mas.qmd
-    part: "RECENT GAME AI ADVANCES"
+    part: "Recent Game AI Advances"
   - chapters:
     - stateoftheartpokerai/deepcfr.qmd
     - stateoftheartpokerai/toppokeragents.qmd
     - stateoftheartpokerai/variancereduction.qmd
     - stateoftheartpokerai/humanvsai.qmd
     - stateoftheartpokerai/newresearch.qmd
-    part: "STATE OF THE ART POKER AI"
+    part: "State of the Art Poker AI"
   - chapters:
     - llms/transformers.qmd
     - llms/othellogpt.qmd
     - llms/pokergpt.qmd
     - llms/interpretability.qmd
-    part: "LLMS"
+    part: "LLMs"
   - chapters:
     - opponentmodeling/bestresponse.qmd
     - opponentmodeling/exploitativestrategies.qmd
-    part: "OPPONENT MODELING"
+    part: "Opponent Modeling"
   - chapters:
     - aisafety/shortterm.qmd
     - aisafety/longterm.qmd
-    part: "AI RISKS AND SAFETY"
+    part: "AI Risks and Safety"
   - chapters:
     - theriver/trading.qmd
     - theriver/predictionmarkets.qmd
     - theriver/otherbetting.qmd
-    part: "THE RIVER"
+    part: "The River"
   - chapters:
     - projectideas/projects.qmd
-    part: "PROJECT IDEAS"
+    part: "Project Ideas"
   cover-image: pcicon.png
   date: 9/11/2024
   favicon: favicon.svg
@@ -128,9 +128,13 @@ book:
   sidebar:
     background: light
     style: docked
+    collapse-level: 1
+
   title: 'Artificial Intelligence: Through the Lens of Poker'
 format:
   html:
+    grid:
+      sidebar-width: 360px
     math: true
     mathjax:
       config:
