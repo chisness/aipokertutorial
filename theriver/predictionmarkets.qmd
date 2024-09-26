@@ -1,4 +1,4 @@
-# Prediction Marketes {#sec-predictionmarkets}
+# Prediction Markets {#sec-predictionmarkets}
 
 Hello
 

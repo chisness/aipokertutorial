@@ -9,7 +9,7 @@ Counterfactual means “relating to or expressing what has not happened or is no
 **Counterfactual event:** If I had brought an umbrella, I wouldn’t have gotten wet
 
 ## Regret
-Regret we previously touched on in [Section @sec-regret]. 
+Regret we previously touched on in @sec-regret. 
 
 In brief, it’s a way to assign a value to the difference between a made decision and an optimal decision. For example, if you choose to play a slot machine that returns a value of $5$ rather than the best machine that returns a value of $10$, then your regret would be $10 - 5 = 5$.
 
@@ -17,17 +17,17 @@ In brief, it’s a way to assign a value to the difference between a made decisi
 Minimization refers to minimizing the difference between the made decision and the optimal decision. Playing the optimal slot machine, i.e. the one that returns a value of $10$, would minimize the regret to $0$.
 
 ## What is CFR? 
-In brief, CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts play with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.
+CFR is a self-play algorithm that learns by playing against itself repeatedly. It starts with a uniform random strategy (each action at each decision point is equally likely) and iterates on these strategies each round to nudge closer to the game theory optimal Nash equilibrium strategy.
 
 Each action at each information set in the game has an associated regret value that is calculated based on how that action performs compared to how the overall strategy at that infoset performs. Positive regret means that the action did better than the overall strategy and negative means worse. 
 
-The regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated according to the proportion of the positive regrets, meaning that actions with higher regret that performed well will get played more often.  
+The regrets get updated each iteration and upon returning to that node for the next iteration, the strategy is calculated proportionally to the positive regrets, meaning that actions with higher regret that performed well in the past will get played more often.  
 
 At the end, the average of all strategies played converges to the equilibrium strategy. 
 
 The strategy is computed offline and then can be used in play -- it's a fixed, opponent-agnostic strategy that can’t be beaten in the long-run, but also doesn’t take advantage of opponent weaknesses.
 
-*See [Mike Johanson's intuitive explanation of CFR for more details](https://www.quora.com/What-is-an-intuitive-explanation-of-counterfactual-regret-minimization)*.
+*See [@johanson_cfr_quora_2015] for more detail*.
 
 ## Algorithm Overview
 Each information set maintains a `strategy` and `regret` tabular counter for each action. These accumulate the sum of all strategies and the sum of all regrets. 
@@ -36,7 +36,7 @@ In a game like Rock Paper Scissors, there is effectively only one infoset, so on
 
 Regrets are linked to strategies through a policy called *regret matching*, which selects strategies proportionally to their positive regrets. 
 
-After using regret matching and after many iterations, we can minimize expected regret by using the *average strategy* at the end, which is the strategy that converges to equilibrium. 
+After using regret matching and after many iterations, we minimize expected regret by using the *average strategy* at the end, which is the strategy that converges to equilibrium. 
 
 If two players were training against each other using regret matching, they would converge to the Nash Equilibrium of $1/3$ for each action using the average strategy in Rock Paper Scissors. 
 
@@ -47,7 +47,25 @@ In general, we define regret as:
 
 $\text{Regret} = u(\text{Alternative Strategy}) − u(\text{Current Strategy})$
 
-We prefer alternative actions with high regret and wish to minimize our overall regret. That second part might sound counterintuitive, but as we play more of the better actions, we will consequently minimize overall regret. 
+$$
+\text{Regret}(a) = u(a, a_{\text{opp}}) - u(a_{\text{played}}, a_{\text{opp}})
+$$
+
+where:
+\begin{align*}
+a &: \text{the action being evaluated for regret} \\
+a_{\text{played}} &: \text{the action actually played} \\
+a_{\text{opp}} &: \text{the opponent's action} \\
+u(\cdot, \cdot) &: \text{the utility function}
+\end{align*}
+
+We prefer alternative actions with high regret *and* wish to minimize our overall regret. 
+
+Wait, isn't that counterintuitive? 
+
+Well, by definition we want to play actions with higher regret because they perform better. But how does this minimize our overall regret? 
+
+Because as we play more of these actions, then our current strategy and 
 
 **We play Rock and opponent plays Paper** $\implies \text{u(rock,paper)} = -1$
 
@@ -84,7 +102,7 @@ After each play, we accumulate regrets for each of the 3 actions.
 
 We decide our strategy probability distribution using regret matching, which means playing a strategy that normalizes over the *positive* accumulated regrets, i.e. playing in proportion to the positive regrets.
 
-Here's an example from [Marc Lanctot's CFR Tutorial](https://www.ma.imperial.ac.uk/~dturaev/neller-lanctot.pdf). Assume that the regret counters start at 0 for each action. 
+Here's an example from [@neller2013cfrtutorial]. Assume that the regret counters start at 0 for each action. 
 
 - Game 1: Choose Rock and opponent chooses Paper
 	- Lose 1

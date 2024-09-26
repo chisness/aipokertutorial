@@ -652,5 +652,14 @@
   },
   "projectideas/projects.qmd": {
     "projects.html": "0078f04d"
+  },
+  "recentgameaiadvances/alphago.qmd": {
+    "alphago.html": "a2ce0021"
+  },
+  "decisiomakingunderuncertainty/rulebased.qmd": {
+    "rulebased.html": "57b2ff70"
+  },
+  "mathfoundations/data.qmd": {
+    "data.html": "ceb0cf1d"
   }
 }

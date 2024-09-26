@@ -2,3 +2,15 @@
 
 Hello
 
+
+$$
+\text{Regret}(a) = u(a, s_{-i}) - u(s_i, s_{-i})
+$$
+
+where:
+\begin{align*}
+a &: \text{the action being evaluated} \\
+s_i &: \text{the strategy actually played} \\
+s_{-i} &: \text{the opponent's strategy} \\
+u(\cdot, \cdot) &: \text{the utility function}
+\end{align*}
